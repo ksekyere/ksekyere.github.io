@@ -1,0 +1,754 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- When your custom domain is live, replace https://ksekyere.github.io/ below (3 places) with it -->
+<title>Kofi Forkuo-Sekyere | Research for Documentary, Film and Long-Form Work</title>
+<meta name="description" content="Kofi Forkuo-Sekyere is a quantitative social researcher who brings data, images and sound to documentary, film and long-form work. Projects include the Single Mom Index.">
+<meta name="author" content="Kofi Forkuo-Sekyere">
+<link rel="canonical" href="https://ksekyere.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kofi Forkuo-Sekyere | Research for Long-Form Work">
+<meta property="og:description" content="Issue-driven work that makes people see, hear and feel what's at stake, through data, maps, images and sound.">
+<meta property="og:url" content="https://ksekyere.github.io/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Kofi Forkuo-Sekyere","jobTitle":"Researcher","url":"https://ksekyere.github.io/",
+ "knowsAbout":["Documentary research","Survey research","Data visualization","Information design","Video editing","R","Python"],
+ "sameAs":["https://www.linkedin.com/in/kofi-f-91442a83/","https://github.com/ksekyere","https://www.youtube.com/channel/UCS4eXmllznbCO89xyyt_BHg"]}
+</script>
+<style>[hidden]{display:none!important}img{max-width:100%}body{margin:0}</style>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..600;1,8..60,300..500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a 12-column report grid. Faint column guides show through the hero; one ochre accent highlights the single series that matters, everything else stays in the grey scale, like a well-made chart. */
+:root{
+  --paper:#f4f5f7; --sheet:#ffffff; --ink:#111827; --ink-2:#5b6474; --ink-3:#9aa2b1; --rule:#d9dde4; --guide:rgba(17,24,39,.045);
+  --accent:#d9620b; --accent-ink:#ffffff; --muted-bar:#c3c9d3;
+  --q1:#e6e9ee; --q2:#f7d3b6; --q3:#efa66d; --q4:#df7a2c; --q5:#a94a08; --q-ink-lo:#111827; --q-ink-hi:#ffffff;
+  --display:"Schibsted Grotesk","Helvetica Neue",Arial,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#0f131a; --sheet:#161b24; --ink:#eef1f5; --ink-2:#a4adbb; --ink-3:#6b7586; --rule:#2a3140; --guide:rgba(238,241,245,.035);
+  --accent:#ff8a3d; --accent-ink:#1a0d03; --muted-bar:#3a4252; --q1:#252c38; --q2:#4c3527; --q3:#7f4c25; --q4:#c06520; --q5:#ff9a52; --q-ink-lo:#eef1f5; --q-ink-hi:#1a0d03; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0f131a; --sheet:#161b24; --ink:#eef1f5; --ink-2:#a4adbb; --ink-3:#6b7586; --rule:#2a3140; --guide:rgba(238,241,245,.035);
+  --accent:#ff8a3d; --accent-ink:#1a0d03; --muted-bar:#3a4252; --q1:#252c38; --q2:#4c3527; --q3:#7f4c25; --q4:#c06520; --q5:#ff9a52; --q-ink-lo:#eef1f5; --q-ink-hi:#1a0d03; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--paper)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1240px;margin:0 auto}
+p{margin:0}
+.num{font-variant-numeric:tabular-nums}
+
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--paper);border-bottom:1px solid var(--rule)}
+.bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 28px;padding-block:14px}
+.logo{text-decoration:none;font-family:var(--display);font-weight:800;font-size:18px;letter-spacing:-.01em;display:flex;align-items:baseline;gap:10px}
+.logo small{font-family:var(--mono);font-weight:400;font-size:12px;color:var(--ink-2);letter-spacing:0}
+nav{display:flex;flex-wrap:wrap;gap:2px 22px}
+nav a{font-family:var(--display);font-weight:600;font-size:15px;text-decoration:none;color:var(--ink-2);padding-block:6px;border-bottom:2px solid transparent}
+nav a:hover{color:var(--ink)}
+nav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+
+main{padding-block:0 80px}
+.view[hidden]{display:none!important}
+.kicker{font-family:var(--mono);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2)}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance}
+h1{font-size:clamp(40px,5.6vw,76px);font-weight:800;line-height:1;letter-spacing:-.035em}
+h1 em{font-style:normal;color:var(--accent)}
+h2{font-size:clamp(26px,3vw,36px);font-weight:750;line-height:1.08;letter-spacing:-.025em}
+.lede{font-size:clamp(19px,1.8vw,22px);line-height:1.5;max-width:44ch;color:var(--ink)}
+
+/* hero with column guides */
+.hero{position:relative;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;padding-block:56px 48px}
+.hero::before{content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;
+  background:repeating-linear-gradient(90deg,var(--guide) 0 calc((100% - 11*24px)/12),transparent calc((100% - 11*24px)/12) calc((100% - 11*24px)/12 + 24px))}
+.hero-copy{grid-column:1/span 5;display:flex;flex-direction:column;gap:24px;justify-content:center}
+.hero-fig{grid-column:7/span 6;min-width:0}
+.cta{display:flex;flex-wrap:wrap;gap:10px}
+.btn{font-family:var(--display);font-weight:650;font-size:15px;text-decoration:none;padding:11px 18px;border:1.5px solid var(--ink);background:transparent;color:var(--ink);cursor:pointer;border-radius:2px}
+.btn.solid{background:var(--ink);color:var(--paper)}
+.btn:hover{border-color:var(--accent)}
+
+/* figure: chart makeover */
+.fig{background:var(--sheet);border:1px solid var(--rule);padding:22px 22px 16px;display:flex;flex-direction:column;gap:14px}
+.fig-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:10px}
+.seg{display:inline-flex;border:1.5px solid var(--ink);border-radius:2px;overflow:hidden}
+.seg button{font-family:var(--display);font-weight:600;font-size:14px;padding:7px 14px;background:transparent;color:var(--ink);border:0;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.fig h3{font-size:clamp(19px,1.9vw,23px);font-weight:750;letter-spacing:-.015em;line-height:1.2;min-height:2.4em}
+.fig svg{display:block;width:100%;height:auto;overflow:visible}
+.fig figcaption{font-family:var(--mono);font-size:12px;color:var(--ink-2);display:flex;flex-wrap:wrap;justify-content:space-between;gap:6px;border-top:1px solid var(--rule);padding-top:10px}
+.smi{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:18px;align-items:start}
+.smi svg{display:block;width:100%;height:auto}
+.smi .tile{cursor:pointer;stroke:var(--sheet);stroke-width:3;transition:fill .35s}
+.smi .tile:hover,.smi .tile.sel{stroke:var(--ink);stroke-width:2.5}
+.smi .tl{font-family:var(--display);font-size:13px;font-weight:700;pointer-events:none}
+.smi-side{display:flex;flex-direction:column;gap:16px}
+.smi-legend{display:flex;flex-direction:column;gap:6px}
+.smi-legend .sw{display:flex;gap:2px}
+.smi-legend .sw i{flex:1;height:10px}
+.smi-legend .nd{display:inline-block;width:10px;height:10px;vertical-align:-1px;margin-right:4px;background:repeating-linear-gradient(45deg,var(--ink-3) 0 1.5px,var(--sheet) 1.5px 4px)}
+.smi-legend .ends{display:flex;justify-content:space-between;font-family:var(--mono);font-size:11px;color:var(--ink-2)}
+.smi-detail{display:flex;flex-direction:column;gap:8px;border-top:2px solid var(--ink);padding-top:10px}
+.smi-detail b{font-family:var(--display);font-size:19px;font-weight:750;line-height:1.1}
+.smi-detail .big{font-family:var(--display);font-size:40px;font-weight:800;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums}
+.smi-detail .big small{font-size:14px;color:var(--ink-2);font-weight:600}
+.comp{display:grid;grid-template-columns:68px minmax(0,1fr) 46px;align-items:center;gap:8px;font-family:var(--display);font-size:12.5px;color:var(--ink-2)}
+.comp .track{height:7px;background:var(--paper)}
+.comp .fill{height:100%;background:var(--muted-bar)}
+.comp.on .fill{background:var(--accent)}
+.comp span:last-child{font-family:var(--mono);font-size:11.5px;text-align:right}
+@media (max-width:640px){.smi{grid-template-columns:1fr}}
+.fig .bar-r{transition:fill .5s,y .6s,height .6s}
+.fig text{font-family:var(--display);fill:var(--ink-2)}
+
+.section{margin-top:72px;display:flex;flex-direction:column;gap:26px}
+.section-head{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:12px;border-top:2px solid var(--ink);padding-top:14px}
+.more{font-family:var(--display);font-weight:650;text-decoration:none;font-size:15px}
+.more::after{content:" →";color:var(--accent)}
+
+/* method strip */
+.method{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px}
+.step{display:flex;flex-direction:column;gap:8px;border-top:1px solid var(--rule);padding-top:14px}
+.step b{font-family:var(--display);font-size:19px;font-weight:750}
+.step p{font-size:16px;color:var(--ink-2);line-height:1.5}
+.step .kicker{color:var(--accent)}
+
+/* work grid */
+.filters{display:flex;flex-direction:column;gap:10px}
+.frow{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.frow .kicker{width:56px}
+.chip{font-family:var(--display);font-weight:600;font-size:14px;padding:6px 12px;border:1px solid var(--rule);background:var(--sheet);color:var(--ink-2);cursor:pointer;border-radius:2px;font-variant-numeric:tabular-nums}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:36px 24px;align-items:start}
+.piece{border:0;background:none;padding:0;text-align:left;cursor:pointer;color:inherit;font:inherit;display:flex;flex-direction:column;gap:10px;width:100%}
+.thumb{position:relative;border:1px solid var(--rule);background:var(--sheet)}
+.thumb canvas,.thumb img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover}
+.piece:hover .thumb{border-color:var(--ink)}
+.piece .meta{display:flex;justify-content:space-between;gap:10px;font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.piece b{font-family:var(--display);font-size:21px;font-weight:750;letter-spacing:-.015em;line-height:1.15}
+.piece .q{font-size:16px;color:var(--ink-2);line-height:1.45}
+.stat{position:absolute;right:10px;top:10px;font-family:var(--mono);font-size:11.5px;background:var(--ink);color:var(--paper);padding:3px 8px}
+.play{position:absolute;left:10px;bottom:10px;display:inline-flex;align-items:center;gap:6px;font-family:var(--mono);font-size:11.5px;background:var(--accent);color:var(--accent-ink);padding:4px 9px}
+.play svg{width:10px;height:10px}
+.yearhead{grid-column:1/-1;display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--rule);padding-bottom:8px}
+.yearhead span{font-family:var(--display);font-weight:800;font-size:34px;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+.yearhead small{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.empty{grid-column:1/-1;color:var(--ink-2);font-style:italic}
+
+.toolkit{background:var(--sheet);border:1px solid var(--rule);padding:22px;display:flex;flex-direction:column;gap:18px}
+.tk-group{display:flex;flex-direction:column;gap:8px}
+.tk-group b{font-family:var(--display);font-size:15px;font-weight:700}
+.tk-ed{font-size:17px;line-height:1.45}
+.toolkit .tags{padding-top:0}
+.links{display:flex;flex-wrap:wrap;gap:8px 22px}
+.rp-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-block:4px}
+.rp-stats div{background:var(--sheet);border:1px solid var(--rule);padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.rp-stats b{font-family:var(--display);font-size:clamp(24px,2.6vw,30px);font-weight:800;letter-spacing:-.02em;color:var(--accent);line-height:1.05}
+.rp-stats span{font-size:15px;line-height:1.4;color:var(--ink-2)}
+.rp-table td.num{font-variant-numeric:tabular-nums}
+/* long-form report inside a case study */
+.report{border-top:2px solid var(--ink);padding-top:28px;display:flex;flex-direction:column;gap:36px;max-width:780px}
+.rp-head{display:flex;flex-direction:column;gap:8px}
+.rp-head h2{font-size:clamp(28px,3.4vw,42px)}
+.rp-sub{font-family:var(--mono);font-size:13px;color:var(--ink-2)}
+.report section{display:flex;flex-direction:column;gap:14px}
+.report h3{font-family:var(--display);font-size:24px;font-weight:750;letter-spacing:-.015em;line-height:1.15}
+.report p,.report li{font-size:18px;line-height:1.6;max-width:68ch}
+.report ul,.report ol{margin:0;padding-left:1.3em;display:flex;flex-direction:column;gap:8px}
+.report b{font-family:var(--display);font-weight:700}
+.rp-table{overflow-x:auto;border-top:2px solid var(--ink)}
+.rp-table table{border-collapse:collapse;width:100%;min-width:560px;font-size:15.5px;line-height:1.45}
+.rp-table th{font-family:var(--mono);font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-2);text-align:left;padding:10px 12px 8px 0;border-bottom:1px solid var(--rule)}
+.rp-table td{padding:12px 12px 12px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.rp-table td:first-child{font-family:var(--display);font-weight:650;width:30%}
+.rp-fig{margin:0;background:var(--sheet);border:1px solid var(--rule);padding:18px;display:flex;flex-direction:column;gap:10px}
+.rp-fig-title{font-family:var(--display);font-weight:750;font-size:18px;line-height:1.25}
+.rp-fig svg{display:block;width:100%;height:auto}
+.rp-fig svg text{font-family:var(--display)}
+.rp-fig figcaption{font-family:var(--mono);font-size:12px;color:var(--ink-2);line-height:1.5}
+.rp-note{font-family:var(--mono);font-size:13px!important;color:var(--ink-2)}
+/* about / contact */
+.two{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:48px;align-items:start}
+.prose{display:flex;flex-direction:column;gap:18px;max-width:64ch}
+.skillchart{background:var(--sheet);border:1px solid var(--rule);padding:20px;display:flex;flex-direction:column;gap:12px}
+.skill{display:grid;grid-template-columns:120px minmax(0,1fr) 40px;align-items:center;gap:12px;font-family:var(--display);font-size:14px}
+.skill .track{height:10px;background:var(--paper)}
+.skill .fill{height:100%;background:var(--muted-bar)}
+.skill.hi .fill{background:var(--accent)}
+.skill span:last-child{font-family:var(--mono);font-size:12px;color:var(--ink-2);text-align:right}
+.cvgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,460px),1fr));gap:48px 56px}
+.cvblock{display:flex;flex-direction:column}
+.cvblock h3{font-family:var(--mono);font-size:12.5px;font-weight:500;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-2);padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.row{display:grid;grid-template-columns:120px minmax(0,1fr);gap:2px 20px;padding-block:14px;border-bottom:1px solid var(--rule)}
+.row .yr{font-family:var(--mono);font-size:13px;color:var(--ink-2);font-variant-numeric:tabular-nums;padding-top:3px}
+.row .t{font-family:var(--display);font-weight:700}
+.row .w{grid-column:2;font-size:16px;color:var(--ink-2)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;padding-top:14px}
+.tags span{font-family:var(--display);font-size:14px;font-weight:600;padding:4px 10px;border:1px solid var(--rule);background:var(--sheet)}
+
+.mailopts{display:flex;flex-direction:column;gap:14px}
+#mailopts{display:flex;flex-direction:column;border-top:2px solid var(--ink)}
+.mo{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 20px;padding-block:16px;border-bottom:1px solid var(--rule);text-decoration:none;color:inherit}
+.mo b{font-family:var(--display);font-size:20px;font-weight:750;letter-spacing:-.015em}
+.mo p{grid-column:1;font-size:16px;color:var(--ink-2);line-height:1.45}
+.mo .subj{grid-column:1;font-family:var(--mono);font-size:12px;color:var(--ink-3)}
+.mo .go{grid-column:2;grid-row:1/span 3;font-family:var(--display);font-weight:650;font-size:15px;padding:9px 16px;border:1.5px solid var(--ink);border-radius:2px;white-space:nowrap}
+.mo:hover .go{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.mo:hover b{color:var(--accent)}
+@media (max-width:520px){.mo{grid-template-columns:1fr}.mo .go{grid-column:1;grid-row:auto;justify-self:start;margin-top:6px}}
+form{display:flex;flex-direction:column;gap:16px}
+label.f{display:flex;flex-direction:column;gap:6px;font-family:var(--display);font-weight:650;font-size:14px}
+input,textarea,select{font:inherit;font-family:var(--body);font-weight:400;font-size:17px;color:var(--ink);background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:10px 12px;width:100%}
+input:focus,textarea:focus,select:focus{border-color:var(--accent);outline:none}
+textarea{min-height:140px;resize:vertical}
+.copyline{display:flex;flex-wrap:wrap;align-items:center;gap:12px}
+.addr{font-family:var(--display);font-weight:750;font-size:clamp(22px,2.6vw,30px);letter-spacing:-.02em;user-select:all;overflow-wrap:anywhere}
+.status{font-family:var(--display);font-weight:600;color:var(--accent);min-height:1.4em}
+.note{font-family:var(--mono);font-size:12px;color:var(--ink-2);border:1px dashed var(--rule);padding:8px 12px;display:inline-block}
+
+footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+
+/* case study viewer */
+.lb{position:fixed;inset:0;z-index:20;background:var(--paper);overflow:auto;
+  padding:calc(env(safe-area-inset-top,0px) + 70px) max(16px,env(safe-area-inset-right,0px)) calc(env(safe-area-inset-bottom,0px) + 40px) max(16px,env(safe-area-inset-left,0px))}
+.lb .ctrl{position:fixed;top:calc(env(safe-area-inset-top,0px) + 14px);right:max(16px,env(safe-area-inset-right,0px));display:flex;gap:6px;z-index:2}
+.lb .ctrl .btn{background:var(--paper);padding:8px 14px}
+.lb .ctrl .btn.solid{background:var(--ink)}
+.case{max-width:1100px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+.case-head{display:flex;flex-direction:column;gap:12px}
+.case-media{border:1px solid var(--rule);background:var(--sheet)}
+.case-media canvas{display:block;width:100%;height:auto}
+.case-media video{display:block;width:100%;background:#000}
+.embed{width:100%;aspect-ratio:16/9;background:#000}
+.embed iframe{display:block;width:100%;height:100%;border:0}
+.vbar{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px;border-top:1px solid var(--rule)}
+.case-body{display:grid;grid-template-columns:minmax(0,8fr) minmax(0,4fr);gap:48px}
+.case-steps{display:flex;flex-direction:column;gap:22px}
+.case-steps div{display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;border-top:1px solid var(--rule);padding-top:14px}
+.case-steps .kicker{color:var(--accent);padding-top:4px}
+.case dl{display:grid;grid-template-columns:auto minmax(0,1fr);gap:10px 16px;margin:0;font-size:16px;align-content:start;border-top:2px solid var(--ink);padding-top:14px}
+.case dt{font-family:var(--mono);font-size:12px;color:var(--ink-2);padding-top:3px}
+.case dd{margin:0}
+
+@media (max-width:900px){
+  .hero-copy,.hero-fig{grid-column:1/-1}
+  .method{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .two,.case-body{grid-template-columns:1fr}
+}
+@media (max-width:520px){
+  .method{grid-template-columns:1fr}
+  .case-steps div,.row{grid-template-columns:1fr}
+  .row .w{grid-column:1}
+  .skill{grid-template-columns:96px minmax(0,1fr) 36px}
+}
+@media (prefers-reduced-motion:reduce){.fig .bar-r{transition:none}}
+</style>
+
+</head>
+<body>
+<header>
+  <div class="wrap bar">
+    <a class="logo" href="#home">Kofi Forkuo-Sekyere <small>Research · Data · Design</small></a>
+    <nav aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <!-- HOME -->
+  <section class="view" id="v-home">
+    <div class="hero">
+      <div class="hero-copy">
+        <span class="kicker">Research for documentary, film and long-form work</span>
+        <h1>Research for work <em>meant to last.</em></h1>
+        <p class="lede">I start with an issue that shapes people's lives and dig until I find what makes people feel it: the data, the images, the sound. My background is in quantitative social research, and I'm building toward documentary, film and other long-form work that outlasts a news cycle.</p>
+        <div class="cta"><a class="btn solid" href="#work">See the work</a><a class="btn" href="#contact">Get in touch</a></div>
+      </div>
+      <figure class="hero-fig" style="margin:0">
+        <div class="fig">
+          <div class="fig-top">
+            <span class="kicker">Featured project · Single Mom Index</span>
+            <div class="seg" role="group" aria-label="Measure shown on map" id="smi-seg"></div>
+          </div>
+          <h3 id="fig-title">In some states, infant care costs a single mother more than half her income</h3>
+          <div class="smi">
+            <svg id="smi-map" viewBox="0 0 552 404" role="img" aria-labelledby="fig-title"></svg>
+            <div class="smi-side">
+              <div class="smi-legend" id="smi-legend"></div>
+              <div class="smi-detail" id="smi-detail" aria-live="polite"></div>
+            </div>
+          </div>
+          <figcaption><span>Full-time infant center care as a share of median income for single-mother families with children under 18. Tap a state.</span><span class="num">2022 · DOL childcare prices, Census ACS 2018–2022</span></figcaption>
+          <div class="cta"><button class="btn solid" type="button" data-open="0">Read the case study</button></div>
+        </div>
+      </figure>
+    </div>
+
+    <div class="section" style="margin-top:24px">
+      <div class="section-head"><h2>How I work</h2></div>
+      <div class="method">
+        <div class="step"><span class="kicker">Issue</span><b>Start with what's at stake</b><p>Who is affected, and what should someone feel or understand after watching, reading or listening?</p></div>
+        <div class="step"><span class="kicker">Research</span><b>Get it right</b><p>Data, documents, archives, images and sound, each checked against its source before anything is made.</p></div>
+        <div class="step"><span class="kicker">Make</span><b>Choose the medium</b><p>A map, a report, a film or a score, whichever makes the issue land. One clear idea per piece.</p></div>
+        <div class="step"><span class="kicker">Test</span><b>Watch someone experience it</b><p>Show it to real viewers and listeners, then revise until the point lands without explanation.</p></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2>Selected projects</h2><a class="more" href="#work">All work</a></div>
+      <div class="grid" id="featured"></div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="view" id="v-work" hidden>
+    <div class="section" style="margin-top:48px">
+      <span class="kicker">Selected projects</span>
+      <h1>Work</h1>
+      <div class="filters">
+        <div class="frow" role="group" aria-label="Filter by year" id="f-year"><span class="kicker">Year</span></div>
+        <div class="frow" role="group" aria-label="Filter by type" id="f-type"><span class="kicker">Type</span></div>
+      </div>
+      <div class="grid" id="worklist"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="view" id="v-about" hidden>
+    <div class="section" style="margin-top:48px">
+      <span class="kicker">About</span>
+      <h1>From findings to <em>something people feel.</em></h1>
+      <div class="two">
+        <div class="toolkit">
+          <span class="kicker">Toolkit</span>
+          <div class="tk-group"><b>Research and data</b><div class="tags"><span>R</span><span>tidyverse</span><span>sf and tidycensus</span><span>Python</span><span>pandas</span><span>GeoPandas</span><span>Survey data</span></div></div>
+          <div class="tk-group"><b>Data visualization</b><div class="tags"><span>Plotly</span><span>Dash</span><span>Folium</span></div></div>
+          <div class="tk-group"><b>Design</b><div class="tags"><span>Figma</span><span>Illustrator</span><span>InDesign</span><span>QGIS</span></div></div>
+          <div class="tk-group"><b>Video and sound</b><div class="tags"><span>After Effects</span><span>iMovie</span><span>GarageBand</span><span>Original music</span></div></div>
+          <div class="tk-group"><b>Education</b><p class="tk-ed">Quantitative economics (Business Administration) and public policy (Master of Public Policy)</p></div>
+        </div>
+        <div class="prose">
+          <p class="lede">I'm Kofi Forkuo-Sekyere, a quantitative social researcher drawn to the research behind documentary, film and other long-form work.</p>
+          <p>A finding only matters if it reaches people, and what reaches them is often an image, a voice or a sound, not just a number.</p>
+          <p>I'm most drawn to work meant to last longer than a campaign: documentaries, films, series and long-form projects about family economics, justice and the policies that shape people's lives, at home and abroad. I'm always glad to hear from people making that kind of work.</p>
+          <div class="cta"><a class="btn solid" href="#work">See the work</a><a class="btn" href="#contact">Get in touch</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="view" id="v-contact" hidden>
+    <div class="section" style="margin-top:48px">
+      <span class="kicker">Contact</span>
+      <h1>Have an issue <em>people need to see and hear?</em></h1>
+      <div class="two">
+        <div class="prose">
+          <p class="lede">A project, a collaboration, or a question worth digging into? Pick a topic and your email app opens with the subject ready.</p>
+          <div class="copyline"><span class="addr" id="addr">workwithkofi@icloud.com</span><button class="btn" id="copy" type="button">Copy</button></div>
+          <p class="links"><a class="more" href="https://www.linkedin.com/in/kofi-f-91442a83/" rel="me">LinkedIn</a><a class="more" href="https://github.com/ksekyere" rel="me">GitHub</a><a class="more" href="https://www.youtube.com/channel/UCS4eXmllznbCO89xyyt_BHg" rel="me">YouTube</a></p>
+        </div>
+        <div class="mailopts">
+          <span class="kicker">What's it about? Pick one to start an email</span>
+          <div id="mailopts"></div>
+          <span class="note">Each link opens your email app with the subject filled in. If nothing opens, copy the address and paste the subject shown.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2026 Kofi Forkuo-Sekyere</span>
+    <span>Made with Claude</span>
+  </footer>
+</main>
+
+
+<template id="report-smi">
+  <div class="rp-head">
+    <span class="kicker">Full report</span>
+    <h2>The Single Mom Index: First Findings</h2>
+    <p class="rp-sub">2022 data · 43 states and the District of Columbia</p>
+  </div>
+
+  <section>
+    <h3>Summary</h3>
+    <p>Full-time infant care is one of the largest costs a single mother with a baby can face. This first look at the Single Mom Index compares that cost with what single mothers actually earn, state by state, alongside their poverty rate and the minimum wage.</p>
+    <div class="rp-stats">
+      <div><b class="num">23% to 63%</b><span>Share of a single mother's median income that full-time infant center care costs, from Kansas to the District of Columbia</span></div>
+      <div><b class="num">31 of 44</b><span>Places where infant care takes 30% or more of that income</span></div>
+      <div><b class="num">72%</b><span>Share of single-mother families in the study who live in those 31 places</span></div>
+    </div>
+    <p>Three patterns stand out. The heaviest childcare burdens and the highest poverty rates fall in different parts of the country. States with higher minimum wages tend to have heavier childcare burdens, not lighter ones. And eight places rank above the middle on both burden and poverty, with Ohio the starkest case.</p>
+  </section>
+
+  <section>
+    <h3>1. Infant care takes a large share of income almost everywhere</h3>
+    <p>In the typical state, full-time infant center care costs about a third of a single mother's median income. Even in Kansas, the lowest, it takes nearly a quarter. In the District of Columbia and Massachusetts it takes more than half.</p>
+    <figure class="rp-fig">
+      <p class="rp-fig-title">Infant care costs single mothers more than half their income in two places, and at least 30% in most</p>
+      <svg class="smi-rank" viewBox="0 0 640 940" role="img" aria-label="Ranked bar chart of infant care as a share of single-mother income by state"></svg>
+      <figcaption>Annual price of full-time infant center care as a share of median income for single-mother families with children under 18, 2022. Arkansas, Connecticut, Indiana, Missouri, New Mexico, Pennsylvania and Vermont are not shown because 2022 childcare prices were not available.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h3>2. Childcare burden and poverty point to different places</h3>
+    <p>The states where childcare takes the biggest share of income are mostly high-cost states on the coasts and in parts of the Midwest. The states with the highest single-mother poverty are mostly in the South: Louisiana and Mississippi (45%), Alabama (42%), West Virginia (41%) and Kentucky (41%). Across states, the two measures move slightly in opposite directions.</p>
+    <p>This matters for how the index is read. A low childcare burden does not mean single mothers in a state are doing well. In much of the South, care is cheaper relative to income partly because income is so low that many families are below the poverty line regardless.</p>
+    <figure class="rp-fig">
+      <p class="rp-fig-title">Eight places rank above the middle on both childcare burden and poverty</p>
+      <svg class="smi-scatter" viewBox="0 0 640 440" role="img" aria-label="Scatter plot of childcare burden against single-mother poverty rate by state"></svg>
+      <figcaption>Each dot is a state. Dashed lines mark the median across the 44 places with data (34% burden, 31% poverty). Labeled dots fall above both medians.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h3>3. Higher minimum wages come with heavier childcare burdens</h3>
+    <p>States with a minimum wage of $12 or more have a median childcare burden of 40%, compared with 28% in the 18 states that use the federal minimum of $7.25. At first that looks backward. The likely reason is that higher minimum wages are mostly found where living costs, including childcare, are also high, so the wage floor rises with costs rather than getting ahead of them.</p>
+    <p>The federal-minimum states show the other side of the trade: lower childcare burdens, but a median single-mother poverty rate of 34%, compared with 29% in the $12-and-above states.</p>
+  </section>
+
+  <section>
+    <h3>4. Where both pressures meet</h3>
+    <p>Eight places sit above the median on both childcare burden and poverty: the District of Columbia, Ohio, New York, Illinois, Oklahoma, Montana, North Carolina and West Virginia.</p>
+    <div class="rp-table"><table>
+      <thead><tr><th>Place</th><th>Infant care, share of income</th><th>Single-mother poverty rate</th><th>Effective minimum wage</th></tr></thead>
+      <tbody class="smi-double"></tbody>
+    </table></div>
+    <p>Ohio is the clearest example. It has the third-highest childcare burden in the country at 44%, a single-mother poverty rate of 39%, and a minimum wage of $9.30. Oklahoma and North Carolina combine burdens near the national middle with high poverty and the federal minimum wage.</p>
+  </section>
+
+  <section>
+    <h3>What these numbers do and don't show</h3>
+    <ul>
+      <li><b>They describe a typical situation.</b> Each figure compares a median price with a median income. Many single mothers pay less through relatives, home-based care, subsidies or informal arrangements, and some pay more.</li>
+      <li><b>They focus on the most expensive care.</b> Infant center care is the highest-priced option. Care for older children and home-based care cost less, and later versions of the index include them.</li>
+      <li><b>They are state summaries of county data.</b> Burden can vary widely within a state, and the county results show where.</li>
+      <li><b>Correlations across states are descriptive.</b> With 44 places, they show patterns worth explaining, not causes.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Methods</h3>
+    <p><b>Childcare prices.</b> Median weekly price of full-time infant center care by county, from the US Department of Labor's National Database of Childcare Prices (2022), multiplied by 52.</p>
+    <p><b>Income and poverty.</b> Median family income for single-mother families with own children under 18 (ACS table B19126) and poverty status of single-mother families with related children (B17010), from the Census Bureau's American Community Survey 2018 to 2022 five-year estimates, by county.</p>
+    <p><b>Minimum wage.</b> Each state's 2022 minimum wage from the US Department of Labor via FRED, or the federal $7.25 where a state has no minimum or a lower one.</p>
+    <p><b>Reliability.</b> Counties were flagged as low reliability when the coefficient of variation of the income or poverty estimate exceeded 40%, income was missing, or fewer than 50 single-mother families with children were counted. Those counties were excluded. State figures combine the remaining 2,339 counties, weighting each county by its number of single-mother families with children.</p>
+    <p><b>Missing states.</b> Connecticut replaced its counties with planning regions in 2022, so its childcare data does not match. Six other states had no 2022 childcare prices; a later version will use each state's most recent year.</p>
+    <p class="rp-note">Code and full documentation are on GitHub.</p>
+  </section>
+
+  <section>
+    <h3>What's next</h3>
+    <p>The next versions of the index add housing costs (HUD Fair Market Rents relative to single-mother income), a full cost-of-living measure, and state policies such as paid family leave and state tax credits, then combine them into a single score with published weights.</p>
+  </section>
+</template>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-labelledby="c-title">
+  <div class="ctrl">
+    <button class="btn" id="prev" type="button" aria-label="Previous project">←</button>
+    <button class="btn" id="next" type="button" aria-label="Next project">→</button>
+    <button class="btn solid" id="close" type="button">Close</button>
+  </div>
+  <article class="case">
+    <div class="case-head">
+      <span class="kicker" id="c-kick"></span>
+      <h1 id="c-title" style="font-size:clamp(34px,4.6vw,60px)"></h1>
+      <p class="lede" id="c-sum"></p>
+    </div>
+    <div class="case-media">
+      <canvas id="c-canvas"></canvas>
+      <video id="c-video" controls playsinline preload="metadata" hidden></video>
+      <div class="embed" id="c-embed" hidden></div>
+      <div class="vbar" id="c-vbar" hidden></div>
+    </div>
+    <div class="case-body">
+      <div class="case-steps" id="c-steps"></div>
+      <dl id="c-meta"></dl>
+    </div>
+    <div class="report" id="c-report" hidden></div>
+  </article>
+</div>
+
+<script>
+function rng(s){return()=>{s|=0;s=s+0x6D2B79F5|0;let t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+/* ---------- Single Mom Index tile map: real 2022 state results from 03_build_index.R ---------- */
+const TILES="AK,0,0,Alaska|ME,10,0,Maine|WI,5,1,Wisconsin|VT,9,1,Vermont|NH,10,1,New Hampshire|WA,0,2,Washington|ID,1,2,Idaho|MT,2,2,Montana|ND,3,2,North Dakota|MN,4,2,Minnesota|IL,5,2,Illinois|MI,6,2,Michigan|NY,8,2,New York|MA,9,2,Massachusetts|OR,0,3,Oregon|NV,1,3,Nevada|WY,2,3,Wyoming|SD,3,3,South Dakota|IA,4,3,Iowa|IN,5,3,Indiana|OH,6,3,Ohio|PA,7,3,Pennsylvania|NJ,8,3,New Jersey|CT,9,3,Connecticut|RI,10,3,Rhode Island|CA,0,4,California|UT,1,4,Utah|CO,2,4,Colorado|NE,3,4,Nebraska|MO,4,4,Missouri|KY,5,4,Kentucky|WV,6,4,West Virginia|VA,7,4,Virginia|MD,8,4,Maryland|DE,9,4,Delaware|AZ,1,5,Arizona|NM,2,5,New Mexico|KS,3,5,Kansas|AR,4,5,Arkansas|TN,5,5,Tennessee|NC,6,5,North Carolina|SC,7,5,South Carolina|DC,8,5,District of Columbia|OK,3,6,Oklahoma|LA,4,6,Louisiana|MS,5,6,Mississippi|AL,6,6,Alabama|GA,7,6,Georgia|HI,0,7,Hawaii|TX,3,7,Texas|FL,8,7,Florida"
+  .split("|").map(r=>{const[a,c,rw,n]=r.split(",");return{a,c:+c,r:+rw,n}});
+/* [childcare share, poverty rate, effective minimum wage, counties, single-mother families]; null = no data */
+const SMI_DATA={"DC":[0.6318,0.341,16.1,1,19543],"MA":[0.5363,0.2716,14.25,12,158294],"OH":[0.4449,0.3862,9.3,83,317666],"CA":[0.4403,0.2918,14.0,52,777785],"OR":[0.4259,0.3019,13.5,27,86429],"WA":[0.4244,0.2798,14.49,32,153338],"CO":[0.4215,0.2607,12.56,28,101950],"NY":[0.4068,0.3256,13.2,60,469459],"MN":[0.4013,0.2647,10.33,78,119890],"HI":[0.3948,0.2547,12.0,4,23343],"IL":[0.3941,0.3227,12.0,86,301620],"NJ":[0.3885,0.2948,13.0,21,201358],"RI":[0.3862,0.2723,12.25,5,28961],"AK":[0.3777,0.2677,10.34,16,14002],"OK":[0.3702,0.3899,7.25,67,100027],"WI":[0.369,0.297,7.25,69,133784],"MT":[0.3477,0.3244,9.2,19,16449],"NV":[0.3443,0.2935,9.5,10,77592],"NC":[0.3393,0.3526,7.25,82,267990],"AZ":[0.3388,0.3112,12.8,14,169173],"WV":[0.3386,0.4132,8.75,33,31574],"NH":[0.3382,0.2367,7.25,10,24076],"MD":[0.3359,0.2377,12.5,24,152164],"ME":[0.3295,0.3121,12.75,16,27763],"FL":[0.3193,0.3067,10.0,62,501884],"VA":[0.3153,0.2943,11.0,88,179715],"DE":[0.3112,0.2913,10.5,3,24751],"TN":[0.3094,0.3637,7.25,80,172220],"NE":[0.309,0.2843,9.0,39,40619],"SC":[0.3057,0.3741,7.25,42,138473],"KY":[0.3001,0.4076,7.25,82,98291],"LA":[0.2977,0.4508,7.25,55,143908],"UT":[0.2846,0.249,7.25,19,46975],"ND":[0.2823,0.2707,7.25,17,13408],"WY":[0.2694,0.3193,7.25,9,8801],"AL":[0.2651,0.4242,7.25,59,128425],"MS":[0.263,0.449,7.25,65,88273],"TX":[0.2611,0.3558,7.25,151,748144],"MI":[0.26,0.3551,9.87,78,241422],"IA":[0.2502,0.327,7.25,76,69013],"SD":[0.2494,0.3415,9.95,24,14218],"GA":[0.2462,0.3284,7.25,124,293665],"ID":[0.2429,0.3172,7.25,27,29324],"KS":[0.2296,0.315,7.25,50,60382],"AR":[null,0.3918,11.0,59,78532],"CT":[null,0.2858,14.0,9,89567],"IN":[null,0.3498,7.25,82,166802],"MO":[null,0.3342,11.15,89,144142],"NM":[null,0.3831,11.5,23,55799],"PA":[null,0.3417,7.25,65,306840],"PR":[null,0.7035,null,61,108693],"VT":[null,0.2758,12.55,13,12657]};
+const MEASURES=[
+  {key:"Childcare",i:0,label:"Infant care, share of income",fmt:v=>Math.round(v*100)+"%",lo:"Lower cost",hi:"Higher cost",rankWord:"highest burden"},
+  {key:"Poverty",i:1,label:"Single-mother poverty rate",fmt:v=>Math.round(v*100)+"%",lo:"Lower",hi:"Higher",rankWord:"highest poverty"},
+  {key:"Min. wage",i:2,label:"Effective minimum wage",fmt:v=>"$"+v.toFixed(2),lo:"Lower",hi:"Higher",rankWord:"highest wage"}
+];
+TILES.forEach(t=>{const d=SMI_DATA[t.a]||[null,null,null,0,0];t.v=d.slice(0,3);t.counties=d[3];t.fams=d[4]});
+let smiM=0,smiSel="OH";
+const valOf=(t,m=smiM)=>t.v[MEASURES[m].i];
+/* quintile breaks from the states that have data */
+function breaks(m){const v=TILES.map(t=>valOf(t,m)).filter(x=>x!=null).sort((a,b)=>a-b);return[.2,.4,.6,.8].map(q=>v[Math.floor(q*(v.length-1))])}
+function qi(v,br){if(v==null)return 0;let q=1;br.forEach(b=>{if(v>b)q++});return q}
+function drawSMI(){
+  const M=MEASURES[smiM],br=breaks(smiM),svg=document.getElementById("smi-map"),S=48,G=2;let h="";
+  TILES.forEach(t=>{const v=valOf(t),q=qi(v,br),x=t.c*(S+G)+2,y=t.r*(S+G)+2;
+    const fill=q?`var(--q${q})`:"url(#nodata)";
+    h+=`<g data-st="${t.a}"><rect class="tile${t.a===smiSel?" sel":""}" x="${x}" y="${y}" width="${S}" height="${S}" rx="2" style="fill:${fill}" tabindex="0" role="button" aria-label="${t.n}: ${v==null?"no data":M.fmt(v)}"/>`+
+       `<text class="tl" x="${x+S/2}" y="${y+S/2+5}" text-anchor="middle" style="fill:var(${q>=4?"--q-ink-hi":"--q-ink-lo"})">${t.a}</text></g>`});
+  svg.innerHTML=`<defs><pattern id="nodata" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" style="fill:var(--sheet)"/><line x1="0" y1="0" x2="0" y2="6" style="stroke:var(--ink-3)" stroke-width="1.5"/></pattern></defs>`+h;
+  document.getElementById("smi-seg").innerHTML=MEASURES.map((m,i)=>`<button type="button" aria-pressed="${i===smiM}" data-m="${i}">${m.key}</button>`).join("");
+  const vals=TILES.map(t=>valOf(t)).filter(x=>x!=null);
+  document.getElementById("smi-legend").innerHTML=`<span class="kicker">${M.label}</span><div class="sw">${[1,2,3,4,5].map(q=>`<i style="background:var(--q${q})"></i>`).join("")}</div>`+
+    `<div class="ends"><span>${M.fmt(Math.min(...vals))}</span><span>${M.fmt(Math.max(...vals))}</span></div>`+
+    `<div class="ends"><span><i class="nd"></i> No data</span></div>`;
+  const t=TILES.find(x=>x.a===smiSel),v=valOf(t),ranked=TILES.filter(x=>valOf(x)!=null).sort((a,b)=>valOf(b)-valOf(a)),rank=ranked.indexOf(t)+1;
+  const ord=n=>n+(["th","st","nd","rd"][(n%100-20)%10]||["th","st","nd","rd"][n%100]||"th");
+  document.getElementById("smi-detail").innerHTML=`<b>${t.n}</b><span class="big">${v==null?"–":M.fmt(v)}</span>`+
+    `<span class="kicker num">${v==null?"No 2022 data":ord(rank)+" "+M.rankWord+" of "+ranked.length}</span>`+
+    MEASURES.map((m,i)=>{const mv=valOf(t,i),mx=Math.max(...TILES.map(x=>valOf(x,i)).filter(x=>x!=null));
+      return `<div class="comp${i===smiM?" on":""}"><span>${m.key}</span><div class="track"><div class="fill" style="width:${mv==null?0:mv/mx*100}%"></div></div><span class="num">${mv==null?"–":m.fmt(mv)}</span></div>`}).join("")+
+    `<span class="kicker num" style="text-transform:none">${t.fams?t.fams.toLocaleString("en-US")+" single-mother families":""}</span>`;
+}
+document.getElementById("smi-map").addEventListener("click",e=>{const g=e.target.closest("[data-st]");if(g){smiSel=g.dataset.st;drawSMI()}});
+document.getElementById("smi-map").addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const g=e.target.closest("[data-st]");if(g){e.preventDefault();smiSel=g.dataset.st;drawSMI();document.querySelector(`[data-st="${smiSel}"] rect`).focus()}});
+document.getElementById("smi-seg").addEventListener("click",e=>{const b=e.target.closest("[data-m]");if(b){smiM=+b.dataset.m;drawSMI()}});
+
+/* Charts and table for the Single Mom Index findings report, built from SMI_DATA */
+function drawSMIReport(root){
+  const rows=TILES.filter(t=>t.v[0]!=null).map(t=>({a:t.a,n:t.n,cc:t.v[0],pv:t.v[1],mw:t.v[2]}));
+  const med=k=>{const v=rows.map(r=>r[k]).sort((a,b)=>a-b),m=v.length/2;return v.length%2?v[Math.floor(m)]:(v[m-1]+v[m])/2};
+  const mc=med("cc"),mp=med("pv"),pct=v=>Math.round(v*100)+"%";
+  const txt=(x,y,t,o={})=>`<text x="${x}" y="${y}" text-anchor="${o.anchor||"start"}" font-size="${o.size||12}" font-weight="${o.weight||400}" style="fill:var(${o.color||"--ink-2"})">${t}</text>`;
+
+  // ranked bars
+  const rank=root.querySelector(".smi-rank");
+  if(rank){const sorted=[...rows].sort((a,b)=>b.cc-a.cc),X0=150,X1=585,max=.7,sx=v=>X0+v/max*(X1-X0),rh=20.5,top=28;
+    let h=txt(sx(.3),14,"30% of income",{anchor:"middle",size:11})+`<line x1="${sx(.3)}" x2="${sx(.3)}" y1="20" y2="${top+sorted.length*rh}" stroke="var(--ink-3)" stroke-dasharray="3 3"/>`;
+    sorted.forEach((r,i)=>{const y=top+i*rh,hi=r.cc>=.5;
+      h+=txt(X0-8,y+13,r.n,{anchor:"end",size:12,color:hi?"--ink":"--ink-2",weight:hi?650:400})+
+         `<rect x="${X0}" y="${y+3}" width="${sx(r.cc)-X0}" height="${rh-6}" style="fill:var(${hi?"--accent":"--muted-bar"})"><title>${r.n}: ${pct(r.cc)}</title></rect>`+
+         txt(sx(r.cc)+6,y+13,pct(r.cc),{size:11.5,color:hi?"--accent":"--ink-2",weight:hi?700:400})});
+    rank.innerHTML=h}
+
+  // scatter
+  const sc=root.querySelector(".smi-scatter");
+  if(sc){const L=58,R=620,T=16,B=380,x0=.2,x1=.7,y0=.2,y1=.5,sx=v=>L+(v-x0)/(x1-x0)*(R-L),sy=v=>B-(v-y0)/(y1-y0)*(B-T);
+    let h="";
+    for(let v=.2;v<=.701;v+=.1)h+=`<line x1="${sx(v)}" x2="${sx(v)}" y1="${T}" y2="${B}" stroke="var(--rule)"/>`+txt(sx(v),B+18,pct(v),{anchor:"middle",size:11.5});
+    for(let v=.2;v<=.501;v+=.1)h+=`<line x1="${L}" x2="${R}" y1="${sy(v)}" y2="${sy(v)}" stroke="var(--rule)"/>`+txt(L-8,sy(v)+4,pct(v),{anchor:"end",size:11.5});
+    h+=`<line x1="${sx(mc)}" x2="${sx(mc)}" y1="${T}" y2="${B}" stroke="var(--ink-3)" stroke-dasharray="4 3"/><line x1="${L}" x2="${R}" y1="${sy(mp)}" y2="${sy(mp)}" stroke="var(--ink-3)" stroke-dasharray="4 3"/>`;
+    h+=txt((L+R)/2,B+40,"Infant care, share of single-mother income →",{anchor:"middle",size:12,color:"--ink"});
+    h+=`<text transform="translate(16 ${(T+B)/2}) rotate(-90)" text-anchor="middle" font-size="12" style="fill:var(--ink)">Single-mother poverty rate →</text>`;
+    rows.forEach(r=>{const both=r.cc>mc&&r.pv>mp;
+      h+=`<circle cx="${sx(r.cc)}" cy="${sy(r.pv)}" r="${both?6:4.5}" style="fill:var(${both?"--accent":"--muted-bar"})"><title>${r.n}: ${pct(r.cc)} burden, ${pct(r.pv)} poverty</title></circle>`;
+      if(both){const left=r.a==="IL";h+=txt(sx(r.cc)+(left?-9:9),sy(r.pv)+(left?14:4),r.a,{size:11.5,weight:700,color:"--ink",anchor:left?"end":"start"})}});
+    sc.innerHTML=h}
+
+  // double-burden table
+  const tb=root.querySelector(".smi-double");
+  if(tb)tb.innerHTML=rows.filter(r=>r.cc>mc&&r.pv>mp).sort((a,b)=>b.cc-a.cc)
+    .map(r=>`<tr><td>${r.n}</td><td class="num">${pct(r.cc)}</td><td class="num">${pct(r.pv)}</td><td class="num">$${r.mw.toFixed(2)}</td></tr>`).join("");
+}
+/* ---------- projects ---------- */
+const WORKS=[
+  {t:"The Single Mom Index",y:2026,type:"Data visualization",k:"smi",stat:"3,000+ counties",client:"Self-initiated",tools:"R, Python, QGIS, Illustrator, InDesign, Figma",
+   q:"Which states and counties make it easiest, and hardest, for single mothers to support a family?",
+   data:"Public data on childcare prices (US Dept. of Labor), single-mother income and poverty (Census ACS 2018–2022), and state minimum wages, joined by county. Code and methods are on GitHub.",
+   design:"A tile map so small states are as visible as large ones, one warm color ramp, and a gray hatch for missing data instead of a misleading color. County maps flag unreliable estimates rather than hiding them.",
+   result:"First results: full-time infant center care costs single mothers from 23% of median income (Kansas) to 63% (District of Columbia), and 30% or more in 31 of the 44 places with 2022 data. Housing costs and state policy are next."},
+  {t:"The Single Mom Index: First Findings",y:2026,type:"Report",k:"smireport",stat:"44 places",client:"Self-initiated",tools:"R, Census API, Claude",body:"report-smi",
+   q:"How much of a single mother's income does infant care take, and where do childcare costs and poverty pile up together?",
+   data:"County-level childcare prices (US Dept. of Labor, 2022), single-mother income and poverty (Census ACS 2018–2022) and state minimum wages, summarized by state after excluding unreliable county estimates.",
+   design:"Written as a short findings report: three headline numbers up front, one finding per section, a ranked chart and a scatter plot that each make a single point, and a plain section on what the numbers can and can't show.",
+   result:"Full report below. Infant care takes 30% or more of single-mother income in 31 of 44 places, and eight places rank high on both childcare burden and poverty."},
+  {t:"Booker and Garland on Cannabis Convictions",y:2021,type:"Video",k:"motion",yt:"UhyEr82D6zM",stat:"Video",client:"Self-initiated video piece",tools:"iMovie, GarageBand",
+   q:"Senator Cory Booker and former US Attorney General Merrick Garland discuss the consequences of arrests and convictions for cannabis possession during Garland's February 2021 confirmation hearing.",
+   data:"Audio from the February 2021 Attorney General confirmation hearing, paired with images available for public use.",
+   design:"Each image was chosen to complement the audio in subtle ways at first, building until the connection is obvious. I sourced the images, placed every scene, edited the video together and composed the background music.",
+   result:"Published on YouTube in 2021. An early project made with iMovie and GarageBand, before I worked with professional design tools; the instincts it relies on, pacing and letting images build meaning, carry into my work now."}
+];
+
+/* placeholder thumbnails: printed artboards, fixed colors so they read like real pieces in either theme */
+const P={paper:"#ffffff",ink:"#111827",grey:"#c3c9d3",grey2:"#e6e9ee",acc:"#d9620b",acc2:"#f6c8a5"};
+const G=(w,s)=>`${w} ${s}px "Schibsted Grotesk","Helvetica Neue",Arial,sans-serif`;
+function lines(c,x,y,w,n,gap,h){c.fillStyle=P.grey;for(let i=0;i<n;i++)c.fillRect(x,y+i*gap,w*(i===n-1?.6:1),h)}
+function draw(cv,w,i){
+  const c=cv.getContext("2d"),W=cv.width,H=cv.height,r=rng(i*31+7),m=W*.07;
+  c.fillStyle=P.paper;c.fillRect(0,0,W,H);c.textBaseline="alphabetic";
+  const title=(t,y,s)=>{c.fillStyle=P.ink;c.font=G(800,s||H*.06);c.fillText(t,m,y)};
+  if(w.k==="smireport"){
+    c.fillStyle=P.grey2;c.fillRect(0,0,W,H);
+    const px=W*.2,pw=W*.6;c.fillStyle=P.paper;c.fillRect(px,m*.6,pw,H-m*.6);
+    c.fillStyle=P.ink;c.font=G(800,H*.05);c.fillText("The Single Mom Index",px+pw*.08,m*.6+H*.11);
+    c.font=G(600,H*.034);c.fillText("First Findings",px+pw*.08,m*.6+H*.165);
+    c.fillStyle=P.acc;c.fillRect(px+pw*.08,m*.6+H*.2,pw*.18,H*.008);
+    const vals=TILES.map(t=>t.v[0]).filter(v=>v!=null).sort((a,b)=>b-a).slice(0,14);
+    vals.forEach((v,j)=>{c.fillStyle=v>=.5?P.acc:P.grey;c.fillRect(px+pw*.08,m*.6+H*(.27+j*.042),pw*.84*v/.7,H*.028)});
+    return;
+  }
+  if(w.k==="smi"){
+    const Q=["#e6e9ee","#f7d3b6","#efa66d","#df7a2c","#a94a08"],cols=11,rows=8,S=Math.min((W-m*2)/cols,(H-m*2.2)/rows)*.96,ox=(W-cols*S)/2,oy=m*1.6;
+    c.fillStyle=P.ink;c.font=G(800,H*.05);c.fillText("The Single Mom Index",m,m*1.05);
+    const br0=breaks(0);TILES.forEach(t=>{const q=Math.max(qi(valOf(t,0),br0),1)-1;c.fillStyle=Q[q];c.fillRect(ox+t.c*S+1,oy+t.r*S+1,S-2,S-2);
+      c.fillStyle=q>=3?"#fff":P.ink;c.font=G(700,S*.3);c.textAlign="center";c.fillText(t.a,ox+t.c*S+S/2,oy+t.r*S+S*.6);c.textAlign="left"});
+    return;
+  }
+  if(w.k==="bars"){
+    title("One finding per chart.",m+H*.05);lines(c,m,m+H*.09,W*.5,1,0,H*.014);
+    const n=7,bw=(W-m*2)/n*.6,base=H*.86;
+    for(let j=0;j<n;j++){const v=.2+r()*.5+(j===5?.2:0),hi=j===5;c.fillStyle=hi?P.acc:P.grey;c.fillRect(m+j*(W-m*2)/n,base-v*H*.55,bw,v*H*.55);
+      if(hi){c.fillStyle=P.acc;c.font=G(800,H*.045);c.fillText(Math.round(v*80)+"%",m+j*(W-m*2)/n-4,base-v*H*.55-12)}}
+    c.fillStyle=P.ink;c.fillRect(m,base,W-m*2,2);
+  }else if(w.k==="motion"){
+    c.fillStyle=P.ink;c.fillRect(0,0,W,H);
+    const n=60,bw=(W-m*2)/n,mid=H*.48;
+    for(let j=0;j<n;j++){const a=(.15+Math.abs(Math.sin(j*.37))*.55+r()*.3)*H*.22,hi=j>38&&j<48;
+      c.fillStyle=hi?P.acc:"#4b5565";c.fillRect(m+j*bw+1,mid-a,bw-3,a*2)}
+    c.fillStyle="#fff";c.font=G(800,H*.055);c.fillText("Feb. 2021 hearing",m,H*.14);
+  }else if(w.k==="report"){
+    c.fillStyle=P.grey2;c.fillRect(0,0,W,H);
+    const pw=(W-m*3)/2,ph=H-m*2;
+    [0,1].forEach(j=>{const x=m+j*(pw+m);c.fillStyle=P.paper;c.fillRect(x,m,pw,ph)});
+    c.fillStyle=P.acc;c.font=G(800,H*.16);c.fillText("74%",m+pw*.08,m+ph*.32);
+    c.fillStyle=P.ink;c.font=G(700,H*.04);c.fillText("of families",m+pw*.08,m+ph*.42);c.fillText("reached",m+pw*.08,m+ph*.49);
+    lines(c,m+pw*.08,m+ph*.6,pw*.84,7,H*.04,H*.013);
+    const x2=m*2+pw;c.fillStyle=P.ink;c.font=G(800,H*.045);c.fillText("Year in numbers",x2+pw*.08,m+ph*.12);
+    for(let j=0;j<5;j++){const v=.3+r()*.6;c.fillStyle=j===4?P.acc:P.grey;c.fillRect(x2+pw*.08,m+ph*(.22+j*.1),pw*.8*v,ph*.06)}
+    lines(c,x2+pw*.08,m+ph*.76,pw*.84,4,H*.04,H*.013);
+  }else if(w.k==="map"){
+    title("Rent burden",m+H*.05);
+    const cols=14,rows=8,cw=(W-m*2)/cols,ch=(H*.7)/rows;
+    for(let a=0;a<cols;a++)for(let b=0;b<rows;b++){if(r()<.12)continue;const v=r()+(a>8&&b>3?.4:0);
+      c.fillStyle=v>1.1?P.acc:v>.7?P.acc2:P.grey2;c.fillRect(m+a*cw+1,H*.2+b*ch+1,cw-2,ch-2);
+      if(r()<.08){c.strokeStyle=P.ink;c.lineWidth=1;for(let d=0;d<cw;d+=5){c.beginPath();c.moveTo(m+a*cw+d,H*.2+b*ch);c.lineTo(m+a*cw+d-ch*.4,H*.2+(b+1)*ch);c.stroke()}}}
+  }else if(w.k==="form"){
+    c.fillStyle=P.grey2;c.fillRect(0,0,W,H);const fx=W*.28,fw=W*.44;
+    c.fillStyle=P.paper;c.fillRect(fx,m*.6,fw,H-m*1.2);
+    c.fillStyle=P.grey2;c.fillRect(fx+fw*.08,m*.6+H*.06,fw*.84,H*.015);c.fillStyle=P.acc;c.fillRect(fx+fw*.08,m*.6+H*.06,fw*.84*.62,H*.015);
+    c.fillStyle=P.ink;c.font=G(750,H*.04);c.fillText("Q14 of 22",fx+fw*.08,m*.6+H*.15);
+    lines(c,fx+fw*.08,m*.6+H*.2,fw*.84,2,H*.035,H*.014);
+    for(let j=0;j<4;j++){const y=m*.6+H*(.34+j*.1);c.strokeStyle=j===1?P.acc:P.grey;c.lineWidth=2;c.strokeRect(fx+fw*.08,y,fw*.84,H*.075);
+      c.fillStyle=j===1?P.acc:P.grey;c.beginPath();c.arc(fx+fw*.16,y+H*.0375,H*.016,0,7);c.fill()}
+  }else if(w.k==="dash"){
+    c.fillStyle=P.grey2;c.fillRect(0,0,W,H);const gw=(W-m*2-30)/4;
+    for(let j=0;j<4;j++){const x=m+j*(gw+10);c.fillStyle=P.paper;c.fillRect(x,m,gw,H*.2);c.fillStyle=j===2?P.acc:P.ink;c.font=G(800,H*.07);c.fillText(["1.2k","348","−9%","27"][j],x+gw*.1,m+H*.13)}
+    c.fillStyle=P.paper;c.fillRect(m,m+H*.24,W-m*2,H-m*2-H*.24);
+    c.strokeStyle=P.grey;c.lineWidth=3;c.beginPath();let yy=H*.6;for(let j=0;j<=20;j++){yy+=(r()-.5)*H*.06;c.lineTo(m*1.5+j*(W-m*3)/20,yy)}c.stroke();
+    c.strokeStyle=P.acc;c.lineWidth=4;c.beginPath();yy=H*.7;for(let j=0;j<=20;j++){yy+=(r()-.55)*H*.04;c.lineTo(m*1.5+j*(W-m*3)/20,yy)}c.stroke();
+  }else if(w.k==="multiples"){
+    const cols=5,rows=4,gw=(W-m*2)/cols,gh=(H-m*2)/rows;
+    for(let a=0;a<cols;a++)for(let b=0;b<rows;b++){const x=m+a*gw,y=m+b*gh,hi=a===2&&b===1;
+      c.strokeStyle=P.grey2;c.lineWidth=1;c.beginPath();c.moveTo(x+4,y+gh-10);c.lineTo(x+gw-8,y+gh-10);c.stroke();
+      c.strokeStyle=hi?P.acc:P.ink;c.lineWidth=hi?3:1.6;c.beginPath();let v=gh*.5;for(let j=0;j<=8;j++){v+=(r()-.5)*gh*.18;v=Math.max(gh*.15,Math.min(gh*.75,v));c.lineTo(x+4+j*(gw-12)/8,y+v)}c.stroke()}
+  }else{ // identity
+    c.fillStyle=P.ink;c.fillRect(0,0,W,H);const cx=W*.32,cy=H*.48,s=H*.26;
+    c.strokeStyle="#fff";c.lineWidth=H*.02;c.beginPath();c.moveTo(cx-s*.6,cy-s*.7);c.lineTo(cx-s*.6,cy+s*.6);c.lineTo(cx+s*.8,cy+s*.6);c.stroke();
+    c.fillStyle=P.acc;c.beginPath();c.arc(cx+s*.25,cy-s*.1,s*.24,0,7);c.fill();
+    c.fillStyle="#fff";c.font=G(800,H*.08);c.fillText("Civic",W*.55,cy-H*.01);c.fillText("Data Lab",W*.55,cy+H*.08);
+  }
+}
+function sizeCanvas(cv,w,i,base){cv.width=base;cv.height=Math.round(base*3/4);draw(cv,w,i)}
+
+function videoLink(w){if(w.yt)return{href:"https://www.youtube.com/watch?v="+w.yt,site:"YouTube"};if(w.vimeo)return{href:"https://vimeo.com/"+w.vimeo,site:"Vimeo"};return null}
+function embedURL(w){if(w.yt)return`https://www.youtube-nocookie.com/embed/${w.yt}?rel=0&modestbranding=1&playsinline=1`;if(w.vimeo)return`https://player.vimeo.com/video/${w.vimeo}?title=0&byline=0&portrait=0`;return null}
+let EMBEDS=false;
+(()=>{const t=new Image();t.onload=()=>{EMBEDS=t.naturalWidth>0};t.src="https://i.ytimg.com/vi/UhyEr82D6zM/default.jpg"})();
+
+function card(w,i){const b=document.createElement("button");b.className="piece";b.dataset.open=i;b.setAttribute("aria-label","Open case study: "+w.t);
+  b.innerHTML=`<div class="thumb"><canvas></canvas><span class="stat num">${w.stat}</span>${w.k==="motion"?`<span class="play"><svg viewBox="0 0 12 12" aria-hidden="true"><path d="M3 1.5v9l7.5-4.5z" fill="currentColor"/></svg>Watch</span>`:""}</div>
+  <div class="meta"><span>${w.type}</span><span class="num">${w.y}</span></div><b>${w.t}</b><p class="q">${w.q}</p>`;
+  const cv=b.querySelector("canvas");sizeCanvas(cv,w,i,720);
+  if(w.yt){const im=new Image();im.alt="";im.onload=()=>{if(im.naturalWidth>200)cv.replaceWith(im)};im.src=`https://i.ytimg.com/vi/${w.yt}/hqdefault.jpg`}
+  return b}
+
+let fy="all",ft="all";const years=[...new Set(WORKS.map(w=>w.y))],types=[...new Set(WORKS.map(w=>w.type))];
+function chips(el,list,get,set){["all",...list].forEach(v=>{const b=document.createElement("button");b.type="button";b.className="chip";b.textContent=v==="all"?"All":v;b.dataset.v=v;b.onclick=()=>{set(String(v));renderWork()};el.append(b)})}
+chips(document.getElementById("f-year"),years,()=>fy,v=>fy=v);
+chips(document.getElementById("f-type"),types,()=>ft,v=>ft=v);
+function renderWork(){
+  document.querySelectorAll("#f-year .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===fy));
+  document.querySelectorAll("#f-type .chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.v===ft));
+  const list=document.getElementById("worklist");list.innerHTML="";let any=false;
+  years.filter(y=>fy==="all"||String(y)===fy).forEach(y=>{
+    const items=WORKS.map((w,i)=>[w,i]).filter(([w])=>w.y===y&&(ft==="all"||w.type===ft));if(!items.length)return;any=true;
+    const h=document.createElement("div");h.className="yearhead";h.innerHTML=`<span>${y}</span><small class="num">${items.length} project${items.length>1?"s":""}</small>`;list.append(h);
+    items.forEach(([w,i])=>list.append(card(w,i)));
+  });
+  if(!any){const p=document.createElement("p");p.className="empty";p.textContent="No projects match these filters. Try All.";list.append(p)}
+}
+function render(){const f=document.getElementById("featured");f.innerHTML="";[0,1,2].forEach(i=>f.append(card(WORKS[i],i)));renderWork();drawSMI()}
+
+
+/* case study viewer */
+const lb=document.getElementById("lb"),cc=document.getElementById("c-canvas"),cvid=document.getElementById("c-video"),cemb=document.getElementById("c-embed"),cbar=document.getElementById("c-vbar");
+let cur=0,lastFocus=null;
+function stopVid(){cvid.pause();cvid.removeAttribute("src");cvid.load();cemb.innerHTML=""}
+function openLB(i){cur=(i+WORKS.length)%WORKS.length;const w=WORKS[cur];stopVid();
+  const isVid=w.k==="motion",hasSrc=isVid&&w.src,emb=isVid&&EMBEDS&&embedURL(w),link=isVid&&videoLink(w);
+  cc.hidden=!!(hasSrc||emb);cvid.hidden=!hasSrc;cemb.hidden=!emb;cbar.hidden=!isVid||!!hasSrc||!!emb;
+  if(hasSrc)cvid.src=w.src;else if(emb)cemb.innerHTML=`<iframe src="${emb}" title="${w.t}" allow="autoplay; fullscreen; picture-in-picture; encrypted-media" allowfullscreen></iframe>`;else sizeCanvas(cc,w,cur,1600);
+  if(isVid&&!hasSrc&&!emb)cbar.innerHTML=link?`<a class="btn solid" href="${link.href}" target="_blank" rel="noopener">▶ Watch on ${link.site}</a><span class="note">Plays right here once the site is on your own domain.</span>`:`<span class="note">Add a YouTube or Vimeo link for this project.</span>`;
+  document.getElementById("c-kick").textContent=`${w.type} · ${w.y}`;
+  document.getElementById("c-title").textContent=w.t;
+  document.getElementById("c-sum").textContent=w.q;
+  const rep=document.getElementById("c-report");
+  if(w.body){rep.innerHTML=document.getElementById(w.body).innerHTML;rep.hidden=false;drawSMIReport(rep)}else{rep.innerHTML="";rep.hidden=true}
+  document.getElementById("c-steps").innerHTML=[["Question",w.q],["Data",w.data],["Design",w.design],["Result",w.result]].map(([k,v])=>`<div><span class="kicker">${k}</span><p>${v}</p></div>`).join("");
+  document.getElementById("c-meta").innerHTML=`<dt>Client</dt><dd>${w.client}</dd><dt>Type</dt><dd>${w.type}</dd><dt>Year</dt><dd class="num">${w.y}</dd><dt>Tools</dt><dd>${w.tools}</dd><dt>Scope</dt><dd class="num">${w.stat}</dd>`;
+  if(lb.hidden){lastFocus=document.activeElement;lb.hidden=false;document.body.style.overflow="hidden";document.getElementById("close").focus()}
+  lb.scrollTop=0}
+function closeLB(){stopVid();lb.hidden=true;document.body.style.overflow="";lastFocus&&lastFocus.focus()}
+document.addEventListener("click",e=>{const t=e.target.closest("[data-open]");if(t)openLB(+t.dataset.open)});
+document.getElementById("close").onclick=closeLB;
+document.getElementById("prev").onclick=()=>openLB(cur-1);
+document.getElementById("next").onclick=()=>openLB(cur+1);
+document.addEventListener("keydown",e=>{if(lb.hidden)return;if(e.key==="Escape")closeLB();if(e.key==="ArrowLeft")openLB(cur-1);if(e.key==="ArrowRight")openLB(cur+1)});
+
+/* contact */
+document.getElementById("copy").onclick=async()=>{const b=document.getElementById("copy"),a=document.getElementById("addr");
+  try{await navigator.clipboard.writeText(a.textContent);b.textContent="Copied"}catch{const r=document.createRange();r.selectNodeContents(a);const s=getSelection();s.removeAllRanges();s.addRange(r);b.textContent="Selected"}
+  setTimeout(()=>b.textContent="Copy",1600)};
+/* email links: change EMAIL once and every link updates */
+const EMAIL=document.getElementById("addr").textContent.trim();
+const MAIL=[
+  {t:"Collaboration",d:"Working together on a research, data or design project.",s:"Collaboration",b:"Hi Kofi,\n\nI'd like to talk about working together on "},
+  {t:"Project inquiry",d:"A report, chart set, map, explainer or other project with a scope and timeline.",s:"Project inquiry",b:"Hi Kofi,\n\nWe have a project we'd like help with. In short: "},
+  {t:"Research for a film or series",d:"Background research, data, images or sound for a documentary, film, series or long-form project.",s:"Research for a film or series",b:"Hi Kofi,\n\nWe're working on a project about "},
+  {t:"Just saying hi",d:"Questions, collaborations, or a good chart you want to share.",s:"Hello",b:"Hi Kofi,\n\n"}
+];
+document.getElementById("mailopts").innerHTML=MAIL.map(o=>{
+  const href=`mailto:${EMAIL}?subject=${encodeURIComponent(o.s)}&body=${encodeURIComponent(o.b)}`;
+  return `<a class="mo" href="${href}"><b>${o.t}</b><p>${o.d}</p><span class="subj">Subject: ${o.s}</span><span class="go">Email →</span></a>`}).join("");
+
+/* routing */
+const VIEWS=["home","work","about","contact"];
+function route(){const v=VIEWS.includes(location.hash.slice(1))?location.hash.slice(1):"home";
+  VIEWS.forEach(n=>document.getElementById("v-"+n).hidden=n!==v);
+  document.querySelectorAll("nav a").forEach(a=>{if(a.getAttribute("href")==="#"+v)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+  if(!lb.hidden)closeLB();window.scrollTo(0,0)}
+addEventListener("hashchange",route);route();
+
+render();
+if(document.fonts&&document.fonts.load)document.fonts.load('800 40px "Schibsted Grotesk"').then(render).catch(()=>{});
+/* redraw the hero chart when the theme changes so its colors follow */
+try{matchMedia("(prefers-color-scheme: dark)").addEventListener("change",drawSMI)}catch(e){}
+try{new MutationObserver(drawSMI).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]})}catch(e){}
+</script>
+
+</body>
+</html>
