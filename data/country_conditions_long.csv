@@ -674,6 +674,681 @@ co2,USA,United States,2021,14.3160979329351
 co2,USA,United States,2022,14.4186221294233
 co2,USA,United States,2023,13.7140258849034
 co2,USA,United States,2024,13.6238622652793
+corruption,ARE,United Arab Emirates,2000,0.2354991
+corruption,ARE,United Arab Emirates,2002,0.7653435
+corruption,ARE,United Arab Emirates,2003,0.8811236
+corruption,ARE,United Arab Emirates,2004,0.770385
+corruption,ARE,United Arab Emirates,2005,0.7535055
+corruption,ARE,United Arab Emirates,2006,0.7774357
+corruption,ARE,United Arab Emirates,2007,0.7739893
+corruption,ARE,United Arab Emirates,2008,0.9094351
+corruption,ARE,United Arab Emirates,2009,0.8435973
+corruption,ARE,United Arab Emirates,2010,0.9108541
+corruption,ARE,United Arab Emirates,2011,1.1333503
+corruption,ARE,United Arab Emirates,2012,1.0886547
+corruption,ARE,United Arab Emirates,2013,1.149383
+corruption,ARE,United Arab Emirates,2014,0.984486
+corruption,ARE,United Arab Emirates,2015,0.9193919
+corruption,ARE,United Arab Emirates,2016,1.1051618
+corruption,ARE,United Arab Emirates,2017,1.0739109
+corruption,ARE,United Arab Emirates,2018,1.0931321
+corruption,ARE,United Arab Emirates,2019,1.0864672
+corruption,ARE,United Arab Emirates,2020,1.0605961
+corruption,ARE,United Arab Emirates,2021,1.0353532
+corruption,ARE,United Arab Emirates,2022,1.0215335
+corruption,ARE,United Arab Emirates,2023,0.9865181
+corruption,ARE,United Arab Emirates,2024,1.1743732
+corruption,ARE,United Arab Emirates,2025,1.1522607
+corruption,ARG,Argentina,2000,-0.3066534
+corruption,ARG,Argentina,2002,-0.5649709
+corruption,ARG,Argentina,2003,-0.5499264
+corruption,ARG,Argentina,2004,-0.4059561
+corruption,ARG,Argentina,2005,-0.3896209
+corruption,ARG,Argentina,2006,-0.320894
+corruption,ARG,Argentina,2007,-0.4151959
+corruption,ARG,Argentina,2008,-0.4125706
+corruption,ARG,Argentina,2009,-0.3943504
+corruption,ARG,Argentina,2010,-0.3648003
+corruption,ARG,Argentina,2011,-0.3361817
+corruption,ARG,Argentina,2012,-0.5363017
+corruption,ARG,Argentina,2013,-0.5382434
+corruption,ARG,Argentina,2014,-0.6640614
+corruption,ARG,Argentina,2015,-0.6423059
+corruption,ARG,Argentina,2016,-0.2198226
+corruption,ARG,Argentina,2017,-0.1768645
+corruption,ARG,Argentina,2018,-0.0094702
+corruption,ARG,Argentina,2019,-0.0824917
+corruption,ARG,Argentina,2020,-0.1363057
+corruption,ARG,Argentina,2021,-0.3247968
+corruption,ARG,Argentina,2022,-0.3392719
+corruption,ARG,Argentina,2023,-0.3360465
+corruption,ARG,Argentina,2024,-0.3250713
+corruption,ARG,Argentina,2025,-0.3860634
+corruption,BRA,Brazil,2000,0.1083783
+corruption,BRA,Brazil,2002,0.0962031
+corruption,BRA,Brazil,2003,0.052878
+corruption,BRA,Brazil,2004,-0.1077507
+corruption,BRA,Brazil,2005,-0.2508875
+corruption,BRA,Brazil,2006,-0.2193516
+corruption,BRA,Brazil,2007,-0.2877246
+corruption,BRA,Brazil,2008,-0.0905943
+corruption,BRA,Brazil,2009,-0.0366836
+corruption,BRA,Brazil,2010,-0.0114011
+corruption,BRA,Brazil,2011,0.2152481
+corruption,BRA,Brazil,2012,-0.0242705
+corruption,BRA,Brazil,2013,-0.0761893
+corruption,BRA,Brazil,2014,-0.2552721
+corruption,BRA,Brazil,2015,-0.3492221
+corruption,BRA,Brazil,2016,-0.3354755
+corruption,BRA,Brazil,2017,-0.4668159
+corruption,BRA,Brazil,2018,-0.4299065
+corruption,BRA,Brazil,2019,-0.3724397
+corruption,BRA,Brazil,2020,-0.3371524
+corruption,BRA,Brazil,2021,-0.4038381
+corruption,BRA,Brazil,2022,-0.4565665
+corruption,BRA,Brazil,2023,-0.4394541
+corruption,BRA,Brazil,2024,-0.3958138
+corruption,BRA,Brazil,2025,-0.3810545
+corruption,CIV,Cote d'Ivoire,2000,-0.7451582
+corruption,CIV,Cote d'Ivoire,2002,-0.7615708
+corruption,CIV,Cote d'Ivoire,2003,-0.8801277
+corruption,CIV,Cote d'Ivoire,2004,-1.1683551
+corruption,CIV,Cote d'Ivoire,2005,-1.2692702
+corruption,CIV,Cote d'Ivoire,2006,-1.1431145
+corruption,CIV,Cote d'Ivoire,2007,-1.0549444
+corruption,CIV,Cote d'Ivoire,2008,-0.9170468
+corruption,CIV,Cote d'Ivoire,2009,-0.9150259
+corruption,CIV,Cote d'Ivoire,2010,-1.0059751
+corruption,CIV,Cote d'Ivoire,2011,-0.9575165
+corruption,CIV,Cote d'Ivoire,2012,-0.8654661
+corruption,CIV,Cote d'Ivoire,2013,-0.7822118
+corruption,CIV,Cote d'Ivoire,2014,-0.4241317
+corruption,CIV,Cote d'Ivoire,2015,-0.4289877
+corruption,CIV,Cote d'Ivoire,2016,-0.4693807
+corruption,CIV,Cote d'Ivoire,2017,-0.4714658
+corruption,CIV,Cote d'Ivoire,2018,-0.4899115
+corruption,CIV,Cote d'Ivoire,2019,-0.5284783
+corruption,CIV,Cote d'Ivoire,2020,-0.4845005
+corruption,CIV,Cote d'Ivoire,2021,-0.4398515
+corruption,CIV,Cote d'Ivoire,2022,-0.368672
+corruption,CIV,Cote d'Ivoire,2023,-0.3537289
+corruption,CIV,Cote d'Ivoire,2024,-0.2648238
+corruption,CIV,Cote d'Ivoire,2025,-0.2737636
+corruption,COL,Colombia,2000,-0.6252783
+corruption,COL,Colombia,2002,-0.235209
+corruption,COL,Colombia,2003,-0.1809985
+corruption,COL,Colombia,2004,-0.0731881
+corruption,COL,Colombia,2005,-0.0996347
+corruption,COL,Colombia,2006,-0.2038926
+corruption,COL,Colombia,2007,-0.2644655
+corruption,COL,Colombia,2008,-0.2288895
+corruption,COL,Colombia,2009,-0.2879776
+corruption,COL,Colombia,2010,-0.374115
+corruption,COL,Colombia,2011,-0.2029364
+corruption,COL,Colombia,2012,-0.4079967
+corruption,COL,Colombia,2013,-0.4406799
+corruption,COL,Colombia,2014,-0.3709047
+corruption,COL,Colombia,2015,-0.3168336
+corruption,COL,Colombia,2016,-0.3685615
+corruption,COL,Colombia,2017,-0.40964
+corruption,COL,Colombia,2018,-0.3177104
+corruption,COL,Colombia,2019,-0.2722205
+corruption,COL,Colombia,2020,-0.2565109
+corruption,COL,Colombia,2021,-0.2699708
+corruption,COL,Colombia,2022,-0.2582072
+corruption,COL,Colombia,2023,-0.2953488
+corruption,COL,Colombia,2024,-0.2821944
+corruption,COL,Colombia,2025,-0.3085373
+corruption,CRI,Costa Rica,2000,1.0274347
+corruption,CRI,Costa Rica,2002,0.4575923
+corruption,CRI,Costa Rica,2003,0.4810764
+corruption,CRI,Costa Rica,2004,0.3784914
+corruption,CRI,Costa Rica,2005,0.384039
+corruption,CRI,Costa Rica,2006,0.3962886
+corruption,CRI,Costa Rica,2007,0.4558955
+corruption,CRI,Costa Rica,2008,0.4870553
+corruption,CRI,Costa Rica,2009,0.6175267
+corruption,CRI,Costa Rica,2010,0.6988883
+corruption,CRI,Costa Rica,2011,0.6575957
+corruption,CRI,Costa Rica,2012,0.6701221
+corruption,CRI,Costa Rica,2013,0.662865
+corruption,CRI,Costa Rica,2014,0.7822671
+corruption,CRI,Costa Rica,2015,0.7720099
+corruption,CRI,Costa Rica,2016,0.804877
+corruption,CRI,Costa Rica,2017,0.5871667
+corruption,CRI,Costa Rica,2018,0.6505777
+corruption,CRI,Costa Rica,2019,0.7249257
+corruption,CRI,Costa Rica,2020,0.7561848
+corruption,CRI,Costa Rica,2021,0.5925846
+corruption,CRI,Costa Rica,2022,0.567669
+corruption,CRI,Costa Rica,2023,0.6864748
+corruption,CRI,Costa Rica,2024,0.6837128
+corruption,CRI,Costa Rica,2025,0.6939074
+corruption,DEU,Germany,2000,1.7269456
+corruption,DEU,Germany,2002,1.8106572
+corruption,DEU,Germany,2003,1.8898098
+corruption,DEU,Germany,2004,1.7943278
+corruption,DEU,Germany,2005,1.9313004
+corruption,DEU,Germany,2006,1.730151
+corruption,DEU,Germany,2007,1.6569485
+corruption,DEU,Germany,2008,1.6895598
+corruption,DEU,Germany,2009,1.6841678
+corruption,DEU,Germany,2010,1.6578235
+corruption,DEU,Germany,2011,1.670005
+corruption,DEU,Germany,2012,1.6615818
+corruption,DEU,Germany,2013,1.6274436
+corruption,DEU,Germany,2014,1.707893
+corruption,DEU,Germany,2015,1.7231126
+corruption,DEU,Germany,2016,1.7621904
+corruption,DEU,Germany,2017,1.8252854
+corruption,DEU,Germany,2018,1.918572
+corruption,DEU,Germany,2019,1.8793114
+corruption,DEU,Germany,2020,1.850218
+corruption,DEU,Germany,2021,1.8235437
+corruption,DEU,Germany,2022,1.8207548
+corruption,DEU,Germany,2023,1.7099461
+corruption,DEU,Germany,2024,1.7640033
+corruption,DEU,Germany,2025,1.6760641
+corruption,ETH,Ethiopia,2000,-0.9868992
+corruption,ETH,Ethiopia,2002,-0.7253485
+corruption,ETH,Ethiopia,2003,-0.8423423
+corruption,ETH,Ethiopia,2004,-0.7544207
+corruption,ETH,Ethiopia,2005,-0.8251641
+corruption,ETH,Ethiopia,2006,-0.531681
+corruption,ETH,Ethiopia,2007,-0.5333502
+corruption,ETH,Ethiopia,2008,-0.6316725
+corruption,ETH,Ethiopia,2009,-0.7221276
+corruption,ETH,Ethiopia,2010,-0.700356
+corruption,ETH,Ethiopia,2011,-0.6037083
+corruption,ETH,Ethiopia,2012,-0.6097112
+corruption,ETH,Ethiopia,2013,-0.5658734
+corruption,ETH,Ethiopia,2014,-0.5413722
+corruption,ETH,Ethiopia,2015,-0.5189941
+corruption,ETH,Ethiopia,2016,-0.4359149
+corruption,ETH,Ethiopia,2017,-0.5637871
+corruption,ETH,Ethiopia,2018,-0.4565508
+corruption,ETH,Ethiopia,2019,-0.4223939
+corruption,ETH,Ethiopia,2020,-0.3668006
+corruption,ETH,Ethiopia,2021,-0.3984992
+corruption,ETH,Ethiopia,2022,-0.4057683
+corruption,ETH,Ethiopia,2023,-0.4594787
+corruption,ETH,Ethiopia,2024,-0.4336116
+corruption,ETH,Ethiopia,2025,-0.3743932
+corruption,GBR,United Kingdom,2000,2.0310674
+corruption,GBR,United Kingdom,2002,1.9359213
+corruption,GBR,United Kingdom,2003,1.955553
+corruption,GBR,United Kingdom,2004,1.8357833
+corruption,GBR,United Kingdom,2005,1.9026462
+corruption,GBR,United Kingdom,2006,1.7304364
+corruption,GBR,United Kingdom,2007,1.6279964
+corruption,GBR,United Kingdom,2008,1.5733299
+corruption,GBR,United Kingdom,2009,1.3675433
+corruption,GBR,United Kingdom,2010,1.3852452
+corruption,GBR,United Kingdom,2011,1.4545942
+corruption,GBR,United Kingdom,2012,1.4886372
+corruption,GBR,United Kingdom,2013,1.5094793
+corruption,GBR,United Kingdom,2014,1.5257422
+corruption,GBR,United Kingdom,2015,1.6572067
+corruption,GBR,United Kingdom,2016,1.761319
+corruption,GBR,United Kingdom,2017,1.8208702
+corruption,GBR,United Kingdom,2018,1.8099661
+corruption,GBR,United Kingdom,2019,1.7737889
+corruption,GBR,United Kingdom,2020,1.7290139
+corruption,GBR,United Kingdom,2021,1.6749661
+corruption,GBR,United Kingdom,2022,1.6365644
+corruption,GBR,United Kingdom,2023,1.4805907
+corruption,GBR,United Kingdom,2024,1.4805913
+corruption,GBR,United Kingdom,2025,1.5306459
+corruption,GHA,Ghana,2000,-0.0152595
+corruption,GHA,Ghana,2002,-0.2488287
+corruption,GHA,Ghana,2003,-0.2757597
+corruption,GHA,Ghana,2004,-0.3073835
+corruption,GHA,Ghana,2005,-0.4094552
+corruption,GHA,Ghana,2006,-0.1000049
+corruption,GHA,Ghana,2007,-0.0806843
+corruption,GHA,Ghana,2008,-0.0746785
+corruption,GHA,Ghana,2009,-0.0041727
+corruption,GHA,Ghana,2010,0.080568
+corruption,GHA,Ghana,2011,0.0775856
+corruption,GHA,Ghana,2012,-0.0627676
+corruption,GHA,Ghana,2013,-0.0666685
+corruption,GHA,Ghana,2014,-0.2130848
+corruption,GHA,Ghana,2015,-0.2704245
+corruption,GHA,Ghana,2016,-0.2413877
+corruption,GHA,Ghana,2017,-0.2751019
+corruption,GHA,Ghana,2018,-0.1388151
+corruption,GHA,Ghana,2019,-0.1048975
+corruption,GHA,Ghana,2020,-0.0975437
+corruption,GHA,Ghana,2021,-0.1608253
+corruption,GHA,Ghana,2022,-0.0940125
+corruption,GHA,Ghana,2023,-0.1264414
+corruption,GHA,Ghana,2024,-0.1998999
+corruption,GHA,Ghana,2025,-0.1114278
+corruption,GTM,Guatemala,2000,-0.5652339
+corruption,GTM,Guatemala,2002,-0.8048583
+corruption,GTM,Guatemala,2003,-0.8156694
+corruption,GTM,Guatemala,2004,-0.5966525
+corruption,GTM,Guatemala,2005,-0.6413675
+corruption,GTM,Guatemala,2006,-0.6492201
+corruption,GTM,Guatemala,2007,-0.6146846
+corruption,GTM,Guatemala,2008,-0.4609866
+corruption,GTM,Guatemala,2009,-0.5125045
+corruption,GTM,Guatemala,2010,-0.6211413
+corruption,GTM,Guatemala,2011,-0.5498391
+corruption,GTM,Guatemala,2012,-0.7983427
+corruption,GTM,Guatemala,2013,-0.7476795
+corruption,GTM,Guatemala,2014,-0.9023514
+corruption,GTM,Guatemala,2015,-0.9065097
+corruption,GTM,Guatemala,2016,-0.8561844
+corruption,GTM,Guatemala,2017,-0.883105
+corruption,GTM,Guatemala,2018,-0.9918056
+corruption,GTM,Guatemala,2019,-1.004261
+corruption,GTM,Guatemala,2020,-1.0995648
+corruption,GTM,Guatemala,2021,-1.2168085
+corruption,GTM,Guatemala,2022,-1.2168395
+corruption,GTM,Guatemala,2023,-1.0698538
+corruption,GTM,Guatemala,2024,-0.9263527
+corruption,GTM,Guatemala,2025,-0.9236983
+corruption,HND,Honduras,2000,-1.0462278
+corruption,HND,Honduras,2002,-1.1131688
+corruption,HND,Honduras,2003,-1.0411724
+corruption,HND,Honduras,2004,-0.9916669
+corruption,HND,Honduras,2005,-0.9479109
+corruption,HND,Honduras,2006,-0.9363851
+corruption,HND,Honduras,2007,-0.9282596
+corruption,HND,Honduras,2008,-0.942055
+corruption,HND,Honduras,2009,-1.0004911
+corruption,HND,Honduras,2010,-1.0017264
+corruption,HND,Honduras,2011,-0.9702586
+corruption,HND,Honduras,2012,-1.1087189
+corruption,HND,Honduras,2013,-1.1195446
+corruption,HND,Honduras,2014,-0.9717555
+corruption,HND,Honduras,2015,-0.8106484
+corruption,HND,Honduras,2016,-0.9218737
+corruption,HND,Honduras,2017,-0.9456334
+corruption,HND,Honduras,2018,-0.9687891
+corruption,HND,Honduras,2019,-1.0579519
+corruption,HND,Honduras,2020,-1.0259263
+corruption,HND,Honduras,2021,-1.1182024
+corruption,HND,Honduras,2022,-1.0301567
+corruption,HND,Honduras,2023,-1.0846771
+corruption,HND,Honduras,2024,-1.231834
+corruption,HND,Honduras,2025,-1.2468331
+corruption,HUN,Hungary,2000,0.7777458
+corruption,HUN,Hungary,2002,0.5685138
+corruption,HUN,Hungary,2003,0.5706677
+corruption,HUN,Hungary,2004,0.6162042
+corruption,HUN,Hungary,2005,0.6135649
+corruption,HUN,Hungary,2006,0.6130766
+corruption,HUN,Hungary,2007,0.541366
+corruption,HUN,Hungary,2008,0.4329641
+corruption,HUN,Hungary,2009,0.3917948
+corruption,HUN,Hungary,2010,0.2574539
+corruption,HUN,Hungary,2011,0.3069892
+corruption,HUN,Hungary,2012,0.391503
+corruption,HUN,Hungary,2013,0.3680423
+corruption,HUN,Hungary,2014,0.1735349
+corruption,HUN,Hungary,2015,0.1736322
+corruption,HUN,Hungary,2016,0.1580098
+corruption,HUN,Hungary,2017,0.1653691
+corruption,HUN,Hungary,2018,0.1513899
+corruption,HUN,Hungary,2019,0.0962625
+corruption,HUN,Hungary,2020,0.0871414
+corruption,HUN,Hungary,2021,0.1486079
+corruption,HUN,Hungary,2022,0.0578022
+corruption,HUN,Hungary,2023,0.0978327
+corruption,HUN,Hungary,2024,0.0447948
+corruption,HUN,Hungary,2025,0.0021422
+corruption,JOR,Jordan,2000,0.2342999
+corruption,JOR,Jordan,2002,-0.0082499
+corruption,JOR,Jordan,2003,0.2924469
+corruption,JOR,Jordan,2004,0.0639486
+corruption,JOR,Jordan,2005,0.0602651
+corruption,JOR,Jordan,2006,0.0854739
+corruption,JOR,Jordan,2007,0.1021629
+corruption,JOR,Jordan,2008,0.23883
+corruption,JOR,Jordan,2009,0.0875174
+corruption,JOR,Jordan,2010,0.0263947
+corruption,JOR,Jordan,2011,0.152561
+corruption,JOR,Jordan,2012,0.1111042
+corruption,JOR,Jordan,2013,0.1157896
+corruption,JOR,Jordan,2014,0.1128385
+corruption,JOR,Jordan,2015,0.2642953
+corruption,JOR,Jordan,2016,0.2005396
+corruption,JOR,Jordan,2017,0.1774349
+corruption,JOR,Jordan,2018,0.0715861
+corruption,JOR,Jordan,2019,0.0864921
+corruption,JOR,Jordan,2020,0.1402343
+corruption,JOR,Jordan,2021,0.0147557
+corruption,JOR,Jordan,2022,0.0172511
+corruption,JOR,Jordan,2023,0.1042953
+corruption,JOR,Jordan,2024,0.2728714
+corruption,JOR,Jordan,2025,0.303263
+corruption,KEN,Kenya,2000,-0.9778085
+corruption,KEN,Kenya,2002,-0.9777392
+corruption,KEN,Kenya,2003,-0.7202005
+corruption,KEN,Kenya,2004,-0.8764736
+corruption,KEN,Kenya,2005,-1.0281948
+corruption,KEN,Kenya,2006,-0.9276255
+corruption,KEN,Kenya,2007,-0.9415551
+corruption,KEN,Kenya,2008,-1.0348876
+corruption,KEN,Kenya,2009,-1.0916299
+corruption,KEN,Kenya,2010,-0.8336636
+corruption,KEN,Kenya,2011,-0.9324966
+corruption,KEN,Kenya,2012,-0.9752473
+corruption,KEN,Kenya,2013,-0.9344245
+corruption,KEN,Kenya,2014,-0.8556803
+corruption,KEN,Kenya,2015,-0.9754075
+corruption,KEN,Kenya,2016,-0.9099853
+corruption,KEN,Kenya,2017,-0.9032092
+corruption,KEN,Kenya,2018,-0.8389528
+corruption,KEN,Kenya,2019,-0.8024879
+corruption,KEN,Kenya,2020,-0.7425837
+corruption,KEN,Kenya,2021,-0.7087751
+corruption,KEN,Kenya,2022,-0.7506211
+corruption,KEN,Kenya,2023,-0.7463243
+corruption,KEN,Kenya,2024,-0.7918911
+corruption,KEN,Kenya,2025,-0.8551308
+corruption,MEX,Mexico,2000,-0.0528131
+corruption,MEX,Mexico,2002,-0.3286603
+corruption,MEX,Mexico,2003,-0.3277092
+corruption,MEX,Mexico,2004,-0.4598634
+corruption,MEX,Mexico,2005,-0.4360003
+corruption,MEX,Mexico,2006,-0.3413474
+corruption,MEX,Mexico,2007,-0.405634
+corruption,MEX,Mexico,2008,-0.3899818
+corruption,MEX,Mexico,2009,-0.3161464
+corruption,MEX,Mexico,2010,-0.3823777
+corruption,MEX,Mexico,2011,-0.4246397
+corruption,MEX,Mexico,2012,-0.4872013
+corruption,MEX,Mexico,2013,-0.5629754
+corruption,MEX,Mexico,2014,-0.7907342
+corruption,MEX,Mexico,2015,-0.8427141
+corruption,MEX,Mexico,2016,-0.8093964
+corruption,MEX,Mexico,2017,-0.9494821
+corruption,MEX,Mexico,2018,-0.961137
+corruption,MEX,Mexico,2019,-0.8924061
+corruption,MEX,Mexico,2020,-0.8568578
+corruption,MEX,Mexico,2021,-0.8747726
+corruption,MEX,Mexico,2022,-0.8785122
+corruption,MEX,Mexico,2023,-0.9210263
+corruption,MEX,Mexico,2024,-0.9251219
+corruption,MEX,Mexico,2025,-0.942445
+corruption,NGA,Nigeria,2000,-1.4333395
+corruption,NGA,Nigeria,2002,-1.6797362
+corruption,NGA,Nigeria,2003,-1.4921653
+corruption,NGA,Nigeria,2004,-1.3774268
+corruption,NGA,Nigeria,2005,-1.2696833
+corruption,NGA,Nigeria,2006,-1.1774876
+corruption,NGA,Nigeria,2007,-1.1456416
+corruption,NGA,Nigeria,2008,-1.0216741
+corruption,NGA,Nigeria,2009,-1.0493139
+corruption,NGA,Nigeria,2010,-1.1109295
+corruption,NGA,Nigeria,2011,-1.1319981
+corruption,NGA,Nigeria,2012,-1.1558203
+corruption,NGA,Nigeria,2013,-1.1950877
+corruption,NGA,Nigeria,2014,-1.3067623
+corruption,NGA,Nigeria,2015,-1.1542066
+corruption,NGA,Nigeria,2016,-1.0834629
+corruption,NGA,Nigeria,2017,-1.1367833
+corruption,NGA,Nigeria,2018,-1.1375157
+corruption,NGA,Nigeria,2019,-1.1467589
+corruption,NGA,Nigeria,2020,-1.1232238
+corruption,NGA,Nigeria,2021,-1.1968924
+corruption,NGA,Nigeria,2022,-1.2197566
+corruption,NGA,Nigeria,2023,-1.0867458
+corruption,NGA,Nigeria,2024,-1.1142732
+corruption,NGA,Nigeria,2025,-1.0679334
+corruption,POL,Poland,2000,0.4994116
+corruption,POL,Poland,2002,0.3516395
+corruption,POL,Poland,2003,0.368509
+corruption,POL,Poland,2004,0.1193365
+corruption,POL,Poland,2005,0.2598665
+corruption,POL,Poland,2006,0.3331713
+corruption,POL,Poland,2007,0.3266784
+corruption,POL,Poland,2008,0.4310236
+corruption,POL,Poland,2009,0.5836359
+corruption,POL,Poland,2010,0.6527947
+corruption,POL,Poland,2011,0.7724308
+corruption,POL,Poland,2012,0.8237924
+corruption,POL,Poland,2013,0.820416
+corruption,POL,Poland,2014,0.7903089
+corruption,POL,Poland,2015,0.8535735
+corruption,POL,Poland,2016,0.888334
+corruption,POL,Poland,2017,0.8447402
+corruption,POL,Poland,2018,0.7835291
+corruption,POL,Poland,2019,0.7241917
+corruption,POL,Poland,2020,0.7336926
+corruption,POL,Poland,2021,0.6976298
+corruption,POL,Poland,2022,0.677468
+corruption,POL,Poland,2023,0.7436184
+corruption,POL,Poland,2024,0.7944766
+corruption,POL,Poland,2025,0.8484408
+corruption,ROU,Romania,2000,-0.5570178
+corruption,ROU,Romania,2002,-0.5646533
+corruption,ROU,Romania,2003,-0.5520686
+corruption,ROU,Romania,2004,-0.3257392
+corruption,ROU,Romania,2005,-0.3488705
+corruption,ROU,Romania,2006,-0.2500293
+corruption,ROU,Romania,2007,-0.3307832
+corruption,ROU,Romania,2008,-0.2914815
+corruption,ROU,Romania,2009,-0.3214785
+corruption,ROU,Romania,2010,-0.2885324
+corruption,ROU,Romania,2011,-0.173623
+corruption,ROU,Romania,2012,-0.3531029
+corruption,ROU,Romania,2013,-0.2744415
+corruption,ROU,Romania,2014,-0.2363106
+corruption,ROU,Romania,2015,-0.1045537
+corruption,ROU,Romania,2016,-0.0762059
+corruption,ROU,Romania,2017,-0.0534773
+corruption,ROU,Romania,2018,-0.1669954
+corruption,ROU,Romania,2019,-0.1186712
+corruption,ROU,Romania,2020,-0.1311528
+corruption,ROU,Romania,2021,0.0195541
+corruption,ROU,Romania,2022,0.0736519
+corruption,ROU,Romania,2023,0.08069
+corruption,ROU,Romania,2024,-0.0007575
+corruption,ROU,Romania,2025,-0.0025843
+corruption,SAU,Saudi Arabia,2000,-0.3877075
+corruption,SAU,Saudi Arabia,2002,-0.0437475
+corruption,SAU,Saudi Arabia,2003,-0.2775955
+corruption,SAU,Saudi Arabia,2004,-0.4816666
+corruption,SAU,Saudi Arabia,2005,-0.4057189
+corruption,SAU,Saudi Arabia,2006,-0.3293778
+corruption,SAU,Saudi Arabia,2007,-0.3253357
+corruption,SAU,Saudi Arabia,2008,-0.2055938
+corruption,SAU,Saudi Arabia,2009,-0.2638541
+corruption,SAU,Saudi Arabia,2010,-0.1240335
+corruption,SAU,Saudi Arabia,2011,-0.2156545
+corruption,SAU,Saudi Arabia,2012,-0.1204938
+corruption,SAU,Saudi Arabia,2013,-0.1026
+corruption,SAU,Saudi Arabia,2014,-0.1777259
+corruption,SAU,Saudi Arabia,2015,-0.1440797
+corruption,SAU,Saudi Arabia,2016,0.1140279
+corruption,SAU,Saudi Arabia,2017,0.1041828
+corruption,SAU,Saudi Arabia,2018,0.1494341
+corruption,SAU,Saudi Arabia,2019,0.2066026
+corruption,SAU,Saudi Arabia,2020,0.31569
+corruption,SAU,Saudi Arabia,2021,0.2311585
+corruption,SAU,Saudi Arabia,2022,0.3013417
+corruption,SAU,Saudi Arabia,2023,0.4697294
+corruption,SAU,Saudi Arabia,2024,0.7475804
+corruption,SAU,Saudi Arabia,2025,0.8055716
+corruption,SEN,Senegal,2000,0.1504222
+corruption,SEN,Senegal,2002,0.4248188
+corruption,SEN,Senegal,2003,-0.1160362
+corruption,SEN,Senegal,2004,-0.1183539
+corruption,SEN,Senegal,2005,-0.1683649
+corruption,SEN,Senegal,2006,-0.2791969
+corruption,SEN,Senegal,2007,-0.3511147
+corruption,SEN,Senegal,2008,-0.3599429
+corruption,SEN,Senegal,2009,-0.4323683
+corruption,SEN,Senegal,2010,-0.5475886
+corruption,SEN,Senegal,2011,-0.4143394
+corruption,SEN,Senegal,2012,-0.2646799
+corruption,SEN,Senegal,2013,-0.2242482
+corruption,SEN,Senegal,2014,0.0603445
+corruption,SEN,Senegal,2015,0.0762023
+corruption,SEN,Senegal,2016,0.0269466
+corruption,SEN,Senegal,2017,-0.029002
+corruption,SEN,Senegal,2018,0.0162908
+corruption,SEN,Senegal,2019,0.0149024
+corruption,SEN,Senegal,2020,-0.0154181
+corruption,SEN,Senegal,2021,0.0380367
+corruption,SEN,Senegal,2022,0.0166694
+corruption,SEN,Senegal,2023,0.0456548
+corruption,SEN,Senegal,2024,0.1263668
+corruption,SEN,Senegal,2025,0.1501107
+corruption,SLV,El Salvador,2000,-0.7205994
+corruption,SLV,El Salvador,2002,-0.7304572
+corruption,SLV,El Salvador,2003,-0.5531576
+corruption,SLV,El Salvador,2004,-0.3867758
+corruption,SLV,El Salvador,2005,-0.4269884
+corruption,SLV,El Salvador,2006,-0.3800738
+corruption,SLV,El Salvador,2007,-0.4163748
+corruption,SLV,El Salvador,2008,-0.4121328
+corruption,SLV,El Salvador,2009,-0.2531924
+corruption,SLV,El Salvador,2010,-0.2559847
+corruption,SLV,El Salvador,2011,-0.16565
+corruption,SLV,El Salvador,2012,-0.4167554
+corruption,SLV,El Salvador,2013,-0.347763
+corruption,SLV,El Salvador,2014,-0.4845949
+corruption,SLV,El Salvador,2015,-0.5225999
+corruption,SLV,El Salvador,2016,-0.5615252
+corruption,SLV,El Salvador,2017,-0.5267558
+corruption,SLV,El Salvador,2018,-0.5790466
+corruption,SLV,El Salvador,2019,-0.5203914
+corruption,SLV,El Salvador,2020,-0.510655
+corruption,SLV,El Salvador,2021,-0.5612368
+corruption,SLV,El Salvador,2022,-0.6810026
+corruption,SLV,El Salvador,2023,-0.5905127
+corruption,SLV,El Salvador,2024,-0.5594597
+corruption,SLV,El Salvador,2025,-0.5474049
+corruption,TUR,Turkiye,2000,-0.356927
+corruption,TUR,Turkiye,2002,-0.3577583
+corruption,TUR,Turkiye,2003,-0.1586157
+corruption,TUR,Turkiye,2004,-0.1584944
+corruption,TUR,Turkiye,2005,-0.0651203
+corruption,TUR,Turkiye,2006,0.0564039
+corruption,TUR,Turkiye,2007,0.0812563
+corruption,TUR,Turkiye,2008,0.0560314
+corruption,TUR,Turkiye,2009,0.0380699
+corruption,TUR,Turkiye,2010,0.0560432
+corruption,TUR,Turkiye,2011,0.0521396
+corruption,TUR,Turkiye,2012,0.1627752
+corruption,TUR,Turkiye,2013,0.1458971
+corruption,TUR,Turkiye,2014,-0.1354284
+corruption,TUR,Turkiye,2015,-0.1335672
+corruption,TUR,Turkiye,2016,-0.1119166
+corruption,TUR,Turkiye,2017,-0.0937917
+corruption,TUR,Turkiye,2018,-0.2349292
+corruption,TUR,Turkiye,2019,-0.1848387
+corruption,TUR,Turkiye,2020,-0.3275191
+corruption,TUR,Turkiye,2021,-0.402684
+corruption,TUR,Turkiye,2022,-0.4364161
+corruption,TUR,Turkiye,2023,-0.4274348
+corruption,TUR,Turkiye,2024,-0.5557808
+corruption,TUR,Turkiye,2025,-0.5280827
+corruption,TZA,Tanzania,2000,-0.7257718
+corruption,TZA,Tanzania,2002,-0.7284495
+corruption,TZA,Tanzania,2003,-0.6910535
+corruption,TZA,Tanzania,2004,-0.581913
+corruption,TZA,Tanzania,2005,-0.6551751
+corruption,TZA,Tanzania,2006,-0.1980411
+corruption,TZA,Tanzania,2007,-0.2944144
+corruption,TZA,Tanzania,2008,-0.3411627
+corruption,TZA,Tanzania,2009,-0.3691044
+corruption,TZA,Tanzania,2010,-0.4896299
+corruption,TZA,Tanzania,2011,-0.5101204
+corruption,TZA,Tanzania,2012,-0.6093655
+corruption,TZA,Tanzania,2013,-0.6748329
+corruption,TZA,Tanzania,2014,-0.6402683
+corruption,TZA,Tanzania,2015,-0.5858287
+corruption,TZA,Tanzania,2016,-0.4379755
+corruption,TZA,Tanzania,2017,-0.3582731
+corruption,TZA,Tanzania,2018,-0.3476867
+corruption,TZA,Tanzania,2019,-0.3033336
+corruption,TZA,Tanzania,2020,-0.2744294
+corruption,TZA,Tanzania,2021,-0.3574141
+corruption,TZA,Tanzania,2022,-0.3658779
+corruption,TZA,Tanzania,2023,-0.3526308
+corruption,TZA,Tanzania,2024,-0.3115302
+corruption,TZA,Tanzania,2025,-0.3339407
+corruption,UGA,Uganda,2000,-1.1318031
+corruption,UGA,Uganda,2002,-1.1212238
+corruption,UGA,Uganda,2003,-1.0668426
+corruption,UGA,Uganda,2004,-0.8129676
+corruption,UGA,Uganda,2005,-0.886235
+corruption,UGA,Uganda,2006,-0.6315887
+corruption,UGA,Uganda,2007,-0.7040178
+corruption,UGA,Uganda,2008,-0.6970583
+corruption,UGA,Uganda,2009,-0.7496647
+corruption,UGA,Uganda,2010,-0.7511181
+corruption,UGA,Uganda,2011,-0.8183554
+corruption,UGA,Uganda,2012,-0.9067187
+corruption,UGA,Uganda,2013,-0.9601041
+corruption,UGA,Uganda,2014,-1.0161097
+corruption,UGA,Uganda,2015,-1.0213902
+corruption,UGA,Uganda,2016,-1.0031853
+corruption,UGA,Uganda,2017,-1.0200377
+corruption,UGA,Uganda,2018,-1.0327898
+corruption,UGA,Uganda,2019,-1.1166867
+corruption,UGA,Uganda,2020,-0.9503432
+corruption,UGA,Uganda,2021,-0.945783
+corruption,UGA,Uganda,2022,-0.9959462
+corruption,UGA,Uganda,2023,-1.0004771
+corruption,UGA,Uganda,2024,-1.1204013
+corruption,UGA,Uganda,2025,-1.105076
+corruption,UKR,Ukraine,2000,-1.2196907
+corruption,UKR,Ukraine,2002,-1.3120137
+corruption,UKR,Ukraine,2003,-1.3376692
+corruption,UKR,Ukraine,2004,-1.1110064
+corruption,UKR,Ukraine,2005,-0.9215813
+corruption,UKR,Ukraine,2006,-0.9075454
+corruption,UKR,Ukraine,2007,-0.9515866
+corruption,UKR,Ukraine,2008,-0.9761969
+corruption,UKR,Ukraine,2009,-1.0906055
+corruption,UKR,Ukraine,2010,-1.12198
+corruption,UKR,Ukraine,2011,-1.1260237
+corruption,UKR,Ukraine,2012,-1.2153183
+corruption,UKR,Ukraine,2013,-1.2100539
+corruption,UKR,Ukraine,2014,-1.0576644
+corruption,UKR,Ukraine,2015,-1.0498954
+corruption,UKR,Ukraine,2016,-1.0005196
+corruption,UKR,Ukraine,2017,-0.9381937
+corruption,UKR,Ukraine,2018,-0.9926663
+corruption,UKR,Ukraine,2019,-0.7875048
+corruption,UKR,Ukraine,2020,-0.835821
+corruption,UKR,Ukraine,2021,-0.8085784
+corruption,UKR,Ukraine,2022,-0.6889365
+corruption,UKR,Ukraine,2023,-0.7263766
+corruption,UKR,Ukraine,2024,-0.6839975
+corruption,UKR,Ukraine,2025,-0.6909385
+corruption,USA,United States,2000,1.565072
+corruption,USA,United States,2002,1.823314
+corruption,USA,United States,2003,1.5258481
+corruption,USA,United States,2004,1.6159449
+corruption,USA,United States,2005,1.4888957
+corruption,USA,United States,2006,1.2954811
+corruption,USA,United States,2007,1.2362069
+corruption,USA,United States,2008,1.3236329
+corruption,USA,United States,2009,1.1509279
+corruption,USA,United States,2010,1.1591288
+corruption,USA,United States,2011,1.2714401
+corruption,USA,United States,2012,1.2641547
+corruption,USA,United States,2013,1.1802233
+corruption,USA,United States,2014,1.2400591
+corruption,USA,United States,2015,1.2371186
+corruption,USA,United States,2016,1.2343216
+corruption,USA,United States,2017,1.3055781
+corruption,USA,United States,2018,1.2630214
+corruption,USA,United States,2019,1.17362
+corruption,USA,United States,2020,1.1253726
+corruption,USA,United States,2021,1.1264247
+corruption,USA,United States,2022,1.2017362
+corruption,USA,United States,2023,1.1902343
+corruption,USA,United States,2024,1.0793605
+corruption,USA,United States,2025,0.8652136
 current_acct,ARE,United Arab Emirates,2023,13.929197214669
 current_acct,ARE,United Arab Emirates,2024,15.7260704928542
 current_acct,ARG,Argentina,2000,-3.15992237703676
@@ -4395,6 +5070,681 @@ pm25,USA,United States,2020,7.73512626395484
 pm25,USA,United States,2021,8.231389869812
 pm25,USA,United States,2022,7.4282378905124
 pm25,USA,United States,2023,6.96804491055748
+regulatory,ARE,United Arab Emirates,2000,0.600281
+regulatory,ARE,United Arab Emirates,2002,1.0976829
+regulatory,ARE,United Arab Emirates,2003,1.0210697
+regulatory,ARE,United Arab Emirates,2004,0.6340305
+regulatory,ARE,United Arab Emirates,2005,0.5387921
+regulatory,ARE,United Arab Emirates,2006,0.6858384
+regulatory,ARE,United Arab Emirates,2007,0.7072042
+regulatory,ARE,United Arab Emirates,2008,0.7926593
+regulatory,ARE,United Arab Emirates,2009,0.7686576
+regulatory,ARE,United Arab Emirates,2010,0.7036058
+regulatory,ARE,United Arab Emirates,2011,0.8184804
+regulatory,ARE,United Arab Emirates,2012,0.7762081
+regulatory,ARE,United Arab Emirates,2013,0.8980655
+regulatory,ARE,United Arab Emirates,2014,0.9883363
+regulatory,ARE,United Arab Emirates,2015,1.1194082
+regulatory,ARE,United Arab Emirates,2016,1.0241252
+regulatory,ARE,United Arab Emirates,2017,1.0541258
+regulatory,ARE,United Arab Emirates,2018,1.0188275
+regulatory,ARE,United Arab Emirates,2019,1.093228
+regulatory,ARE,United Arab Emirates,2020,1.0104998
+regulatory,ARE,United Arab Emirates,2021,1.0134645
+regulatory,ARE,United Arab Emirates,2022,1.0099229
+regulatory,ARE,United Arab Emirates,2023,1.0693514
+regulatory,ARE,United Arab Emirates,2024,1.0889345
+regulatory,ARE,United Arab Emirates,2025,1.1742823
+regulatory,ARG,Argentina,2000,-0.0402735
+regulatory,ARG,Argentina,2002,-0.9059894
+regulatory,ARG,Argentina,2003,-0.7985342
+regulatory,ARG,Argentina,2004,-0.6389311
+regulatory,ARG,Argentina,2005,-0.5770603
+regulatory,ARG,Argentina,2006,-0.6313201
+regulatory,ARG,Argentina,2007,-0.6332502
+regulatory,ARG,Argentina,2008,-0.6417301
+regulatory,ARG,Argentina,2009,-0.7459783
+regulatory,ARG,Argentina,2010,-0.7210141
+regulatory,ARG,Argentina,2011,-0.6846549
+regulatory,ARG,Argentina,2012,-0.8159461
+regulatory,ARG,Argentina,2013,-0.8203438
+regulatory,ARG,Argentina,2014,-0.9850009
+regulatory,ARG,Argentina,2015,-0.7942927
+regulatory,ARG,Argentina,2016,-0.2294909
+regulatory,ARG,Argentina,2017,-0.0841939
+regulatory,ARG,Argentina,2018,-0.1348354
+regulatory,ARG,Argentina,2019,-0.4039783
+regulatory,ARG,Argentina,2020,-0.4978994
+regulatory,ARG,Argentina,2021,-0.5223176
+regulatory,ARG,Argentina,2022,-0.5186581
+regulatory,ARG,Argentina,2023,-0.487365
+regulatory,ARG,Argentina,2024,-0.2400427
+regulatory,ARG,Argentina,2025,-0.093359
+regulatory,BRA,Brazil,2000,0.1204362
+regulatory,BRA,Brazil,2002,0.0925192
+regulatory,BRA,Brazil,2003,0.1988144
+regulatory,BRA,Brazil,2004,0.0641762
+regulatory,BRA,Brazil,2005,0.1208838
+regulatory,BRA,Brazil,2006,0.0245336
+regulatory,BRA,Brazil,2007,-0.0191161
+regulatory,BRA,Brazil,2008,0.1744905
+regulatory,BRA,Brazil,2009,0.1723282
+regulatory,BRA,Brazil,2010,0.216413
+regulatory,BRA,Brazil,2011,0.1931333
+regulatory,BRA,Brazil,2012,0.1958017
+regulatory,BRA,Brazil,2013,0.1486036
+regulatory,BRA,Brazil,2014,0.0004755
+regulatory,BRA,Brazil,2015,-0.0618638
+regulatory,BRA,Brazil,2016,-0.0690733
+regulatory,BRA,Brazil,2017,-0.076908
+regulatory,BRA,Brazil,2018,-0.2113431
+regulatory,BRA,Brazil,2019,-0.0738371
+regulatory,BRA,Brazil,2020,-0.1224856
+regulatory,BRA,Brazil,2021,-0.1226409
+regulatory,BRA,Brazil,2022,-0.1677479
+regulatory,BRA,Brazil,2023,-0.3172263
+regulatory,BRA,Brazil,2024,-0.3825789
+regulatory,BRA,Brazil,2025,-0.44189
+regulatory,CIV,Cote d'Ivoire,2000,-1.1256838
+regulatory,CIV,Cote d'Ivoire,2002,-0.6019002
+regulatory,CIV,Cote d'Ivoire,2003,-0.6784736
+regulatory,CIV,Cote d'Ivoire,2004,-1.1596427
+regulatory,CIV,Cote d'Ivoire,2005,-1.1115511
+regulatory,CIV,Cote d'Ivoire,2006,-0.9576918
+regulatory,CIV,Cote d'Ivoire,2007,-0.9750578
+regulatory,CIV,Cote d'Ivoire,2008,-0.9417214
+regulatory,CIV,Cote d'Ivoire,2009,-0.906768
+regulatory,CIV,Cote d'Ivoire,2010,-0.9543104
+regulatory,CIV,Cote d'Ivoire,2011,-0.9398114
+regulatory,CIV,Cote d'Ivoire,2012,-0.8007106
+regulatory,CIV,Cote d'Ivoire,2013,-0.7128024
+regulatory,CIV,Cote d'Ivoire,2014,-0.5506334
+regulatory,CIV,Cote d'Ivoire,2015,-0.4544885
+regulatory,CIV,Cote d'Ivoire,2016,-0.4469759
+regulatory,CIV,Cote d'Ivoire,2017,-0.4107069
+regulatory,CIV,Cote d'Ivoire,2018,-0.3030327
+regulatory,CIV,Cote d'Ivoire,2019,-0.3179975
+regulatory,CIV,Cote d'Ivoire,2020,-0.3240704
+regulatory,CIV,Cote d'Ivoire,2021,-0.2893898
+regulatory,CIV,Cote d'Ivoire,2022,-0.2131312
+regulatory,CIV,Cote d'Ivoire,2023,-0.1739143
+regulatory,CIV,Cote d'Ivoire,2024,-0.1500272
+regulatory,CIV,Cote d'Ivoire,2025,-0.1670207
+regulatory,COL,Colombia,2000,-0.1399555
+regulatory,COL,Colombia,2002,-0.027151
+regulatory,COL,Colombia,2003,-0.0146587
+regulatory,COL,Colombia,2004,-0.0504013
+regulatory,COL,Colombia,2005,0.0619204
+regulatory,COL,Colombia,2006,0.1156526
+regulatory,COL,Colombia,2007,0.1446112
+regulatory,COL,Colombia,2008,0.257142
+regulatory,COL,Colombia,2009,0.1059297
+regulatory,COL,Colombia,2010,0.1052822
+regulatory,COL,Colombia,2011,0.2639046
+regulatory,COL,Colombia,2012,0.2948891
+regulatory,COL,Colombia,2013,0.291792
+regulatory,COL,Colombia,2014,0.331834
+regulatory,COL,Colombia,2015,0.3549593
+regulatory,COL,Colombia,2016,0.3196241
+regulatory,COL,Colombia,2017,0.227566
+regulatory,COL,Colombia,2018,0.1765334
+regulatory,COL,Colombia,2019,0.3029486
+regulatory,COL,Colombia,2020,0.2329804
+regulatory,COL,Colombia,2021,0.3081173
+regulatory,COL,Colombia,2022,0.2481942
+regulatory,COL,Colombia,2023,0.1954034
+regulatory,COL,Colombia,2024,0.0744702
+regulatory,COL,Colombia,2025,-0.1973526
+regulatory,CRI,Costa Rica,2000,0.7788766
+regulatory,CRI,Costa Rica,2002,0.3729911
+regulatory,CRI,Costa Rica,2003,0.4245974
+regulatory,CRI,Costa Rica,2004,0.6058427
+regulatory,CRI,Costa Rica,2005,0.7037842
+regulatory,CRI,Costa Rica,2006,0.5863697
+regulatory,CRI,Costa Rica,2007,0.6190131
+regulatory,CRI,Costa Rica,2008,0.7624653
+regulatory,CRI,Costa Rica,2009,0.7495636
+regulatory,CRI,Costa Rica,2010,0.6358428
+regulatory,CRI,Costa Rica,2011,0.5891619
+regulatory,CRI,Costa Rica,2012,0.7012208
+regulatory,CRI,Costa Rica,2013,0.7555949
+regulatory,CRI,Costa Rica,2014,0.5648134
+regulatory,CRI,Costa Rica,2015,0.6372383
+regulatory,CRI,Costa Rica,2016,0.6769634
+regulatory,CRI,Costa Rica,2017,0.5819467
+regulatory,CRI,Costa Rica,2018,0.6899639
+regulatory,CRI,Costa Rica,2019,0.7005752
+regulatory,CRI,Costa Rica,2020,0.5780707
+regulatory,CRI,Costa Rica,2021,0.5983084
+regulatory,CRI,Costa Rica,2022,0.6299695
+regulatory,CRI,Costa Rica,2023,0.5011563
+regulatory,CRI,Costa Rica,2024,0.5214121
+regulatory,CRI,Costa Rica,2025,0.5381328
+regulatory,DEU,Germany,2000,1.6259917
+regulatory,DEU,Germany,2002,1.7231093
+regulatory,DEU,Germany,2003,1.554141
+regulatory,DEU,Germany,2004,1.483483
+regulatory,DEU,Germany,2005,1.5310752
+regulatory,DEU,Germany,2006,1.5287522
+regulatory,DEU,Germany,2007,1.5424028
+regulatory,DEU,Germany,2008,1.3911437
+regulatory,DEU,Germany,2009,1.4337663
+regulatory,DEU,Germany,2010,1.4479305
+regulatory,DEU,Germany,2011,1.4845258
+regulatory,DEU,Germany,2012,1.4903188
+regulatory,DEU,Germany,2013,1.4703219
+regulatory,DEU,Germany,2014,1.5423873
+regulatory,DEU,Germany,2015,1.6168933
+regulatory,DEU,Germany,2016,1.6580651
+regulatory,DEU,Germany,2017,1.6590124
+regulatory,DEU,Germany,2018,1.6474197
+regulatory,DEU,Germany,2019,1.6365073
+regulatory,DEU,Germany,2020,1.5480703
+regulatory,DEU,Germany,2021,1.5934764
+regulatory,DEU,Germany,2022,1.5342425
+regulatory,DEU,Germany,2023,1.3723805
+regulatory,DEU,Germany,2024,1.3539442
+regulatory,DEU,Germany,2025,1.2160052
+regulatory,ETH,Ethiopia,2000,-1.3002912
+regulatory,ETH,Ethiopia,2002,-1.4369203
+regulatory,ETH,Ethiopia,2003,-1.3708781
+regulatory,ETH,Ethiopia,2004,-0.9642701
+regulatory,ETH,Ethiopia,2005,-0.9606803
+regulatory,ETH,Ethiopia,2006,-0.8202797
+regulatory,ETH,Ethiopia,2007,-0.7631582
+regulatory,ETH,Ethiopia,2008,-0.7140352
+regulatory,ETH,Ethiopia,2009,-0.7830035
+regulatory,ETH,Ethiopia,2010,-0.7288822
+regulatory,ETH,Ethiopia,2011,-0.8649325
+regulatory,ETH,Ethiopia,2012,-0.9343128
+regulatory,ETH,Ethiopia,2013,-1.1040483
+regulatory,ETH,Ethiopia,2014,-0.9312522
+regulatory,ETH,Ethiopia,2015,-0.9266766
+regulatory,ETH,Ethiopia,2016,-0.9880871
+regulatory,ETH,Ethiopia,2017,-0.9112314
+regulatory,ETH,Ethiopia,2018,-0.8623512
+regulatory,ETH,Ethiopia,2019,-0.8438178
+regulatory,ETH,Ethiopia,2020,-0.8332774
+regulatory,ETH,Ethiopia,2021,-0.7835559
+regulatory,ETH,Ethiopia,2022,-0.7962566
+regulatory,ETH,Ethiopia,2023,-0.849905
+regulatory,ETH,Ethiopia,2024,-0.8469336
+regulatory,ETH,Ethiopia,2025,-0.7298898
+regulatory,GBR,United Kingdom,2000,1.9176891
+regulatory,GBR,United Kingdom,2002,1.9364234
+regulatory,GBR,United Kingdom,2003,1.8957765
+regulatory,GBR,United Kingdom,2004,1.9386099
+regulatory,GBR,United Kingdom,2005,1.8902964
+regulatory,GBR,United Kingdom,2006,2.0549655
+regulatory,GBR,United Kingdom,2007,1.9585817
+regulatory,GBR,United Kingdom,2008,1.7926303
+regulatory,GBR,United Kingdom,2009,1.5904903
+regulatory,GBR,United Kingdom,2010,1.5972248
+regulatory,GBR,United Kingdom,2011,1.5936828
+regulatory,GBR,United Kingdom,2012,1.6550039
+regulatory,GBR,United Kingdom,2013,1.7288233
+regulatory,GBR,United Kingdom,2014,1.7328803
+regulatory,GBR,United Kingdom,2015,1.8379532
+regulatory,GBR,United Kingdom,2016,1.6753586
+regulatory,GBR,United Kingdom,2017,1.6515431
+regulatory,GBR,United Kingdom,2018,1.6766714
+regulatory,GBR,United Kingdom,2019,1.7154343
+regulatory,GBR,United Kingdom,2020,1.6158469
+regulatory,GBR,United Kingdom,2021,1.6321749
+regulatory,GBR,United Kingdom,2022,1.6604586
+regulatory,GBR,United Kingdom,2023,1.5985375
+regulatory,GBR,United Kingdom,2024,1.5276442
+regulatory,GBR,United Kingdom,2025,1.4606297
+regulatory,GHA,Ghana,2000,-0.1907474
+regulatory,GHA,Ghana,2002,-0.7503817
+regulatory,GHA,Ghana,2003,-0.6942472
+regulatory,GHA,Ghana,2004,-0.4987493
+regulatory,GHA,Ghana,2005,-0.3098604
+regulatory,GHA,Ghana,2006,-0.1048407
+regulatory,GHA,Ghana,2007,-0.0872963
+regulatory,GHA,Ghana,2008,-0.0406625
+regulatory,GHA,Ghana,2009,-0.0060914
+regulatory,GHA,Ghana,2010,-0.0189588
+regulatory,GHA,Ghana,2011,-0.032587
+regulatory,GHA,Ghana,2012,-0.015826
+regulatory,GHA,Ghana,2013,-0.0341251
+regulatory,GHA,Ghana,2014,-0.1404289
+regulatory,GHA,Ghana,2015,-0.133782
+regulatory,GHA,Ghana,2016,-0.2527945
+regulatory,GHA,Ghana,2017,-0.1547104
+regulatory,GHA,Ghana,2018,-0.16359
+regulatory,GHA,Ghana,2019,-0.1858937
+regulatory,GHA,Ghana,2020,-0.1495119
+regulatory,GHA,Ghana,2021,-0.185558
+regulatory,GHA,Ghana,2022,-0.1618371
+regulatory,GHA,Ghana,2023,-0.1539148
+regulatory,GHA,Ghana,2024,-0.1030059
+regulatory,GHA,Ghana,2025,-0.1842491
+regulatory,GTM,Guatemala,2000,-0.3435789
+regulatory,GTM,Guatemala,2002,-0.2197779
+regulatory,GTM,Guatemala,2003,-0.2673306
+regulatory,GTM,Guatemala,2004,-0.3755906
+regulatory,GTM,Guatemala,2005,-0.43896
+regulatory,GTM,Guatemala,2006,-0.3529362
+regulatory,GTM,Guatemala,2007,-0.4031661
+regulatory,GTM,Guatemala,2008,-0.381745
+regulatory,GTM,Guatemala,2009,-0.3986854
+regulatory,GTM,Guatemala,2010,-0.3862902
+regulatory,GTM,Guatemala,2011,-0.4064276
+regulatory,GTM,Guatemala,2012,-0.4472004
+regulatory,GTM,Guatemala,2013,-0.4760985
+regulatory,GTM,Guatemala,2014,-0.4392263
+regulatory,GTM,Guatemala,2015,-0.3703308
+regulatory,GTM,Guatemala,2016,-0.3180414
+regulatory,GTM,Guatemala,2017,-0.3972406
+regulatory,GTM,Guatemala,2018,-0.3392436
+regulatory,GTM,Guatemala,2019,-0.3642807
+regulatory,GTM,Guatemala,2020,-0.3223595
+regulatory,GTM,Guatemala,2021,-0.3294611
+regulatory,GTM,Guatemala,2022,-0.3267018
+regulatory,GTM,Guatemala,2023,-0.3697039
+regulatory,GTM,Guatemala,2024,-0.2684548
+regulatory,GTM,Guatemala,2025,-0.3365214
+regulatory,HND,Honduras,2000,-0.4930541
+regulatory,HND,Honduras,2002,-0.5628229
+regulatory,HND,Honduras,2003,-0.6119778
+regulatory,HND,Honduras,2004,-0.5445975
+regulatory,HND,Honduras,2005,-0.3990923
+regulatory,HND,Honduras,2006,-0.3706392
+regulatory,HND,Honduras,2007,-0.2665162
+regulatory,HND,Honduras,2008,-0.3337015
+regulatory,HND,Honduras,2009,-0.3707061
+regulatory,HND,Honduras,2010,-0.3564907
+regulatory,HND,Honduras,2011,-0.2786439
+regulatory,HND,Honduras,2012,-0.3634008
+regulatory,HND,Honduras,2013,-0.419585
+regulatory,HND,Honduras,2014,-0.5511941
+regulatory,HND,Honduras,2015,-0.5109447
+regulatory,HND,Honduras,2016,-0.567461
+regulatory,HND,Honduras,2017,-0.3886055
+regulatory,HND,Honduras,2018,-0.4212729
+regulatory,HND,Honduras,2019,-0.4556504
+regulatory,HND,Honduras,2020,-0.5563874
+regulatory,HND,Honduras,2021,-0.5262368
+regulatory,HND,Honduras,2022,-0.5414802
+regulatory,HND,Honduras,2023,-0.6432289
+regulatory,HND,Honduras,2024,-0.6008896
+regulatory,HND,Honduras,2025,-0.6347649
+regulatory,HUN,Hungary,2000,0.7995459
+regulatory,HUN,Hungary,2002,1.282692
+regulatory,HUN,Hungary,2003,1.2561657
+regulatory,HUN,Hungary,2004,1.2482998
+regulatory,HUN,Hungary,2005,1.2724916
+regulatory,HUN,Hungary,2006,1.302013
+regulatory,HUN,Hungary,2007,1.3205089
+regulatory,HUN,Hungary,2008,1.2354125
+regulatory,HUN,Hungary,2009,1.1764146
+regulatory,HUN,Hungary,2010,0.9823829
+regulatory,HUN,Hungary,2011,0.934031
+regulatory,HUN,Hungary,2012,0.8363348
+regulatory,HUN,Hungary,2013,0.7642997
+regulatory,HUN,Hungary,2014,0.5195473
+regulatory,HUN,Hungary,2015,0.5912296
+regulatory,HUN,Hungary,2016,0.5669207
+regulatory,HUN,Hungary,2017,0.5679661
+regulatory,HUN,Hungary,2018,0.5066696
+regulatory,HUN,Hungary,2019,0.5441198
+regulatory,HUN,Hungary,2020,0.5200631
+regulatory,HUN,Hungary,2021,0.458448
+regulatory,HUN,Hungary,2022,0.3472472
+regulatory,HUN,Hungary,2023,0.2713545
+regulatory,HUN,Hungary,2024,0.3274216
+regulatory,HUN,Hungary,2025,0.2637552
+regulatory,JOR,Jordan,2000,0.1783931
+regulatory,JOR,Jordan,2002,0.0138463
+regulatory,JOR,Jordan,2003,0.1502881
+regulatory,JOR,Jordan,2004,0.3031317
+regulatory,JOR,Jordan,2005,0.267497
+regulatory,JOR,Jordan,2006,0.093626
+regulatory,JOR,Jordan,2007,0.093474
+regulatory,JOR,Jordan,2008,0.239206
+regulatory,JOR,Jordan,2009,0.173049
+regulatory,JOR,Jordan,2010,0.070994
+regulatory,JOR,Jordan,2011,0.1391834
+regulatory,JOR,Jordan,2012,0.1546376
+regulatory,JOR,Jordan,2013,0.1009709
+regulatory,JOR,Jordan,2014,0.1056698
+regulatory,JOR,Jordan,2015,0.1691764
+regulatory,JOR,Jordan,2016,0.1254568
+regulatory,JOR,Jordan,2017,0.1554645
+regulatory,JOR,Jordan,2018,0.1111079
+regulatory,JOR,Jordan,2019,0.1569696
+regulatory,JOR,Jordan,2020,0.1702906
+regulatory,JOR,Jordan,2021,0.1826861
+regulatory,JOR,Jordan,2022,0.1899923
+regulatory,JOR,Jordan,2023,0.293806
+regulatory,JOR,Jordan,2024,0.2534087
+regulatory,JOR,Jordan,2025,0.3313692
+regulatory,KEN,Kenya,2000,-0.6944012
+regulatory,KEN,Kenya,2002,-0.2880213
+regulatory,KEN,Kenya,2003,-0.3133952
+regulatory,KEN,Kenya,2004,-0.4240673
+regulatory,KEN,Kenya,2005,-0.3978707
+regulatory,KEN,Kenya,2006,-0.3509549
+regulatory,KEN,Kenya,2007,-0.3400164
+regulatory,KEN,Kenya,2008,-0.3939087
+regulatory,KEN,Kenya,2009,-0.4286977
+regulatory,KEN,Kenya,2010,-0.3859667
+regulatory,KEN,Kenya,2011,-0.5376241
+regulatory,KEN,Kenya,2012,-0.523083
+regulatory,KEN,Kenya,2013,-0.5237213
+regulatory,KEN,Kenya,2014,-0.327276
+regulatory,KEN,Kenya,2015,-0.2869435
+regulatory,KEN,Kenya,2016,-0.2337934
+regulatory,KEN,Kenya,2017,-0.205132
+regulatory,KEN,Kenya,2018,-0.3051836
+regulatory,KEN,Kenya,2019,-0.3453778
+regulatory,KEN,Kenya,2020,-0.4655925
+regulatory,KEN,Kenya,2021,-0.4284848
+regulatory,KEN,Kenya,2022,-0.3962951
+regulatory,KEN,Kenya,2023,-0.4070105
+regulatory,KEN,Kenya,2024,-0.359203
+regulatory,KEN,Kenya,2025,-0.3732571
+regulatory,MEX,Mexico,2000,0.2942474
+regulatory,MEX,Mexico,2002,0.584388
+regulatory,MEX,Mexico,2003,0.5666699
+regulatory,MEX,Mexico,2004,0.4280547
+regulatory,MEX,Mexico,2005,0.3865447
+regulatory,MEX,Mexico,2006,0.4329993
+regulatory,MEX,Mexico,2007,0.40411
+regulatory,MEX,Mexico,2008,0.3925821
+regulatory,MEX,Mexico,2009,0.3881443
+regulatory,MEX,Mexico,2010,0.1738878
+regulatory,MEX,Mexico,2011,0.2068073
+regulatory,MEX,Mexico,2012,0.3253324
+regulatory,MEX,Mexico,2013,0.3266967
+regulatory,MEX,Mexico,2014,0.2691417
+regulatory,MEX,Mexico,2015,0.2349177
+regulatory,MEX,Mexico,2016,0.2233137
+regulatory,MEX,Mexico,2017,0.228865
+regulatory,MEX,Mexico,2018,0.0692347
+regulatory,MEX,Mexico,2019,0.0463344
+regulatory,MEX,Mexico,2020,-0.0312564
+regulatory,MEX,Mexico,2021,-0.1087152
+regulatory,MEX,Mexico,2022,-0.0750129
+regulatory,MEX,Mexico,2023,-0.1471649
+regulatory,MEX,Mexico,2024,-0.1576756
+regulatory,MEX,Mexico,2025,-0.233724
+regulatory,NGA,Nigeria,2000,-1.1690376
+regulatory,NGA,Nigeria,2002,-1.1224895
+regulatory,NGA,Nigeria,2003,-1.1281595
+regulatory,NGA,Nigeria,2004,-1.2518171
+regulatory,NGA,Nigeria,2005,-1.0505799
+regulatory,NGA,Nigeria,2006,-0.9193994
+regulatory,NGA,Nigeria,2007,-0.8760235
+regulatory,NGA,Nigeria,2008,-0.8025933
+regulatory,NGA,Nigeria,2009,-0.7802259
+regulatory,NGA,Nigeria,2010,-0.9450459
+regulatory,NGA,Nigeria,2011,-0.9151171
+regulatory,NGA,Nigeria,2012,-0.7707704
+regulatory,NGA,Nigeria,2013,-0.7637981
+regulatory,NGA,Nigeria,2014,-0.8231624
+regulatory,NGA,Nigeria,2015,-0.7748618
+regulatory,NGA,Nigeria,2016,-0.8549861
+regulatory,NGA,Nigeria,2017,-0.8045089
+regulatory,NGA,Nigeria,2018,-0.8499508
+regulatory,NGA,Nigeria,2019,-0.8801761
+regulatory,NGA,Nigeria,2020,-0.9011604
+regulatory,NGA,Nigeria,2021,-0.8759658
+regulatory,NGA,Nigeria,2022,-0.993902
+regulatory,NGA,Nigeria,2023,-0.8611515
+regulatory,NGA,Nigeria,2024,-0.6582955
+regulatory,NGA,Nigeria,2025,-0.6455435
+regulatory,POL,Poland,2000,0.6112258
+regulatory,POL,Poland,2002,0.7016925
+regulatory,POL,Poland,2003,0.7722067
+regulatory,POL,Poland,2004,0.7052476
+regulatory,POL,Poland,2005,0.8355804
+regulatory,POL,Poland,2006,0.7615808
+regulatory,POL,Poland,2007,0.8296793
+regulatory,POL,Poland,2008,0.8454762
+regulatory,POL,Poland,2009,0.9015178
+regulatory,POL,Poland,2010,0.9533764
+regulatory,POL,Poland,2011,0.8789431
+regulatory,POL,Poland,2012,0.8949752
+regulatory,POL,Poland,2013,0.9341803
+regulatory,POL,Poland,2014,0.9034291
+regulatory,POL,Poland,2015,0.7998783
+regulatory,POL,Poland,2016,0.7835381
+regulatory,POL,Poland,2017,0.7018638
+regulatory,POL,Poland,2018,0.7567887
+regulatory,POL,Poland,2019,0.8539905
+regulatory,POL,Poland,2020,0.7487918
+regulatory,POL,Poland,2021,0.7387983
+regulatory,POL,Poland,2022,0.7421943
+regulatory,POL,Poland,2023,0.6944984
+regulatory,POL,Poland,2024,0.6825656
+regulatory,POL,Poland,2025,0.7887153
+regulatory,ROU,Romania,2000,-0.3033276
+regulatory,ROU,Romania,2002,-0.103026
+regulatory,ROU,Romania,2003,-0.1481135
+regulatory,ROU,Romania,2004,-0.127027
+regulatory,ROU,Romania,2005,-0.0036629
+regulatory,ROU,Romania,2006,0.3580312
+regulatory,ROU,Romania,2007,0.4250006
+regulatory,ROU,Romania,2008,0.4280668
+regulatory,ROU,Romania,2009,0.3863594
+regulatory,ROU,Romania,2010,0.4740781
+regulatory,ROU,Romania,2011,0.4264343
+regulatory,ROU,Romania,2012,0.3733887
+regulatory,ROU,Romania,2013,0.4648272
+regulatory,ROU,Romania,2014,0.4684032
+regulatory,ROU,Romania,2015,0.4537067
+regulatory,ROU,Romania,2016,0.4402674
+regulatory,ROU,Romania,2017,0.4076493
+regulatory,ROU,Romania,2018,0.3833346
+regulatory,ROU,Romania,2019,0.4113235
+regulatory,ROU,Romania,2020,0.3549315
+regulatory,ROU,Romania,2021,0.3621365
+regulatory,ROU,Romania,2022,0.429201
+regulatory,ROU,Romania,2023,0.3306616
+regulatory,ROU,Romania,2024,0.3463576
+regulatory,ROU,Romania,2025,0.2686943
+regulatory,SAU,Saudi Arabia,2000,-0.0502705
+regulatory,SAU,Saudi Arabia,2002,-0.2478485
+regulatory,SAU,Saudi Arabia,2003,-0.1628727
+regulatory,SAU,Saudi Arabia,2004,-0.0879913
+regulatory,SAU,Saudi Arabia,2005,-0.0084539
+regulatory,SAU,Saudi Arabia,2006,-0.0927827
+regulatory,SAU,Saudi Arabia,2007,0.0037904
+regulatory,SAU,Saudi Arabia,2008,0.2101181
+regulatory,SAU,Saudi Arabia,2009,0.2040784
+regulatory,SAU,Saudi Arabia,2010,0.2659382
+regulatory,SAU,Saudi Arabia,2011,0.3203122
+regulatory,SAU,Saudi Arabia,2012,0.1799844
+regulatory,SAU,Saudi Arabia,2013,0.2244651
+regulatory,SAU,Saudi Arabia,2014,0.1626065
+regulatory,SAU,Saudi Arabia,2015,0.199974
+regulatory,SAU,Saudi Arabia,2016,0.1503529
+regulatory,SAU,Saudi Arabia,2017,0.0892115
+regulatory,SAU,Saudi Arabia,2018,0.0640959
+regulatory,SAU,Saudi Arabia,2019,0.142719
+regulatory,SAU,Saudi Arabia,2020,0.1358
+regulatory,SAU,Saudi Arabia,2021,0.3305062
+regulatory,SAU,Saudi Arabia,2022,0.4840547
+regulatory,SAU,Saudi Arabia,2023,0.530087
+regulatory,SAU,Saudi Arabia,2024,0.6285589
+regulatory,SAU,Saudi Arabia,2025,0.6694526
+regulatory,SEN,Senegal,2000,-0.1506428
+regulatory,SEN,Senegal,2002,-0.1018082
+regulatory,SEN,Senegal,2003,-0.2384781
+regulatory,SEN,Senegal,2004,-0.3707691
+regulatory,SEN,Senegal,2005,-0.3114235
+regulatory,SEN,Senegal,2006,-0.4136181
+regulatory,SEN,Senegal,2007,-0.4398599
+regulatory,SEN,Senegal,2008,-0.3398646
+regulatory,SEN,Senegal,2009,-0.3905674
+regulatory,SEN,Senegal,2010,-0.4040532
+regulatory,SEN,Senegal,2011,-0.3554502
+regulatory,SEN,Senegal,2012,-0.2706796
+regulatory,SEN,Senegal,2013,-0.2575016
+regulatory,SEN,Senegal,2014,-0.2866168
+regulatory,SEN,Senegal,2015,-0.179349
+regulatory,SEN,Senegal,2016,-0.1834753
+regulatory,SEN,Senegal,2017,-0.2081293
+regulatory,SEN,Senegal,2018,-0.24277
+regulatory,SEN,Senegal,2019,-0.2299201
+regulatory,SEN,Senegal,2020,-0.2769476
+regulatory,SEN,Senegal,2021,-0.2722328
+regulatory,SEN,Senegal,2022,-0.2848952
+regulatory,SEN,Senegal,2023,-0.3047425
+regulatory,SEN,Senegal,2024,-0.2875115
+regulatory,SEN,Senegal,2025,-0.2630801
+regulatory,SLV,El Salvador,2000,-0.1080065
+regulatory,SLV,El Salvador,2002,-0.004995
+regulatory,SLV,El Salvador,2003,0.0484371
+regulatory,SLV,El Salvador,2004,0.384216
+regulatory,SLV,El Salvador,2005,0.4022481
+regulatory,SLV,El Salvador,2006,0.2054671
+regulatory,SLV,El Salvador,2007,0.252935
+regulatory,SLV,El Salvador,2008,0.3849859
+regulatory,SLV,El Salvador,2009,0.5396172
+regulatory,SLV,El Salvador,2010,0.4969952
+regulatory,SLV,El Salvador,2011,0.4754469
+regulatory,SLV,El Salvador,2012,0.2877973
+regulatory,SLV,El Salvador,2013,0.291193
+regulatory,SLV,El Salvador,2014,0.251274
+regulatory,SLV,El Salvador,2015,0.159822
+regulatory,SLV,El Salvador,2016,0.0464956
+regulatory,SLV,El Salvador,2017,0.0053408
+regulatory,SLV,El Salvador,2018,0.0428898
+regulatory,SLV,El Salvador,2019,0.009928
+regulatory,SLV,El Salvador,2020,-0.0086204
+regulatory,SLV,El Salvador,2021,-0.2205525
+regulatory,SLV,El Salvador,2022,-0.3115693
+regulatory,SLV,El Salvador,2023,-0.2518719
+regulatory,SLV,El Salvador,2024,-0.1192066
+regulatory,SLV,El Salvador,2025,-0.1415306
+regulatory,TUR,Turkiye,2000,0.1956914
+regulatory,TUR,Turkiye,2002,0.0516006
+regulatory,TUR,Turkiye,2003,0.0980072
+regulatory,TUR,Turkiye,2004,-0.0425684
+regulatory,TUR,Turkiye,2005,0.1083405
+regulatory,TUR,Turkiye,2006,0.2673486
+regulatory,TUR,Turkiye,2007,0.3079555
+regulatory,TUR,Turkiye,2008,0.2983555
+regulatory,TUR,Turkiye,2009,0.3679489
+regulatory,TUR,Turkiye,2010,0.3689441
+regulatory,TUR,Turkiye,2011,0.3833109
+regulatory,TUR,Turkiye,2012,0.4778445
+regulatory,TUR,Turkiye,2013,0.478805
+regulatory,TUR,Turkiye,2014,0.3883751
+regulatory,TUR,Turkiye,2015,0.2034535
+regulatory,TUR,Turkiye,2016,0.1203997
+regulatory,TUR,Turkiye,2017,0.1110961
+regulatory,TUR,Turkiye,2018,0.0183903
+regulatory,TUR,Turkiye,2019,0.026219
+regulatory,TUR,Turkiye,2020,-0.1049635
+regulatory,TUR,Turkiye,2021,-0.0683072
+regulatory,TUR,Turkiye,2022,-0.1775484
+regulatory,TUR,Turkiye,2023,-0.1666255
+regulatory,TUR,Turkiye,2024,-0.1649602
+regulatory,TUR,Turkiye,2025,-0.1718558
+regulatory,TZA,Tanzania,2000,-0.5459545
+regulatory,TZA,Tanzania,2002,-0.8054416
+regulatory,TZA,Tanzania,2003,-0.699217
+regulatory,TZA,Tanzania,2004,-0.5435067
+regulatory,TZA,Tanzania,2005,-0.4575399
+regulatory,TZA,Tanzania,2006,-0.4100733
+regulatory,TZA,Tanzania,2007,-0.4089513
+regulatory,TZA,Tanzania,2008,-0.4606791
+regulatory,TZA,Tanzania,2009,-0.4225692
+regulatory,TZA,Tanzania,2010,-0.409913
+regulatory,TZA,Tanzania,2011,-0.4322497
+regulatory,TZA,Tanzania,2012,-0.4762733
+regulatory,TZA,Tanzania,2013,-0.4295145
+regulatory,TZA,Tanzania,2014,-0.4131505
+regulatory,TZA,Tanzania,2015,-0.4275374
+regulatory,TZA,Tanzania,2016,-0.4091901
+regulatory,TZA,Tanzania,2017,-0.5551383
+regulatory,TZA,Tanzania,2018,-0.6522238
+regulatory,TZA,Tanzania,2019,-0.7043093
+regulatory,TZA,Tanzania,2020,-0.7373775
+regulatory,TZA,Tanzania,2021,-0.6894524
+regulatory,TZA,Tanzania,2022,-0.6150265
+regulatory,TZA,Tanzania,2023,-0.5686908
+regulatory,TZA,Tanzania,2024,-0.5250399
+regulatory,TZA,Tanzania,2025,-0.493739
+regulatory,UGA,Uganda,2000,-0.2943957
+regulatory,UGA,Uganda,2002,-0.2166363
+regulatory,UGA,Uganda,2003,-0.2085311
+regulatory,UGA,Uganda,2004,-0.1483314
+regulatory,UGA,Uganda,2005,-0.1582418
+regulatory,UGA,Uganda,2006,-0.3527025
+regulatory,UGA,Uganda,2007,-0.3252249
+regulatory,UGA,Uganda,2008,-0.305943
+regulatory,UGA,Uganda,2009,-0.3406821
+regulatory,UGA,Uganda,2010,-0.3071717
+regulatory,UGA,Uganda,2011,-0.3461713
+regulatory,UGA,Uganda,2012,-0.4153078
+regulatory,UGA,Uganda,2013,-0.4321807
+regulatory,UGA,Uganda,2014,-0.4054024
+regulatory,UGA,Uganda,2015,-0.3729456
+regulatory,UGA,Uganda,2016,-0.3877786
+regulatory,UGA,Uganda,2017,-0.3681942
+regulatory,UGA,Uganda,2018,-0.3992497
+regulatory,UGA,Uganda,2019,-0.4702112
+regulatory,UGA,Uganda,2020,-0.4901496
+regulatory,UGA,Uganda,2021,-0.475708
+regulatory,UGA,Uganda,2022,-0.4727529
+regulatory,UGA,Uganda,2023,-0.4973022
+regulatory,UGA,Uganda,2024,-0.5231945
+regulatory,UGA,Uganda,2025,-0.5934528
+regulatory,UKR,Ukraine,2000,-0.8466919
+regulatory,UKR,Ukraine,2002,-0.7698927
+regulatory,UKR,Ukraine,2003,-0.6889496
+regulatory,UKR,Ukraine,2004,-0.4202166
+regulatory,UKR,Ukraine,2005,-0.4058674
+regulatory,UKR,Ukraine,2006,-0.3128116
+regulatory,UKR,Ukraine,2007,-0.3071592
+regulatory,UKR,Ukraine,2008,-0.5671633
+regulatory,UKR,Ukraine,2009,-0.6332854
+regulatory,UKR,Ukraine,2010,-0.549389
+regulatory,UKR,Ukraine,2011,-0.7269865
+regulatory,UKR,Ukraine,2012,-0.6460268
+regulatory,UKR,Ukraine,2013,-0.6395035
+regulatory,UKR,Ukraine,2014,-0.5992836
+regulatory,UKR,Ukraine,2015,-0.6640337
+regulatory,UKR,Ukraine,2016,-0.5611707
+regulatory,UKR,Ukraine,2017,-0.3732959
+regulatory,UKR,Ukraine,2018,-0.3548631
+regulatory,UKR,Ukraine,2019,-0.2523184
+regulatory,UKR,Ukraine,2020,-0.3069011
+regulatory,UKR,Ukraine,2021,-0.3288378
+regulatory,UKR,Ukraine,2022,-0.3731122
+regulatory,UKR,Ukraine,2023,-0.3226085
+regulatory,UKR,Ukraine,2024,-0.251565
+regulatory,UKR,Ukraine,2025,-0.2816932
+regulatory,USA,United States,2000,1.8384197
+regulatory,USA,United States,2002,1.7163028
+regulatory,USA,United States,2003,1.6669771
+regulatory,USA,United States,2004,1.6405746
+regulatory,USA,United States,2005,1.7145616
+regulatory,USA,United States,2006,1.6320614
+regulatory,USA,United States,2007,1.4966516
+regulatory,USA,United States,2008,1.4990022
+regulatory,USA,United States,2009,1.3159345
+regulatory,USA,United States,2010,1.3524291
+regulatory,USA,United States,2011,1.3884521
+regulatory,USA,United States,2012,1.4227467
+regulatory,USA,United States,2013,1.377948
+regulatory,USA,United States,2014,1.2726281
+regulatory,USA,United States,2015,1.2774618
+regulatory,USA,United States,2016,1.3824367
+regulatory,USA,United States,2017,1.4812831
+regulatory,USA,United States,2018,1.4433717
+regulatory,USA,United States,2019,1.3411877
+regulatory,USA,United States,2020,1.2601752
+regulatory,USA,United States,2021,1.4663447
+regulatory,USA,United States,2022,1.4618304
+regulatory,USA,United States,2023,1.4161692
+regulatory,USA,United States,2024,1.3253728
+regulatory,USA,United States,2025,1.0060452
 remittances,ARG,Argentina,2000,0.030380900529948
 remittances,ARG,Argentina,2001,0.0705628184933387
 remittances,ARG,Argentina,2002,0.211442420500352
@@ -5655,6 +7005,1356 @@ renewables,USA,United States,2018,9.9
 renewables,USA,United States,2019,10.2
 renewables,USA,United States,2020,11.0
 renewables,USA,United States,2021,10.9
+rule_of_law,ARE,United Arab Emirates,2000,0.4161084
+rule_of_law,ARE,United Arab Emirates,2002,0.4674038
+rule_of_law,ARE,United Arab Emirates,2003,0.4660248
+rule_of_law,ARE,United Arab Emirates,2004,0.1645896
+rule_of_law,ARE,United Arab Emirates,2005,0.0994561
+rule_of_law,ARE,United Arab Emirates,2006,0.0712466
+rule_of_law,ARE,United Arab Emirates,2007,0.0504713
+rule_of_law,ARE,United Arab Emirates,2008,0.1147501
+rule_of_law,ARE,United Arab Emirates,2009,0.1202437
+rule_of_law,ARE,United Arab Emirates,2010,0.0858136
+rule_of_law,ARE,United Arab Emirates,2011,0.3876531
+rule_of_law,ARE,United Arab Emirates,2012,0.3452237
+rule_of_law,ARE,United Arab Emirates,2013,0.3940668
+rule_of_law,ARE,United Arab Emirates,2014,0.3149135
+rule_of_law,ARE,United Arab Emirates,2015,0.3141655
+rule_of_law,ARE,United Arab Emirates,2016,0.4014359
+rule_of_law,ARE,United Arab Emirates,2017,0.3660947
+rule_of_law,ARE,United Arab Emirates,2018,0.3749486
+rule_of_law,ARE,United Arab Emirates,2019,0.4118489
+rule_of_law,ARE,United Arab Emirates,2020,0.3796529
+rule_of_law,ARE,United Arab Emirates,2021,0.3331303
+rule_of_law,ARE,United Arab Emirates,2022,0.4239665
+rule_of_law,ARE,United Arab Emirates,2023,0.4802188
+rule_of_law,ARE,United Arab Emirates,2024,0.5326243
+rule_of_law,ARE,United Arab Emirates,2025,0.5434326
+rule_of_law,ARG,Argentina,2000,-0.1659412
+rule_of_law,ARG,Argentina,2002,-0.7802321
+rule_of_law,ARG,Argentina,2003,-0.7569904
+rule_of_law,ARG,Argentina,2004,-0.6221765
+rule_of_law,ARG,Argentina,2005,-0.3709105
+rule_of_law,ARG,Argentina,2006,-0.4105178
+rule_of_law,ARG,Argentina,2007,-0.4450251
+rule_of_law,ARG,Argentina,2008,-0.6262409
+rule_of_law,ARG,Argentina,2009,-0.5946241
+rule_of_law,ARG,Argentina,2010,-0.4790676
+rule_of_law,ARG,Argentina,2011,-0.4307708
+rule_of_law,ARG,Argentina,2012,-0.513681
+rule_of_law,ARG,Argentina,2013,-0.570401
+rule_of_law,ARG,Argentina,2014,-0.7153263
+rule_of_law,ARG,Argentina,2015,-0.4433822
+rule_of_law,ARG,Argentina,2016,-0.1925067
+rule_of_law,ARG,Argentina,2017,-0.1238649
+rule_of_law,ARG,Argentina,2018,-0.1461431
+rule_of_law,ARG,Argentina,2019,-0.3168528
+rule_of_law,ARG,Argentina,2020,-0.3082724
+rule_of_law,ARG,Argentina,2021,-0.3075701
+rule_of_law,ARG,Argentina,2022,-0.2948153
+rule_of_law,ARG,Argentina,2023,-0.2727332
+rule_of_law,ARG,Argentina,2024,-0.256913
+rule_of_law,ARG,Argentina,2025,-0.1023981
+rule_of_law,BRA,Brazil,2000,-0.4469405
+rule_of_law,BRA,Brazil,2002,-0.3418619
+rule_of_law,BRA,Brazil,2003,-0.4369725
+rule_of_law,BRA,Brazil,2004,-0.3323992
+rule_of_law,BRA,Brazil,2005,-0.3803369
+rule_of_law,BRA,Brazil,2006,-0.3388628
+rule_of_law,BRA,Brazil,2007,-0.3322253
+rule_of_law,BRA,Brazil,2008,-0.2715832
+rule_of_law,BRA,Brazil,2009,-0.2274659
+rule_of_law,BRA,Brazil,2010,-0.0534482
+rule_of_law,BRA,Brazil,2011,-0.0665783
+rule_of_law,BRA,Brazil,2012,-0.0605632
+rule_of_law,BRA,Brazil,2013,-0.1517469
+rule_of_law,BRA,Brazil,2014,-0.1434823
+rule_of_law,BRA,Brazil,2015,-0.209435
+rule_of_law,BRA,Brazil,2016,-0.1439962
+rule_of_law,BRA,Brazil,2017,-0.2647692
+rule_of_law,BRA,Brazil,2018,-0.3977081
+rule_of_law,BRA,Brazil,2019,-0.3608038
+rule_of_law,BRA,Brazil,2020,-0.3575123
+rule_of_law,BRA,Brazil,2021,-0.3791836
+rule_of_law,BRA,Brazil,2022,-0.4256888
+rule_of_law,BRA,Brazil,2023,-0.5051317
+rule_of_law,BRA,Brazil,2024,-0.4900423
+rule_of_law,BRA,Brazil,2025,-0.4855083
+rule_of_law,CIV,Cote d'Ivoire,2000,-1.3377785
+rule_of_law,CIV,Cote d'Ivoire,2002,-1.4394798
+rule_of_law,CIV,Cote d'Ivoire,2003,-1.4401842
+rule_of_law,CIV,Cote d'Ivoire,2004,-1.4868411
+rule_of_law,CIV,Cote d'Ivoire,2005,-1.5720103
+rule_of_law,CIV,Cote d'Ivoire,2006,-1.4568495
+rule_of_law,CIV,Cote d'Ivoire,2007,-1.429675
+rule_of_law,CIV,Cote d'Ivoire,2008,-1.3959985
+rule_of_law,CIV,Cote d'Ivoire,2009,-1.2294255
+rule_of_law,CIV,Cote d'Ivoire,2010,-1.2655798
+rule_of_law,CIV,Cote d'Ivoire,2011,-1.3404338
+rule_of_law,CIV,Cote d'Ivoire,2012,-1.0573652
+rule_of_law,CIV,Cote d'Ivoire,2013,-0.9556195
+rule_of_law,CIV,Cote d'Ivoire,2014,-0.6812522
+rule_of_law,CIV,Cote d'Ivoire,2015,-0.6935852
+rule_of_law,CIV,Cote d'Ivoire,2016,-0.6723044
+rule_of_law,CIV,Cote d'Ivoire,2017,-0.687746
+rule_of_law,CIV,Cote d'Ivoire,2018,-0.6103988
+rule_of_law,CIV,Cote d'Ivoire,2019,-0.5834396
+rule_of_law,CIV,Cote d'Ivoire,2020,-0.6018277
+rule_of_law,CIV,Cote d'Ivoire,2021,-0.6347573
+rule_of_law,CIV,Cote d'Ivoire,2022,-0.5902245
+rule_of_law,CIV,Cote d'Ivoire,2023,-0.5797333
+rule_of_law,CIV,Cote d'Ivoire,2024,-0.5550026
+rule_of_law,CIV,Cote d'Ivoire,2025,-0.5215682
+rule_of_law,COL,Colombia,2000,-1.1784384
+rule_of_law,COL,Colombia,2002,-0.8316726
+rule_of_law,COL,Colombia,2003,-0.7872381
+rule_of_law,COL,Colombia,2004,-0.5540963
+rule_of_law,COL,Colombia,2005,-0.5797828
+rule_of_law,COL,Colombia,2006,-0.570563
+rule_of_law,COL,Colombia,2007,-0.4666177
+rule_of_law,COL,Colombia,2008,-0.4317033
+rule_of_law,COL,Colombia,2009,-0.4931086
+rule_of_law,COL,Colombia,2010,-0.387743
+rule_of_law,COL,Colombia,2011,-0.3941095
+rule_of_law,COL,Colombia,2012,-0.449264
+rule_of_law,COL,Colombia,2013,-0.4883928
+rule_of_law,COL,Colombia,2014,-0.3964605
+rule_of_law,COL,Colombia,2015,-0.3699185
+rule_of_law,COL,Colombia,2016,-0.3132165
+rule_of_law,COL,Colombia,2017,-0.3351179
+rule_of_law,COL,Colombia,2018,-0.4003964
+rule_of_law,COL,Colombia,2019,-0.439729
+rule_of_law,COL,Colombia,2020,-0.4504691
+rule_of_law,COL,Colombia,2021,-0.4782045
+rule_of_law,COL,Colombia,2022,-0.5148732
+rule_of_law,COL,Colombia,2023,-0.5713458
+rule_of_law,COL,Colombia,2024,-0.5666751
+rule_of_law,COL,Colombia,2025,-0.6282535
+rule_of_law,CRI,Costa Rica,2000,0.4964207
+rule_of_law,CRI,Costa Rica,2002,0.6181669
+rule_of_law,CRI,Costa Rica,2003,0.5826251
+rule_of_law,CRI,Costa Rica,2004,0.5712979
+rule_of_law,CRI,Costa Rica,2005,0.6412843
+rule_of_law,CRI,Costa Rica,2006,0.5447103
+rule_of_law,CRI,Costa Rica,2007,0.5425527
+rule_of_law,CRI,Costa Rica,2008,0.5676317
+rule_of_law,CRI,Costa Rica,2009,0.652251
+rule_of_law,CRI,Costa Rica,2010,0.6673003
+rule_of_law,CRI,Costa Rica,2011,0.4740856
+rule_of_law,CRI,Costa Rica,2012,0.4602866
+rule_of_law,CRI,Costa Rica,2013,0.4699852
+rule_of_law,CRI,Costa Rica,2014,0.5379034
+rule_of_law,CRI,Costa Rica,2015,0.5251205
+rule_of_law,CRI,Costa Rica,2016,0.5215761
+rule_of_law,CRI,Costa Rica,2017,0.533138
+rule_of_law,CRI,Costa Rica,2018,0.505179
+rule_of_law,CRI,Costa Rica,2019,0.5799277
+rule_of_law,CRI,Costa Rica,2020,0.6134172
+rule_of_law,CRI,Costa Rica,2021,0.5848566
+rule_of_law,CRI,Costa Rica,2022,0.6411292
+rule_of_law,CRI,Costa Rica,2023,0.6036594
+rule_of_law,CRI,Costa Rica,2024,0.5844935
+rule_of_law,CRI,Costa Rica,2025,0.6027951
+rule_of_law,DEU,Germany,2000,1.6351218
+rule_of_law,DEU,Germany,2002,1.6531072
+rule_of_law,DEU,Germany,2003,1.6540241
+rule_of_law,DEU,Germany,2004,1.622117
+rule_of_law,DEU,Germany,2005,1.6254224
+rule_of_law,DEU,Germany,2006,1.6260134
+rule_of_law,DEU,Germany,2007,1.694086
+rule_of_law,DEU,Germany,2008,1.5925505
+rule_of_law,DEU,Germany,2009,1.578259
+rule_of_law,DEU,Germany,2010,1.5800502
+rule_of_law,DEU,Germany,2011,1.5739877
+rule_of_law,DEU,Germany,2012,1.5989074
+rule_of_law,DEU,Germany,2013,1.6088654
+rule_of_law,DEU,Germany,2014,1.7194766
+rule_of_law,DEU,Germany,2015,1.7190498
+rule_of_law,DEU,Germany,2016,1.6653973
+rule_of_law,DEU,Germany,2017,1.676644
+rule_of_law,DEU,Germany,2018,1.6967985
+rule_of_law,DEU,Germany,2019,1.6940828
+rule_of_law,DEU,Germany,2020,1.6097442
+rule_of_law,DEU,Germany,2021,1.6304817
+rule_of_law,DEU,Germany,2022,1.576423
+rule_of_law,DEU,Germany,2023,1.5862983
+rule_of_law,DEU,Germany,2024,1.6084567
+rule_of_law,DEU,Germany,2025,1.604343
+rule_of_law,ETH,Ethiopia,2000,-0.8839246
+rule_of_law,ETH,Ethiopia,2002,-1.0532491
+rule_of_law,ETH,Ethiopia,2003,-1.0370961
+rule_of_law,ETH,Ethiopia,2004,-0.9877859
+rule_of_law,ETH,Ethiopia,2005,-0.961554
+rule_of_law,ETH,Ethiopia,2006,-0.7363879
+rule_of_law,ETH,Ethiopia,2007,-0.7215785
+rule_of_law,ETH,Ethiopia,2008,-0.8410712
+rule_of_law,ETH,Ethiopia,2009,-0.8749238
+rule_of_law,ETH,Ethiopia,2010,-0.8316617
+rule_of_law,ETH,Ethiopia,2011,-0.8270093
+rule_of_law,ETH,Ethiopia,2012,-0.7447399
+rule_of_law,ETH,Ethiopia,2013,-0.8154689
+rule_of_law,ETH,Ethiopia,2014,-0.7093836
+rule_of_law,ETH,Ethiopia,2015,-0.7554235
+rule_of_law,ETH,Ethiopia,2016,-0.7476119
+rule_of_law,ETH,Ethiopia,2017,-0.726609
+rule_of_law,ETH,Ethiopia,2018,-0.7465591
+rule_of_law,ETH,Ethiopia,2019,-0.7266162
+rule_of_law,ETH,Ethiopia,2020,-0.7673706
+rule_of_law,ETH,Ethiopia,2021,-0.9097518
+rule_of_law,ETH,Ethiopia,2022,-0.878272
+rule_of_law,ETH,Ethiopia,2023,-0.9985767
+rule_of_law,ETH,Ethiopia,2024,-1.0057629
+rule_of_law,ETH,Ethiopia,2025,-0.9378974
+rule_of_law,GBR,United Kingdom,2000,1.6846756
+rule_of_law,GBR,United Kingdom,2002,1.62094
+rule_of_law,GBR,United Kingdom,2003,1.600235
+rule_of_law,GBR,United Kingdom,2004,1.5279494
+rule_of_law,GBR,United Kingdom,2005,1.5330558
+rule_of_law,GBR,United Kingdom,2006,1.5953947
+rule_of_law,GBR,United Kingdom,2007,1.5684653
+rule_of_law,GBR,United Kingdom,2008,1.4656882
+rule_of_law,GBR,United Kingdom,2009,1.4759935
+rule_of_law,GBR,United Kingdom,2010,1.6276951
+rule_of_law,GBR,United Kingdom,2011,1.4306879
+rule_of_law,GBR,United Kingdom,2012,1.4802682
+rule_of_law,GBR,United Kingdom,2013,1.4962593
+rule_of_law,GBR,United Kingdom,2014,1.582438
+rule_of_law,GBR,United Kingdom,2015,1.645835
+rule_of_law,GBR,United Kingdom,2016,1.5949293
+rule_of_law,GBR,United Kingdom,2017,1.5966655
+rule_of_law,GBR,United Kingdom,2018,1.4592065
+rule_of_law,GBR,United Kingdom,2019,1.4232665
+rule_of_law,GBR,United Kingdom,2020,1.3537471
+rule_of_law,GBR,United Kingdom,2021,1.2942621
+rule_of_law,GBR,United Kingdom,2022,1.2977328
+rule_of_law,GBR,United Kingdom,2023,1.2663933
+rule_of_law,GBR,United Kingdom,2024,1.2751712
+rule_of_law,GBR,United Kingdom,2025,1.2680565
+rule_of_law,GHA,Ghana,2000,-0.2399138
+rule_of_law,GHA,Ghana,2002,-0.0992768
+rule_of_law,GHA,Ghana,2003,-0.1924914
+rule_of_law,GHA,Ghana,2004,-0.2374145
+rule_of_law,GHA,Ghana,2005,-0.0855146
+rule_of_law,GHA,Ghana,2006,0.1966464
+rule_of_law,GHA,Ghana,2007,0.1835426
+rule_of_law,GHA,Ghana,2008,0.0927331
+rule_of_law,GHA,Ghana,2009,0.0332893
+rule_of_law,GHA,Ghana,2010,0.0038096
+rule_of_law,GHA,Ghana,2011,0.1582495
+rule_of_law,GHA,Ghana,2012,0.1264786
+rule_of_law,GHA,Ghana,2013,0.17593
+rule_of_law,GHA,Ghana,2014,0.1042641
+rule_of_law,GHA,Ghana,2015,0.1814732
+rule_of_law,GHA,Ghana,2016,0.1860102
+rule_of_law,GHA,Ghana,2017,0.2521463
+rule_of_law,GHA,Ghana,2018,0.1764047
+rule_of_law,GHA,Ghana,2019,0.0924371
+rule_of_law,GHA,Ghana,2020,0.0930935
+rule_of_law,GHA,Ghana,2021,0.0253956
+rule_of_law,GHA,Ghana,2022,-0.0210272
+rule_of_law,GHA,Ghana,2023,-0.0041102
+rule_of_law,GHA,Ghana,2024,0.0603041
+rule_of_law,GHA,Ghana,2025,-0.0012056
+rule_of_law,GTM,Guatemala,2000,-1.0720251
+rule_of_law,GTM,Guatemala,2002,-1.024881
+rule_of_law,GTM,Guatemala,2003,-1.0698568
+rule_of_law,GTM,Guatemala,2004,-0.9027142
+rule_of_law,GTM,Guatemala,2005,-0.9181373
+rule_of_law,GTM,Guatemala,2006,-0.9500111
+rule_of_law,GTM,Guatemala,2007,-0.9438141
+rule_of_law,GTM,Guatemala,2008,-0.97374
+rule_of_law,GTM,Guatemala,2009,-0.9406689
+rule_of_law,GTM,Guatemala,2010,-0.9283058
+rule_of_law,GTM,Guatemala,2011,-1.0430862
+rule_of_law,GTM,Guatemala,2012,-1.0006581
+rule_of_law,GTM,Guatemala,2013,-1.0677408
+rule_of_law,GTM,Guatemala,2014,-0.9644187
+rule_of_law,GTM,Guatemala,2015,-0.9187457
+rule_of_law,GTM,Guatemala,2016,-0.9573762
+rule_of_law,GTM,Guatemala,2017,-0.9308228
+rule_of_law,GTM,Guatemala,2018,-0.96256
+rule_of_law,GTM,Guatemala,2019,-0.9950319
+rule_of_law,GTM,Guatemala,2020,-0.961516
+rule_of_law,GTM,Guatemala,2021,-0.9736911
+rule_of_law,GTM,Guatemala,2022,-1.052879
+rule_of_law,GTM,Guatemala,2023,-1.0590043
+rule_of_law,GTM,Guatemala,2024,-1.0067728
+rule_of_law,GTM,Guatemala,2025,-1.0316233
+rule_of_law,HND,Honduras,2000,-1.2709196
+rule_of_law,HND,Honduras,2002,-0.9547365
+rule_of_law,HND,Honduras,2003,-0.9990632
+rule_of_law,HND,Honduras,2004,-0.8382584
+rule_of_law,HND,Honduras,2005,-0.7310338
+rule_of_law,HND,Honduras,2006,-0.9018007
+rule_of_law,HND,Honduras,2007,-0.8961857
+rule_of_law,HND,Honduras,2008,-1.0045368
+rule_of_law,HND,Honduras,2009,-0.9995389
+rule_of_law,HND,Honduras,2010,-1.0269893
+rule_of_law,HND,Honduras,2011,-1.0594556
+rule_of_law,HND,Honduras,2012,-1.2348904
+rule_of_law,HND,Honduras,2013,-1.2792396
+rule_of_law,HND,Honduras,2014,-1.19228
+rule_of_law,HND,Honduras,2015,-1.1553826
+rule_of_law,HND,Honduras,2016,-1.1619893
+rule_of_law,HND,Honduras,2017,-1.0659771
+rule_of_law,HND,Honduras,2018,-1.0737127
+rule_of_law,HND,Honduras,2019,-1.0582738
+rule_of_law,HND,Honduras,2020,-1.1394995
+rule_of_law,HND,Honduras,2021,-1.1004242
+rule_of_law,HND,Honduras,2022,-1.0677555
+rule_of_law,HND,Honduras,2023,-1.1805711
+rule_of_law,HND,Honduras,2024,-1.2153979
+rule_of_law,HND,Honduras,2025,-1.1535334
+rule_of_law,HUN,Hungary,2000,0.8309991
+rule_of_law,HUN,Hungary,2002,0.8545307
+rule_of_law,HUN,Hungary,2003,0.8636086
+rule_of_law,HUN,Hungary,2004,0.8512571
+rule_of_law,HUN,Hungary,2005,0.9283655
+rule_of_law,HUN,Hungary,2006,0.9724277
+rule_of_law,HUN,Hungary,2007,0.9070566
+rule_of_law,HUN,Hungary,2008,0.795784
+rule_of_law,HUN,Hungary,2009,0.637249
+rule_of_law,HUN,Hungary,2010,0.5972198
+rule_of_law,HUN,Hungary,2011,0.6463704
+rule_of_law,HUN,Hungary,2012,0.5878505
+rule_of_law,HUN,Hungary,2013,0.5397903
+rule_of_law,HUN,Hungary,2014,0.3887503
+rule_of_law,HUN,Hungary,2015,0.42297
+rule_of_law,HUN,Hungary,2016,0.4828952
+rule_of_law,HUN,Hungary,2017,0.4906928
+rule_of_law,HUN,Hungary,2018,0.4186985
+rule_of_law,HUN,Hungary,2019,0.3840759
+rule_of_law,HUN,Hungary,2020,0.3739078
+rule_of_law,HUN,Hungary,2021,0.3685797
+rule_of_law,HUN,Hungary,2022,0.3039864
+rule_of_law,HUN,Hungary,2023,0.2491987
+rule_of_law,HUN,Hungary,2024,0.2023908
+rule_of_law,HUN,Hungary,2025,0.2156251
+rule_of_law,JOR,Jordan,2000,0.1617401
+rule_of_law,JOR,Jordan,2002,-0.1281377
+rule_of_law,JOR,Jordan,2003,0.0156181
+rule_of_law,JOR,Jordan,2004,0.1008226
+rule_of_law,JOR,Jordan,2005,0.1627095
+rule_of_law,JOR,Jordan,2006,0.1502416
+rule_of_law,JOR,Jordan,2007,0.2715181
+rule_of_law,JOR,Jordan,2008,0.267947
+rule_of_law,JOR,Jordan,2009,0.1080241
+rule_of_law,JOR,Jordan,2010,0.0570543
+rule_of_law,JOR,Jordan,2011,0.1574163
+rule_of_law,JOR,Jordan,2012,0.1876706
+rule_of_law,JOR,Jordan,2013,0.1536111
+rule_of_law,JOR,Jordan,2014,0.1163675
+rule_of_law,JOR,Jordan,2015,0.1157055
+rule_of_law,JOR,Jordan,2016,0.1494456
+rule_of_law,JOR,Jordan,2017,0.1727064
+rule_of_law,JOR,Jordan,2018,0.1217036
+rule_of_law,JOR,Jordan,2019,0.1105469
+rule_of_law,JOR,Jordan,2020,0.0963699
+rule_of_law,JOR,Jordan,2021,0.0390664
+rule_of_law,JOR,Jordan,2022,0.0768667
+rule_of_law,JOR,Jordan,2023,0.1236052
+rule_of_law,JOR,Jordan,2024,0.1953916
+rule_of_law,JOR,Jordan,2025,0.1917214
+rule_of_law,KEN,Kenya,2000,-1.0870303
+rule_of_law,KEN,Kenya,2002,-1.0379268
+rule_of_law,KEN,Kenya,2003,-0.9773811
+rule_of_law,KEN,Kenya,2004,-0.7948881
+rule_of_law,KEN,Kenya,2005,-0.7804224
+rule_of_law,KEN,Kenya,2006,-0.7993466
+rule_of_law,KEN,Kenya,2007,-0.887691
+rule_of_law,KEN,Kenya,2008,-0.9315371
+rule_of_law,KEN,Kenya,2009,-0.9717467
+rule_of_law,KEN,Kenya,2010,-0.8996416
+rule_of_law,KEN,Kenya,2011,-0.9003269
+rule_of_law,KEN,Kenya,2012,-0.8169592
+rule_of_law,KEN,Kenya,2013,-0.7662338
+rule_of_law,KEN,Kenya,2014,-0.5640095
+rule_of_law,KEN,Kenya,2015,-0.6309829
+rule_of_law,KEN,Kenya,2016,-0.601749
+rule_of_law,KEN,Kenya,2017,-0.5270034
+rule_of_law,KEN,Kenya,2018,-0.4930524
+rule_of_law,KEN,Kenya,2019,-0.5448539
+rule_of_law,KEN,Kenya,2020,-0.5686628
+rule_of_law,KEN,Kenya,2021,-0.4299899
+rule_of_law,KEN,Kenya,2022,-0.4183186
+rule_of_law,KEN,Kenya,2023,-0.4337379
+rule_of_law,KEN,Kenya,2024,-0.4573678
+rule_of_law,KEN,Kenya,2025,-0.4743638
+rule_of_law,MEX,Mexico,2000,-0.6219824
+rule_of_law,MEX,Mexico,2002,-0.2839024
+rule_of_law,MEX,Mexico,2003,-0.2441918
+rule_of_law,MEX,Mexico,2004,-0.1727817
+rule_of_law,MEX,Mexico,2005,-0.2051647
+rule_of_law,MEX,Mexico,2006,-0.2019399
+rule_of_law,MEX,Mexico,2007,-0.2868539
+rule_of_law,MEX,Mexico,2008,-0.550432
+rule_of_law,MEX,Mexico,2009,-0.4964044
+rule_of_law,MEX,Mexico,2010,-0.5242388
+rule_of_law,MEX,Mexico,2011,-0.6126498
+rule_of_law,MEX,Mexico,2012,-0.6195842
+rule_of_law,MEX,Mexico,2013,-0.6605803
+rule_of_law,MEX,Mexico,2014,-0.5893074
+rule_of_law,MEX,Mexico,2015,-0.6621419
+rule_of_law,MEX,Mexico,2016,-0.6474156
+rule_of_law,MEX,Mexico,2017,-0.7120584
+rule_of_law,MEX,Mexico,2018,-0.8066755
+rule_of_law,MEX,Mexico,2019,-0.8661315
+rule_of_law,MEX,Mexico,2020,-0.9496379
+rule_of_law,MEX,Mexico,2021,-0.9888321
+rule_of_law,MEX,Mexico,2022,-1.0602143
+rule_of_law,MEX,Mexico,2023,-1.0733045
+rule_of_law,MEX,Mexico,2024,-1.1147408
+rule_of_law,MEX,Mexico,2025,-1.1681501
+rule_of_law,NGA,Nigeria,2000,-1.2888356
+rule_of_law,NGA,Nigeria,2002,-1.5874133
+rule_of_law,NGA,Nigeria,2003,-1.5122495
+rule_of_law,NGA,Nigeria,2004,-1.3004082
+rule_of_law,NGA,Nigeria,2005,-1.3168685
+rule_of_law,NGA,Nigeria,2006,-1.1433655
+rule_of_law,NGA,Nigeria,2007,-1.0752474
+rule_of_law,NGA,Nigeria,2008,-1.0373038
+rule_of_law,NGA,Nigeria,2009,-1.0391849
+rule_of_law,NGA,Nigeria,2010,-1.1507297
+rule_of_law,NGA,Nigeria,2011,-1.0991003
+rule_of_law,NGA,Nigeria,2012,-1.1229746
+rule_of_law,NGA,Nigeria,2013,-1.2168977
+rule_of_law,NGA,Nigeria,2014,-1.1704381
+rule_of_law,NGA,Nigeria,2015,-0.9989228
+rule_of_law,NGA,Nigeria,2016,-0.9015319
+rule_of_law,NGA,Nigeria,2017,-0.7993956
+rule_of_law,NGA,Nigeria,2018,-0.8241273
+rule_of_law,NGA,Nigeria,2019,-0.826064
+rule_of_law,NGA,Nigeria,2020,-0.84746
+rule_of_law,NGA,Nigeria,2021,-0.9284249
+rule_of_law,NGA,Nigeria,2022,-1.0160701
+rule_of_law,NGA,Nigeria,2023,-0.9804945
+rule_of_law,NGA,Nigeria,2024,-0.998937
+rule_of_law,NGA,Nigeria,2025,-0.9514581
+rule_of_law,POL,Poland,2000,0.6227143
+rule_of_law,POL,Poland,2002,0.5626986
+rule_of_law,POL,Poland,2003,0.4761022
+rule_of_law,POL,Poland,2004,0.3242792
+rule_of_law,POL,Poland,2005,0.6230321
+rule_of_law,POL,Poland,2006,0.398132
+rule_of_law,POL,Poland,2007,0.5325465
+rule_of_law,POL,Poland,2008,0.6030665
+rule_of_law,POL,Poland,2009,0.5775682
+rule_of_law,POL,Poland,2010,0.6696195
+rule_of_law,POL,Poland,2011,0.8524028
+rule_of_law,POL,Poland,2012,0.8712315
+rule_of_law,POL,Poland,2013,0.8309893
+rule_of_law,POL,Poland,2014,0.8722785
+rule_of_law,POL,Poland,2015,0.8322493
+rule_of_law,POL,Poland,2016,0.7487465
+rule_of_law,POL,Poland,2017,0.6296368
+rule_of_law,POL,Poland,2018,0.5477151
+rule_of_law,POL,Poland,2019,0.5260763
+rule_of_law,POL,Poland,2020,0.4647001
+rule_of_law,POL,Poland,2021,0.4269379
+rule_of_law,POL,Poland,2022,0.368079
+rule_of_law,POL,Poland,2023,0.3176335
+rule_of_law,POL,Poland,2024,0.5432403
+rule_of_law,POL,Poland,2025,0.5689166
+rule_of_law,ROU,Romania,2000,-0.2856628
+rule_of_law,ROU,Romania,2002,-0.1901195
+rule_of_law,ROU,Romania,2003,-0.2174653
+rule_of_law,ROU,Romania,2004,-0.0997388
+rule_of_law,ROU,Romania,2005,-0.0303055
+rule_of_law,ROU,Romania,2006,0.0787641
+rule_of_law,ROU,Romania,2007,0.1025771
+rule_of_law,ROU,Romania,2008,0.1387391
+rule_of_law,ROU,Romania,2009,0.1588509
+rule_of_law,ROU,Romania,2010,0.1483136
+rule_of_law,ROU,Romania,2011,0.1861032
+rule_of_law,ROU,Romania,2012,0.1643193
+rule_of_law,ROU,Romania,2013,0.2300621
+rule_of_law,ROU,Romania,2014,0.3732098
+rule_of_law,ROU,Romania,2015,0.3942342
+rule_of_law,ROU,Romania,2016,0.3873318
+rule_of_law,ROU,Romania,2017,0.4175773
+rule_of_law,ROU,Romania,2018,0.3102168
+rule_of_law,ROU,Romania,2019,0.3811201
+rule_of_law,ROU,Romania,2020,0.4494077
+rule_of_law,ROU,Romania,2021,0.4585535
+rule_of_law,ROU,Romania,2022,0.4286773
+rule_of_law,ROU,Romania,2023,0.3777231
+rule_of_law,ROU,Romania,2024,0.3119971
+rule_of_law,ROU,Romania,2025,0.2970955
+rule_of_law,SAU,Saudi Arabia,2000,-0.261046
+rule_of_law,SAU,Saudi Arabia,2002,-0.1168206
+rule_of_law,SAU,Saudi Arabia,2003,-0.0737864
+rule_of_law,SAU,Saudi Arabia,2004,-0.0576247
+rule_of_law,SAU,Saudi Arabia,2005,-0.2084752
+rule_of_law,SAU,Saudi Arabia,2006,-0.1052077
+rule_of_law,SAU,Saudi Arabia,2007,-0.1451373
+rule_of_law,SAU,Saudi Arabia,2008,-0.1666059
+rule_of_law,SAU,Saudi Arabia,2009,-0.2529371
+rule_of_law,SAU,Saudi Arabia,2010,-0.1470251
+rule_of_law,SAU,Saudi Arabia,2011,-0.1287021
+rule_of_law,SAU,Saudi Arabia,2012,-0.0401019
+rule_of_law,SAU,Saudi Arabia,2013,-0.0546245
+rule_of_law,SAU,Saudi Arabia,2014,-0.3197473
+rule_of_law,SAU,Saudi Arabia,2015,-0.2629958
+rule_of_law,SAU,Saudi Arabia,2016,-0.1791671
+rule_of_law,SAU,Saudi Arabia,2017,-0.3246127
+rule_of_law,SAU,Saudi Arabia,2018,-0.2421556
+rule_of_law,SAU,Saudi Arabia,2019,-0.1863906
+rule_of_law,SAU,Saudi Arabia,2020,-0.2064911
+rule_of_law,SAU,Saudi Arabia,2021,-0.1741499
+rule_of_law,SAU,Saudi Arabia,2022,0.0921253
+rule_of_law,SAU,Saudi Arabia,2023,0.1674146
+rule_of_law,SAU,Saudi Arabia,2024,0.2811129
+rule_of_law,SAU,Saudi Arabia,2025,0.2737498
+rule_of_law,SEN,Senegal,2000,-0.0979908
+rule_of_law,SEN,Senegal,2002,0.0263898
+rule_of_law,SEN,Senegal,2003,-0.1828694
+rule_of_law,SEN,Senegal,2004,-0.1415792
+rule_of_law,SEN,Senegal,2005,-0.0196976
+rule_of_law,SEN,Senegal,2006,-0.2307708
+rule_of_law,SEN,Senegal,2007,-0.1814253
+rule_of_law,SEN,Senegal,2008,-0.2431917
+rule_of_law,SEN,Senegal,2009,-0.3019129
+rule_of_law,SEN,Senegal,2010,-0.346289
+rule_of_law,SEN,Senegal,2011,-0.3443392
+rule_of_law,SEN,Senegal,2012,-0.2082819
+rule_of_law,SEN,Senegal,2013,-0.2113964
+rule_of_law,SEN,Senegal,2014,-0.1408216
+rule_of_law,SEN,Senegal,2015,-0.151114
+rule_of_law,SEN,Senegal,2016,-0.074391
+rule_of_law,SEN,Senegal,2017,-0.126277
+rule_of_law,SEN,Senegal,2018,-0.1397122
+rule_of_law,SEN,Senegal,2019,-0.1039357
+rule_of_law,SEN,Senegal,2020,-0.0983714
+rule_of_law,SEN,Senegal,2021,-0.1516216
+rule_of_law,SEN,Senegal,2022,-0.1386521
+rule_of_law,SEN,Senegal,2023,-0.1819924
+rule_of_law,SEN,Senegal,2024,-0.2190252
+rule_of_law,SEN,Senegal,2025,-0.1927054
+rule_of_law,SLV,El Salvador,2000,-0.950916
+rule_of_law,SLV,El Salvador,2002,-0.7640828
+rule_of_law,SLV,El Salvador,2003,-0.7333779
+rule_of_law,SLV,El Salvador,2004,-0.506791
+rule_of_law,SLV,El Salvador,2005,-0.5351928
+rule_of_law,SLV,El Salvador,2006,-0.6931798
+rule_of_law,SLV,El Salvador,2007,-0.7307926
+rule_of_law,SLV,El Salvador,2008,-0.7107452
+rule_of_law,SLV,El Salvador,2009,-0.7509485
+rule_of_law,SLV,El Salvador,2010,-0.8322929
+rule_of_law,SLV,El Salvador,2011,-0.7075754
+rule_of_law,SLV,El Salvador,2012,-0.836449
+rule_of_law,SLV,El Salvador,2013,-0.7182647
+rule_of_law,SLV,El Salvador,2014,-0.6206913
+rule_of_law,SLV,El Salvador,2015,-0.7536319
+rule_of_law,SLV,El Salvador,2016,-0.7286503
+rule_of_law,SLV,El Salvador,2017,-0.8359503
+rule_of_law,SLV,El Salvador,2018,-0.8107531
+rule_of_law,SLV,El Salvador,2019,-0.7295822
+rule_of_law,SLV,El Salvador,2020,-0.6506831
+rule_of_law,SLV,El Salvador,2021,-0.8088578
+rule_of_law,SLV,El Salvador,2022,-0.9414173
+rule_of_law,SLV,El Salvador,2023,-0.6962396
+rule_of_law,SLV,El Salvador,2024,-0.6832935
+rule_of_law,SLV,El Salvador,2025,-0.7061517
+rule_of_law,TUR,Turkiye,2000,-0.1232702
+rule_of_law,TUR,Turkiye,2002,-0.1191331
+rule_of_law,TUR,Turkiye,2003,-0.000362
+rule_of_law,TUR,Turkiye,2004,0.1612754
+rule_of_law,TUR,Turkiye,2005,0.1869137
+rule_of_law,TUR,Turkiye,2006,0.1603427
+rule_of_law,TUR,Turkiye,2007,0.1374247
+rule_of_law,TUR,Turkiye,2008,0.1188322
+rule_of_law,TUR,Turkiye,2009,0.0826376
+rule_of_law,TUR,Turkiye,2010,0.0539591
+rule_of_law,TUR,Turkiye,2011,-0.0727889
+rule_of_law,TUR,Turkiye,2012,-0.0970223
+rule_of_law,TUR,Turkiye,2013,-0.1068296
+rule_of_law,TUR,Turkiye,2014,-0.3418429
+rule_of_law,TUR,Turkiye,2015,-0.443598
+rule_of_law,TUR,Turkiye,2016,-0.5103199
+rule_of_law,TUR,Turkiye,2017,-0.5761393
+rule_of_law,TUR,Turkiye,2018,-0.6738236
+rule_of_law,TUR,Turkiye,2019,-0.5676882
+rule_of_law,TUR,Turkiye,2020,-0.6868905
+rule_of_law,TUR,Turkiye,2021,-0.7408787
+rule_of_law,TUR,Turkiye,2022,-0.7383873
+rule_of_law,TUR,Turkiye,2023,-0.7833876
+rule_of_law,TUR,Turkiye,2024,-0.8310313
+rule_of_law,TUR,Turkiye,2025,-0.8121093
+rule_of_law,TZA,Tanzania,2000,-0.3794639
+rule_of_law,TZA,Tanzania,2002,-0.4527857
+rule_of_law,TZA,Tanzania,2003,-0.4319711
+rule_of_law,TZA,Tanzania,2004,-0.4923856
+rule_of_law,TZA,Tanzania,2005,-0.3457518
+rule_of_law,TZA,Tanzania,2006,-0.4036036
+rule_of_law,TZA,Tanzania,2007,-0.3524671
+rule_of_law,TZA,Tanzania,2008,-0.3716381
+rule_of_law,TZA,Tanzania,2009,-0.3491468
+rule_of_law,TZA,Tanzania,2010,-0.3648676
+rule_of_law,TZA,Tanzania,2011,-0.3602253
+rule_of_law,TZA,Tanzania,2012,-0.4173405
+rule_of_law,TZA,Tanzania,2013,-0.4753048
+rule_of_law,TZA,Tanzania,2014,-0.4350795
+rule_of_law,TZA,Tanzania,2015,-0.3657389
+rule_of_law,TZA,Tanzania,2016,-0.4128225
+rule_of_law,TZA,Tanzania,2017,-0.4645443
+rule_of_law,TZA,Tanzania,2018,-0.5345038
+rule_of_law,TZA,Tanzania,2019,-0.5669354
+rule_of_law,TZA,Tanzania,2020,-0.5711761
+rule_of_law,TZA,Tanzania,2021,-0.5597629
+rule_of_law,TZA,Tanzania,2022,-0.5459878
+rule_of_law,TZA,Tanzania,2023,-0.4879775
+rule_of_law,TZA,Tanzania,2024,-0.5243233
+rule_of_law,TZA,Tanzania,2025,-0.5711543
+rule_of_law,UGA,Uganda,2000,-0.8547222
+rule_of_law,UGA,Uganda,2002,-0.8184256
+rule_of_law,UGA,Uganda,2003,-0.7733885
+rule_of_law,UGA,Uganda,2004,-0.7371624
+rule_of_law,UGA,Uganda,2005,-0.5373712
+rule_of_law,UGA,Uganda,2006,-0.2302268
+rule_of_law,UGA,Uganda,2007,-0.2710304
+rule_of_law,UGA,Uganda,2008,-0.2306574
+rule_of_law,UGA,Uganda,2009,-0.3046555
+rule_of_law,UGA,Uganda,2010,-0.3259716
+rule_of_law,UGA,Uganda,2011,-0.4280635
+rule_of_law,UGA,Uganda,2012,-0.4728724
+rule_of_law,UGA,Uganda,2013,-0.5286654
+rule_of_law,UGA,Uganda,2014,-0.5504889
+rule_of_law,UGA,Uganda,2015,-0.5513304
+rule_of_law,UGA,Uganda,2016,-0.5787777
+rule_of_law,UGA,Uganda,2017,-0.6053365
+rule_of_law,UGA,Uganda,2018,-0.6442656
+rule_of_law,UGA,Uganda,2019,-0.680853
+rule_of_law,UGA,Uganda,2020,-0.6441677
+rule_of_law,UGA,Uganda,2021,-0.6829634
+rule_of_law,UGA,Uganda,2022,-0.6839518
+rule_of_law,UGA,Uganda,2023,-0.702415
+rule_of_law,UGA,Uganda,2024,-0.670179
+rule_of_law,UGA,Uganda,2025,-0.670457
+rule_of_law,UKR,Ukraine,2000,-1.1232414
+rule_of_law,UKR,Ukraine,2002,-0.855385
+rule_of_law,UKR,Ukraine,2003,-0.8204295
+rule_of_law,UKR,Ukraine,2004,-0.7541155
+rule_of_law,UKR,Ukraine,2005,-0.7772166
+rule_of_law,UKR,Ukraine,2006,-0.6964122
+rule_of_law,UKR,Ukraine,2007,-0.6381281
+rule_of_law,UKR,Ukraine,2008,-0.6271626
+rule_of_law,UKR,Ukraine,2009,-0.6811505
+rule_of_law,UKR,Ukraine,2010,-0.7813575
+rule_of_law,UKR,Ukraine,2011,-0.7474237
+rule_of_law,UKR,Ukraine,2012,-0.6654566
+rule_of_law,UKR,Ukraine,2013,-0.7233529
+rule_of_law,UKR,Ukraine,2014,-0.7373055
+rule_of_law,UKR,Ukraine,2015,-0.7039324
+rule_of_law,UKR,Ukraine,2016,-0.6407553
+rule_of_law,UKR,Ukraine,2017,-0.5681903
+rule_of_law,UKR,Ukraine,2018,-0.5140459
+rule_of_law,UKR,Ukraine,2019,-0.58486
+rule_of_law,UKR,Ukraine,2020,-0.5736859
+rule_of_law,UKR,Ukraine,2021,-0.575673
+rule_of_law,UKR,Ukraine,2022,-0.7869351
+rule_of_law,UKR,Ukraine,2023,-0.7931106
+rule_of_law,UKR,Ukraine,2024,-0.7587339
+rule_of_law,UKR,Ukraine,2025,-0.7884356
+rule_of_law,USA,United States,2000,1.6411901
+rule_of_law,USA,United States,2002,1.6065064
+rule_of_law,USA,United States,2003,1.553981
+rule_of_law,USA,United States,2004,1.460446
+rule_of_law,USA,United States,2005,1.544852
+rule_of_law,USA,United States,2006,1.5707963
+rule_of_law,USA,United States,2007,1.5558123
+rule_of_law,USA,United States,2008,1.5652341
+rule_of_law,USA,United States,2009,1.4941158
+rule_of_law,USA,United States,2010,1.5156259
+rule_of_law,USA,United States,2011,1.3975286
+rule_of_law,USA,United States,2012,1.4125605
+rule_of_law,USA,United States,2013,1.3395047
+rule_of_law,USA,United States,2014,1.3774745
+rule_of_law,USA,United States,2015,1.4049371
+rule_of_law,USA,United States,2016,1.4039729
+rule_of_law,USA,United States,2017,1.3334397
+rule_of_law,USA,United States,2018,1.1605612
+rule_of_law,USA,United States,2019,1.1332344
+rule_of_law,USA,United States,2020,1.0290946
+rule_of_law,USA,United States,2021,1.0727276
+rule_of_law,USA,United States,2022,1.0943336
+rule_of_law,USA,United States,2023,1.0209621
+rule_of_law,USA,United States,2024,0.9971818
+rule_of_law,USA,United States,2025,0.7914024
+stability,ARE,United Arab Emirates,2000,0.9790559
+stability,ARE,United Arab Emirates,2002,1.0755637
+stability,ARE,United Arab Emirates,2003,0.9585102
+stability,ARE,United Arab Emirates,2004,0.5576923
+stability,ARE,United Arab Emirates,2005,0.7745516
+stability,ARE,United Arab Emirates,2006,0.8900066
+stability,ARE,United Arab Emirates,2007,1.0072345
+stability,ARE,United Arab Emirates,2008,0.7221845
+stability,ARE,United Arab Emirates,2009,1.0969997
+stability,ARE,United Arab Emirates,2010,0.8069644
+stability,ARE,United Arab Emirates,2011,0.8178962
+stability,ARE,United Arab Emirates,2012,0.8090072
+stability,ARE,United Arab Emirates,2013,0.7810915
+stability,ARE,United Arab Emirates,2014,0.8900722
+stability,ARE,United Arab Emirates,2015,0.8270827
+stability,ARE,United Arab Emirates,2016,0.7025376
+stability,ARE,United Arab Emirates,2017,0.7313125
+stability,ARE,United Arab Emirates,2018,0.827416
+stability,ARE,United Arab Emirates,2019,0.8230623
+stability,ARE,United Arab Emirates,2020,0.8202947
+stability,ARE,United Arab Emirates,2021,0.8311735
+stability,ARE,United Arab Emirates,2022,0.8754187
+stability,ARE,United Arab Emirates,2023,0.788504
+stability,ARE,United Arab Emirates,2024,0.7887342
+stability,ARE,United Arab Emirates,2025,0.825539
+stability,ARG,Argentina,2000,-0.0393133
+stability,ARG,Argentina,2002,-0.6423769
+stability,ARG,Argentina,2003,-0.2326126
+stability,ARG,Argentina,2004,-0.3080843
+stability,ARG,Argentina,2005,0.0894396
+stability,ARG,Argentina,2006,0.0885195
+stability,ARG,Argentina,2007,0.2190908
+stability,ARG,Argentina,2008,0.0345281
+stability,ARG,Argentina,2009,-0.1598894
+stability,ARG,Argentina,2010,-0.0825458
+stability,ARG,Argentina,2011,0.1086375
+stability,ARG,Argentina,2012,0.0807649
+stability,ARG,Argentina,2013,0.0327097
+stability,ARG,Argentina,2014,-0.0135062
+stability,ARG,Argentina,2015,-0.0344235
+stability,ARG,Argentina,2016,0.1846027
+stability,ARG,Argentina,2017,0.2326869
+stability,ARG,Argentina,2018,0.1166571
+stability,ARG,Argentina,2019,0.0576869
+stability,ARG,Argentina,2020,0.0406541
+stability,ARG,Argentina,2021,0.078868
+stability,ARG,Argentina,2022,0.052813
+stability,ARG,Argentina,2023,-0.0238589
+stability,ARG,Argentina,2024,0.0127215
+stability,ARG,Argentina,2025,0.1620605
+stability,BRA,Brazil,2000,0.395335
+stability,BRA,Brazil,2002,0.3290256
+stability,BRA,Brazil,2003,0.1189511
+stability,BRA,Brazil,2004,-0.2088347
+stability,BRA,Brazil,2005,-0.172332
+stability,BRA,Brazil,2006,-0.2506061
+stability,BRA,Brazil,2007,-0.2319827
+stability,BRA,Brazil,2008,-0.1548135
+stability,BRA,Brazil,2009,0.1298706
+stability,BRA,Brazil,2010,-0.1461805
+stability,BRA,Brazil,2011,-0.1672092
+stability,BRA,Brazil,2012,-0.0877046
+stability,BRA,Brazil,2013,-0.3648722
+stability,BRA,Brazil,2014,-0.2485115
+stability,BRA,Brazil,2015,-0.4937582
+stability,BRA,Brazil,2016,-0.523379
+stability,BRA,Brazil,2017,-0.59497
+stability,BRA,Brazil,2018,-0.6458562
+stability,BRA,Brazil,2019,-0.7213691
+stability,BRA,Brazil,2020,-0.4217731
+stability,BRA,Brazil,2021,-0.3920731
+stability,BRA,Brazil,2022,-0.4151116
+stability,BRA,Brazil,2023,-0.5062568
+stability,BRA,Brazil,2024,-0.3863786
+stability,BRA,Brazil,2025,-0.3845996
+stability,CIV,Cote d'Ivoire,2000,-1.3584961
+stability,CIV,Cote d'Ivoire,2002,-2.2760398
+stability,CIV,Cote d'Ivoire,2003,-2.0884227
+stability,CIV,Cote d'Ivoire,2004,-2.2392005
+stability,CIV,Cote d'Ivoire,2005,-2.3734922
+stability,CIV,Cote d'Ivoire,2006,-1.9543343
+stability,CIV,Cote d'Ivoire,2007,-1.9659332
+stability,CIV,Cote d'Ivoire,2008,-1.8438587
+stability,CIV,Cote d'Ivoire,2009,-0.9308828
+stability,CIV,Cote d'Ivoire,2010,-1.8229126
+stability,CIV,Cote d'Ivoire,2011,-1.6371932
+stability,CIV,Cote d'Ivoire,2012,-1.5032112
+stability,CIV,Cote d'Ivoire,2013,-1.1864617
+stability,CIV,Cote d'Ivoire,2014,-1.0380353
+stability,CIV,Cote d'Ivoire,2015,-0.7607109
+stability,CIV,Cote d'Ivoire,2016,-0.8719892
+stability,CIV,Cote d'Ivoire,2017,-1.0437882
+stability,CIV,Cote d'Ivoire,2018,-0.9248551
+stability,CIV,Cote d'Ivoire,2019,-1.0216863
+stability,CIV,Cote d'Ivoire,2020,-1.1861997
+stability,CIV,Cote d'Ivoire,2021,-0.9069829
+stability,CIV,Cote d'Ivoire,2022,-0.7277696
+stability,CIV,Cote d'Ivoire,2023,-0.7880703
+stability,CIV,Cote d'Ivoire,2024,-0.8737042
+stability,CIV,Cote d'Ivoire,2025,-0.7154369
+stability,COL,Colombia,2000,-2.0802746
+stability,COL,Colombia,2002,-2.3631105
+stability,COL,Colombia,2003,-2.316501
+stability,COL,Colombia,2004,-1.9729156
+stability,COL,Colombia,2005,-1.9821224
+stability,COL,Colombia,2006,-1.8053705
+stability,COL,Colombia,2007,-1.6042752
+stability,COL,Colombia,2008,-1.6367255
+stability,COL,Colombia,2009,-1.5729579
+stability,COL,Colombia,2010,-1.3447749
+stability,COL,Colombia,2011,-1.1614259
+stability,COL,Colombia,2012,-1.3288257
+stability,COL,Colombia,2013,-1.3043736
+stability,COL,Colombia,2014,-1.01799
+stability,COL,Colombia,2015,-0.9744332
+stability,COL,Colombia,2016,-0.893922
+stability,COL,Colombia,2017,-0.8017184
+stability,COL,Colombia,2018,-0.6874382
+stability,COL,Colombia,2019,-0.9072799
+stability,COL,Colombia,2020,-0.6851902
+stability,COL,Colombia,2021,-1.0076603
+stability,COL,Colombia,2022,-0.8184583
+stability,COL,Colombia,2023,-0.7790359
+stability,COL,Colombia,2024,-0.83629
+stability,COL,Colombia,2025,-0.9528769
+stability,CRI,Costa Rica,2000,0.7067907
+stability,CRI,Costa Rica,2002,0.9394019
+stability,CRI,Costa Rica,2003,0.6311736
+stability,CRI,Costa Rica,2004,0.718874
+stability,CRI,Costa Rica,2005,0.8404152
+stability,CRI,Costa Rica,2006,0.8843424
+stability,CRI,Costa Rica,2007,0.8231085
+stability,CRI,Costa Rica,2008,0.5851306
+stability,CRI,Costa Rica,2009,0.7209078
+stability,CRI,Costa Rica,2010,0.7928719
+stability,CRI,Costa Rica,2011,0.6135983
+stability,CRI,Costa Rica,2012,0.6518066
+stability,CRI,Costa Rica,2013,0.6642468
+stability,CRI,Costa Rica,2014,0.6865148
+stability,CRI,Costa Rica,2015,0.7536745
+stability,CRI,Costa Rica,2016,0.7286978
+stability,CRI,Costa Rica,2017,0.7482496
+stability,CRI,Costa Rica,2018,0.646433
+stability,CRI,Costa Rica,2019,0.6386128
+stability,CRI,Costa Rica,2020,0.9372255
+stability,CRI,Costa Rica,2021,1.0212805
+stability,CRI,Costa Rica,2022,1.1512919
+stability,CRI,Costa Rica,2023,1.204956
+stability,CRI,Costa Rica,2024,1.2632939
+stability,CRI,Costa Rica,2025,1.2229681
+stability,DEU,Germany,2000,1.3728549
+stability,DEU,Germany,2002,0.995452
+stability,DEU,Germany,2003,0.7078527
+stability,DEU,Germany,2004,0.7150155
+stability,DEU,Germany,2005,0.9885121
+stability,DEU,Germany,2006,1.0400231
+stability,DEU,Germany,2007,1.061317
+stability,DEU,Germany,2008,1.0118276
+stability,DEU,Germany,2009,1.0348174
+stability,DEU,Germany,2010,0.941184
+stability,DEU,Germany,2011,0.902906
+stability,DEU,Germany,2012,0.9707093
+stability,DEU,Germany,2013,0.9581
+stability,DEU,Germany,2014,1.0566419
+stability,DEU,Germany,2015,0.8302251
+stability,DEU,Germany,2016,0.7937676
+stability,DEU,Germany,2017,0.7172791
+stability,DEU,Germany,2018,0.8298659
+stability,DEU,Germany,2019,0.7398556
+stability,DEU,Germany,2020,0.6997475
+stability,DEU,Germany,2021,0.6949652
+stability,DEU,Germany,2022,0.5625259
+stability,DEU,Germany,2023,0.5343453
+stability,DEU,Germany,2024,0.195136
+stability,DEU,Germany,2025,0.2082813
+stability,ETH,Ethiopia,2000,-1.3095723
+stability,ETH,Ethiopia,2002,-1.5023143
+stability,ETH,Ethiopia,2003,-1.5138851
+stability,ETH,Ethiopia,2004,-1.2104119
+stability,ETH,Ethiopia,2005,-1.6108174
+stability,ETH,Ethiopia,2006,-1.6556479
+stability,ETH,Ethiopia,2007,-1.6485857
+stability,ETH,Ethiopia,2008,-1.6270972
+stability,ETH,Ethiopia,2009,-1.277176
+stability,ETH,Ethiopia,2010,-1.5517847
+stability,ETH,Ethiopia,2011,-1.4980403
+stability,ETH,Ethiopia,2012,-1.5764065
+stability,ETH,Ethiopia,2013,-1.3652661
+stability,ETH,Ethiopia,2014,-1.1741419
+stability,ETH,Ethiopia,2015,-1.2651586
+stability,ETH,Ethiopia,2016,-1.4445206
+stability,ETH,Ethiopia,2017,-1.5144128
+stability,ETH,Ethiopia,2018,-1.2097319
+stability,ETH,Ethiopia,2019,-1.1841631
+stability,ETH,Ethiopia,2020,-1.5886579
+stability,ETH,Ethiopia,2021,-1.9894166
+stability,ETH,Ethiopia,2022,-1.8558897
+stability,ETH,Ethiopia,2023,-1.8676145
+stability,ETH,Ethiopia,2024,-1.8381671
+stability,ETH,Ethiopia,2025,-1.8541502
+stability,GBR,United Kingdom,2000,1.1125757
+stability,GBR,United Kingdom,2002,0.5436958
+stability,GBR,United Kingdom,2003,0.4267777
+stability,GBR,United Kingdom,2004,0.3578792
+stability,GBR,United Kingdom,2005,0.4005267
+stability,GBR,United Kingdom,2006,0.6461404
+stability,GBR,United Kingdom,2007,0.6876729
+stability,GBR,United Kingdom,2008,0.6339838
+stability,GBR,United Kingdom,2009,0.4951345
+stability,GBR,United Kingdom,2010,0.5922337
+stability,GBR,United Kingdom,2011,0.4395365
+stability,GBR,United Kingdom,2012,0.480213
+stability,GBR,United Kingdom,2013,0.4681837
+stability,GBR,United Kingdom,2014,0.5563433
+stability,GBR,United Kingdom,2015,0.5459215
+stability,GBR,United Kingdom,2016,0.4531318
+stability,GBR,United Kingdom,2017,0.4455823
+stability,GBR,United Kingdom,2018,0.2889661
+stability,GBR,United Kingdom,2019,0.5631084
+stability,GBR,United Kingdom,2020,0.5089818
+stability,GBR,United Kingdom,2021,0.437895
+stability,GBR,United Kingdom,2022,0.3761285
+stability,GBR,United Kingdom,2023,0.3932444
+stability,GBR,United Kingdom,2024,0.3725327
+stability,GBR,United Kingdom,2025,0.2896866
+stability,GHA,Ghana,2000,-0.4793261
+stability,GHA,Ghana,2002,-0.2683698
+stability,GHA,Ghana,2003,-0.2396124
+stability,GHA,Ghana,2004,-0.1169339
+stability,GHA,Ghana,2005,0.0470336
+stability,GHA,Ghana,2006,-0.0612509
+stability,GHA,Ghana,2007,-0.1007008
+stability,GHA,Ghana,2008,-0.1274878
+stability,GHA,Ghana,2009,0.1586585
+stability,GHA,Ghana,2010,-0.0476497
+stability,GHA,Ghana,2011,0.0852343
+stability,GHA,Ghana,2012,0.0165549
+stability,GHA,Ghana,2013,0.0096014
+stability,GHA,Ghana,2014,-0.1125816
+stability,GHA,Ghana,2015,-0.0167981
+stability,GHA,Ghana,2016,-0.1319817
+stability,GHA,Ghana,2017,0.0700965
+stability,GHA,Ghana,2018,-0.03378
+stability,GHA,Ghana,2019,0.0130959
+stability,GHA,Ghana,2020,0.0568926
+stability,GHA,Ghana,2021,-0.159405
+stability,GHA,Ghana,2022,-0.1813476
+stability,GHA,Ghana,2023,-0.0555562
+stability,GHA,Ghana,2024,0.1192449
+stability,GHA,Ghana,2025,0.0877364
+stability,GTM,Guatemala,2000,-0.9604122
+stability,GTM,Guatemala,2002,-1.0284543
+stability,GTM,Guatemala,2003,-0.9506632
+stability,GTM,Guatemala,2004,-0.9509476
+stability,GTM,Guatemala,2005,-0.918977
+stability,GTM,Guatemala,2006,-0.887375
+stability,GTM,Guatemala,2007,-0.8448395
+stability,GTM,Guatemala,2008,-0.7809411
+stability,GTM,Guatemala,2009,-0.8080337
+stability,GTM,Guatemala,2010,-0.8195363
+stability,GTM,Guatemala,2011,-0.7822806
+stability,GTM,Guatemala,2012,-0.7308901
+stability,GTM,Guatemala,2013,-0.7425366
+stability,GTM,Guatemala,2014,-0.7369071
+stability,GTM,Guatemala,2015,-0.7088813
+stability,GTM,Guatemala,2016,-0.6594321
+stability,GTM,Guatemala,2017,-0.7080637
+stability,GTM,Guatemala,2018,-0.6946589
+stability,GTM,Guatemala,2019,-0.7073678
+stability,GTM,Guatemala,2020,-0.5799939
+stability,GTM,Guatemala,2021,-0.5895537
+stability,GTM,Guatemala,2022,-0.3100402
+stability,GTM,Guatemala,2023,-0.2068967
+stability,GTM,Guatemala,2024,-0.1066839
+stability,GTM,Guatemala,2025,-0.2129394
+stability,HND,Honduras,2000,-0.378505
+stability,HND,Honduras,2002,-0.3708204
+stability,HND,Honduras,2003,-0.606133
+stability,HND,Honduras,2004,-0.6392248
+stability,HND,Honduras,2005,-0.6694849
+stability,HND,Honduras,2006,-0.6758307
+stability,HND,Honduras,2007,-0.4669711
+stability,HND,Honduras,2008,-0.5666278
+stability,HND,Honduras,2009,-0.5475106
+stability,HND,Honduras,2010,-0.6599158
+stability,HND,Honduras,2011,-0.5690332
+stability,HND,Honduras,2012,-0.5527807
+stability,HND,Honduras,2013,-0.5765983
+stability,HND,Honduras,2014,-0.6936707
+stability,HND,Honduras,2015,-0.6693727
+stability,HND,Honduras,2016,-0.7243201
+stability,HND,Honduras,2017,-0.9298069
+stability,HND,Honduras,2018,-0.8866
+stability,HND,Honduras,2019,-0.8564744
+stability,HND,Honduras,2020,-0.7016116
+stability,HND,Honduras,2021,-0.8411872
+stability,HND,Honduras,2022,-0.5016513
+stability,HND,Honduras,2023,-0.3578061
+stability,HND,Honduras,2024,-0.4026387
+stability,HND,Honduras,2025,-0.4366449
+stability,HUN,Hungary,2000,1.0014545
+stability,HUN,Hungary,2002,1.218164
+stability,HUN,Hungary,2003,1.0759708
+stability,HUN,Hungary,2004,0.8122775
+stability,HUN,Hungary,2005,1.0516013
+stability,HUN,Hungary,2006,0.9685632
+stability,HUN,Hungary,2007,0.7798229
+stability,HUN,Hungary,2008,0.7689358
+stability,HUN,Hungary,2009,0.7409315
+stability,HUN,Hungary,2010,0.7708541
+stability,HUN,Hungary,2011,0.7102409
+stability,HUN,Hungary,2012,0.7129713
+stability,HUN,Hungary,2013,0.8002012
+stability,HUN,Hungary,2014,0.8089713
+stability,HUN,Hungary,2015,0.840092
+stability,HUN,Hungary,2016,0.5880562
+stability,HUN,Hungary,2017,0.736013
+stability,HUN,Hungary,2018,0.6619015
+stability,HUN,Hungary,2019,0.7320536
+stability,HUN,Hungary,2020,0.78596
+stability,HUN,Hungary,2021,0.7241247
+stability,HUN,Hungary,2022,0.6686875
+stability,HUN,Hungary,2023,0.5836532
+stability,HUN,Hungary,2024,0.6033461
+stability,HUN,Hungary,2025,0.5093348
+stability,JOR,Jordan,2000,-0.2309764
+stability,JOR,Jordan,2002,-0.6413673
+stability,JOR,Jordan,2003,-0.3497505
+stability,JOR,Jordan,2004,-0.3397022
+stability,JOR,Jordan,2005,-0.284692
+stability,JOR,Jordan,2006,-0.7572602
+stability,JOR,Jordan,2007,-0.2856133
+stability,JOR,Jordan,2008,-0.363619
+stability,JOR,Jordan,2009,-0.4166092
+stability,JOR,Jordan,2010,-0.3919612
+stability,JOR,Jordan,2011,-0.6273398
+stability,JOR,Jordan,2012,-0.5814056
+stability,JOR,Jordan,2013,-0.6921857
+stability,JOR,Jordan,2014,-0.6114866
+stability,JOR,Jordan,2015,-0.6413047
+stability,JOR,Jordan,2016,-0.5300907
+stability,JOR,Jordan,2017,-0.4626995
+stability,JOR,Jordan,2018,-0.3414085
+stability,JOR,Jordan,2019,-0.2976503
+stability,JOR,Jordan,2020,-0.3444334
+stability,JOR,Jordan,2021,-0.416044
+stability,JOR,Jordan,2022,-0.3421667
+stability,JOR,Jordan,2023,-0.3318071
+stability,JOR,Jordan,2024,-0.3020102
+stability,JOR,Jordan,2025,-0.3165227
+stability,KEN,Kenya,2000,-1.3608261
+stability,KEN,Kenya,2002,-1.2215015
+stability,KEN,Kenya,2003,-1.2325496
+stability,KEN,Kenya,2004,-0.9463036
+stability,KEN,Kenya,2005,-1.0862254
+stability,KEN,Kenya,2006,-1.0240182
+stability,KEN,Kenya,2007,-1.4157174
+stability,KEN,Kenya,2008,-1.6195938
+stability,KEN,Kenya,2009,-1.5523103
+stability,KEN,Kenya,2010,-1.3775512
+stability,KEN,Kenya,2011,-1.4871702
+stability,KEN,Kenya,2012,-1.4889062
+stability,KEN,Kenya,2013,-1.1611803
+stability,KEN,Kenya,2014,-1.2808004
+stability,KEN,Kenya,2015,-1.2584286
+stability,KEN,Kenya,2016,-1.1945339
+stability,KEN,Kenya,2017,-1.1573399
+stability,KEN,Kenya,2018,-1.1422326
+stability,KEN,Kenya,2019,-1.0969155
+stability,KEN,Kenya,2020,-1.0743592
+stability,KEN,Kenya,2021,-1.1328447
+stability,KEN,Kenya,2022,-0.9892186
+stability,KEN,Kenya,2023,-0.9778015
+stability,KEN,Kenya,2024,-1.2554662
+stability,KEN,Kenya,2025,-1.1188748
+stability,MEX,Mexico,2000,-0.0897215
+stability,MEX,Mexico,2002,-0.152521
+stability,MEX,Mexico,2003,-0.0966353
+stability,MEX,Mexico,2004,-0.1467647
+stability,MEX,Mexico,2005,-0.3638413
+stability,MEX,Mexico,2006,-0.6113275
+stability,MEX,Mexico,2007,-0.6250424
+stability,MEX,Mexico,2008,-0.7420655
+stability,MEX,Mexico,2009,-0.7926025
+stability,MEX,Mexico,2010,-0.8257924
+stability,MEX,Mexico,2011,-0.7415783
+stability,MEX,Mexico,2012,-0.8083125
+stability,MEX,Mexico,2013,-0.8135894
+stability,MEX,Mexico,2014,-0.9571687
+stability,MEX,Mexico,2015,-0.8948351
+stability,MEX,Mexico,2016,-0.831428
+stability,MEX,Mexico,2017,-1.0373372
+stability,MEX,Mexico,2018,-0.9247243
+stability,MEX,Mexico,2019,-0.9019651
+stability,MEX,Mexico,2020,-0.7922916
+stability,MEX,Mexico,2021,-0.7609519
+stability,MEX,Mexico,2022,-0.5967501
+stability,MEX,Mexico,2023,-0.6266097
+stability,MEX,Mexico,2024,-0.5801221
+stability,MEX,Mexico,2025,-0.6081623
+stability,NGA,Nigeria,2000,-1.6528776
+stability,NGA,Nigeria,2002,-1.9966442
+stability,NGA,Nigeria,2003,-1.8127579
+stability,NGA,Nigeria,2004,-1.7009835
+stability,NGA,Nigeria,2005,-1.724277
+stability,NGA,Nigeria,2006,-1.814809
+stability,NGA,Nigeria,2007,-1.6779834
+stability,NGA,Nigeria,2008,-1.5727909
+stability,NGA,Nigeria,2009,-1.4546458
+stability,NGA,Nigeria,2010,-2.0200245
+stability,NGA,Nigeria,2011,-1.9350022
+stability,NGA,Nigeria,2012,-2.1014995
+stability,NGA,Nigeria,2013,-1.9894768
+stability,NGA,Nigeria,2014,-2.1894887
+stability,NGA,Nigeria,2015,-1.6584169
+stability,NGA,Nigeria,2016,-1.7029054
+stability,NGA,Nigeria,2017,-1.8983328
+stability,NGA,Nigeria,2018,-1.8726363
+stability,NGA,Nigeria,2019,-1.9640632
+stability,NGA,Nigeria,2020,-2.0004809
+stability,NGA,Nigeria,2021,-2.0060053
+stability,NGA,Nigeria,2022,-1.944621
+stability,NGA,Nigeria,2023,-1.9021059
+stability,NGA,Nigeria,2024,-1.8469458
+stability,NGA,Nigeria,2025,-1.7386216
+stability,POL,Poland,2000,0.4755578
+stability,POL,Poland,2002,0.7150257
+stability,POL,Poland,2003,0.5857289
+stability,POL,Poland,2004,0.1926952
+stability,POL,Poland,2005,0.499922
+stability,POL,Poland,2006,0.3534288
+stability,POL,Poland,2007,0.7607906
+stability,POL,Poland,2008,0.9761638
+stability,POL,Poland,2009,0.9765508
+stability,POL,Poland,2010,1.0900697
+stability,POL,Poland,2011,1.0443206
+stability,POL,Poland,2012,1.0576163
+stability,POL,Poland,2013,0.9487367
+stability,POL,Poland,2014,1.0512329
+stability,POL,Poland,2015,1.0536391
+stability,POL,Poland,2016,0.5550206
+stability,POL,Poland,2017,0.5856899
+stability,POL,Poland,2018,0.6188582
+stability,POL,Poland,2019,0.6622865
+stability,POL,Poland,2020,0.5486654
+stability,POL,Poland,2021,0.5533877
+stability,POL,Poland,2022,0.5278676
+stability,POL,Poland,2023,0.5041776
+stability,POL,Poland,2024,0.6737205
+stability,POL,Poland,2025,0.6937747
+stability,ROU,Romania,2000,-0.3207176
+stability,ROU,Romania,2002,0.3431827
+stability,ROU,Romania,2003,0.2258447
+stability,ROU,Romania,2004,0.0269778
+stability,ROU,Romania,2005,0.1395223
+stability,ROU,Romania,2006,0.1338596
+stability,ROU,Romania,2007,0.191907
+stability,ROU,Romania,2008,0.2359516
+stability,ROU,Romania,2009,0.3915303
+stability,ROU,Romania,2010,0.1865833
+stability,ROU,Romania,2011,0.110577
+stability,ROU,Romania,2012,0.0518547
+stability,ROU,Romania,2013,0.1361275
+stability,ROU,Romania,2014,0.1803466
+stability,ROU,Romania,2015,0.3457246
+stability,ROU,Romania,2016,0.3192791
+stability,ROU,Romania,2017,0.1346005
+stability,ROU,Romania,2018,0.1447665
+stability,ROU,Romania,2019,0.6430679
+stability,ROU,Romania,2020,0.6137782
+stability,ROU,Romania,2021,0.6652556
+stability,ROU,Romania,2022,0.5450379
+stability,ROU,Romania,2023,0.5036553
+stability,ROU,Romania,2024,0.2998688
+stability,ROU,Romania,2025,0.2067847
+stability,SAU,Saudi Arabia,2000,0.1012073
+stability,SAU,Saudi Arabia,2002,-0.0519628
+stability,SAU,Saudi Arabia,2003,0.0707184
+stability,SAU,Saudi Arabia,2004,-0.8757079
+stability,SAU,Saudi Arabia,2005,-0.4626065
+stability,SAU,Saudi Arabia,2006,-0.6330977
+stability,SAU,Saudi Arabia,2007,-0.5786741
+stability,SAU,Saudi Arabia,2008,-0.3850645
+stability,SAU,Saudi Arabia,2009,-0.7251858
+stability,SAU,Saudi Arabia,2010,-0.2854611
+stability,SAU,Saudi Arabia,2011,-0.4904342
+stability,SAU,Saudi Arabia,2012,-0.5683714
+stability,SAU,Saudi Arabia,2013,-0.638108
+stability,SAU,Saudi Arabia,2014,-0.3094408
+stability,SAU,Saudi Arabia,2015,-0.4505772
+stability,SAU,Saudi Arabia,2016,-0.4924234
+stability,SAU,Saudi Arabia,2017,-0.632321
+stability,SAU,Saudi Arabia,2018,-0.5636028
+stability,SAU,Saudi Arabia,2019,-0.5239956
+stability,SAU,Saudi Arabia,2020,-0.5294655
+stability,SAU,Saudi Arabia,2021,-0.4518557
+stability,SAU,Saudi Arabia,2022,-0.325557
+stability,SAU,Saudi Arabia,2023,-0.2642306
+stability,SAU,Saudi Arabia,2024,-0.0169291
+stability,SAU,Saudi Arabia,2025,0.0170733
+stability,SEN,Senegal,2000,-0.6263301
+stability,SEN,Senegal,2002,-0.4913901
+stability,SEN,Senegal,2003,-0.4881636
+stability,SEN,Senegal,2004,-0.21342
+stability,SEN,Senegal,2005,-0.2719644
+stability,SEN,Senegal,2006,-0.3012737
+stability,SEN,Senegal,2007,-0.2110995
+stability,SEN,Senegal,2008,-0.1681637
+stability,SEN,Senegal,2009,-0.0079948
+stability,SEN,Senegal,2010,-0.4277116
+stability,SEN,Senegal,2011,-0.3314719
+stability,SEN,Senegal,2012,-0.1594853
+stability,SEN,Senegal,2013,-0.0946215
+stability,SEN,Senegal,2014,-0.0935783
+stability,SEN,Senegal,2015,-0.0691099
+stability,SEN,Senegal,2016,-0.2212366
+stability,SEN,Senegal,2017,-0.1562563
+stability,SEN,Senegal,2018,-0.1538209
+stability,SEN,Senegal,2019,0.0457315
+stability,SEN,Senegal,2020,-0.0475255
+stability,SEN,Senegal,2021,-0.1224277
+stability,SEN,Senegal,2022,-0.224383
+stability,SEN,Senegal,2023,-0.1617478
+stability,SEN,Senegal,2024,-0.2635247
+stability,SEN,Senegal,2025,-0.1664247
+stability,SLV,El Salvador,2000,-0.0015709
+stability,SLV,El Salvador,2002,-0.0291291
+stability,SLV,El Salvador,2003,-0.3272862
+stability,SLV,El Salvador,2004,-0.1557081
+stability,SLV,El Salvador,2005,-0.0718257
+stability,SLV,El Salvador,2006,-0.2262584
+stability,SLV,El Salvador,2007,-0.0215947
+stability,SLV,El Salvador,2008,0.0445685
+stability,SLV,El Salvador,2009,-0.1662647
+stability,SLV,El Salvador,2010,0.0168742
+stability,SLV,El Salvador,2011,-0.0033993
+stability,SLV,El Salvador,2012,0.1775368
+stability,SLV,El Salvador,2013,-0.1588164
+stability,SLV,El Salvador,2014,-0.133289
+stability,SLV,El Salvador,2015,-0.1767514
+stability,SLV,El Salvador,2016,-0.3019509
+stability,SLV,El Salvador,2017,-0.3772207
+stability,SLV,El Salvador,2018,-0.4609845
+stability,SLV,El Salvador,2019,-0.2549632
+stability,SLV,El Salvador,2020,-0.2043113
+stability,SLV,El Salvador,2021,-0.2677443
+stability,SLV,El Salvador,2022,-0.1504355
+stability,SLV,El Salvador,2023,0.0691234
+stability,SLV,El Salvador,2024,0.1385315
+stability,SLV,El Salvador,2025,0.1112733
+stability,TUR,Turkiye,2000,-0.5420086
+stability,TUR,Turkiye,2002,-0.5285369
+stability,TUR,Turkiye,2003,-0.6259891
+stability,TUR,Turkiye,2004,-0.6857056
+stability,TUR,Turkiye,2005,-0.3724516
+stability,TUR,Turkiye,2006,-0.3367099
+stability,TUR,Turkiye,2007,-0.5709413
+stability,TUR,Turkiye,2008,-0.6022765
+stability,TUR,Turkiye,2009,-0.5554409
+stability,TUR,Turkiye,2010,-0.5540597
+stability,TUR,Turkiye,2011,-0.6929244
+stability,TUR,Turkiye,2012,-0.8954819
+stability,TUR,Turkiye,2013,-1.0022018
+stability,TUR,Turkiye,2014,-0.7974653
+stability,TUR,Turkiye,2015,-1.0878373
+stability,TUR,Turkiye,2016,-1.7668706
+stability,TUR,Turkiye,2017,-1.7058986
+stability,TUR,Turkiye,2018,-1.142298
+stability,TUR,Turkiye,2019,-1.2029715
+stability,TUR,Turkiye,2020,-1.0648506
+stability,TUR,Turkiye,2021,-0.9854737
+stability,TUR,Turkiye,2022,-0.9496668
+stability,TUR,Turkiye,2023,-0.8971265
+stability,TUR,Turkiye,2024,-0.886377
+stability,TUR,Turkiye,2025,-0.8812265
+stability,TZA,Tanzania,2000,-1.0240796
+stability,TZA,Tanzania,2002,-0.6071729
+stability,TZA,Tanzania,2003,-1.0294047
+stability,TZA,Tanzania,2004,-0.6620601
+stability,TZA,Tanzania,2005,-0.5661641
+stability,TZA,Tanzania,2006,-0.3665511
+stability,TZA,Tanzania,2007,-0.3413291
+stability,TZA,Tanzania,2008,-0.2448949
+stability,TZA,Tanzania,2009,0.0094859
+stability,TZA,Tanzania,2010,-0.0853575
+stability,TZA,Tanzania,2011,-0.1901875
+stability,TZA,Tanzania,2012,-0.1477191
+stability,TZA,Tanzania,2013,-0.4260471
+stability,TZA,Tanzania,2014,-0.4974986
+stability,TZA,Tanzania,2015,-0.4759577
+stability,TZA,Tanzania,2016,-0.5352189
+stability,TZA,Tanzania,2017,-0.6736725
+stability,TZA,Tanzania,2018,-0.6649435
+stability,TZA,Tanzania,2019,-0.5623156
+stability,TZA,Tanzania,2020,-0.6744986
+stability,TZA,Tanzania,2021,-0.5861267
+stability,TZA,Tanzania,2022,-0.4896413
+stability,TZA,Tanzania,2023,-0.2537311
+stability,TZA,Tanzania,2024,-0.3694786
+stability,TZA,Tanzania,2025,-0.4762071
+stability,UGA,Uganda,2000,-1.6314685
+stability,UGA,Uganda,2002,-1.6426205
+stability,UGA,Uganda,2003,-1.7195553
+stability,UGA,Uganda,2004,-1.1640541
+stability,UGA,Uganda,2005,-1.3089817
+stability,UGA,Uganda,2006,-1.0090376
+stability,UGA,Uganda,2007,-0.7434241
+stability,UGA,Uganda,2008,-0.6618696
+stability,UGA,Uganda,2009,-0.6898166
+stability,UGA,Uganda,2010,-0.7583022
+stability,UGA,Uganda,2011,-0.8963034
+stability,UGA,Uganda,2012,-0.8668973
+stability,UGA,Uganda,2013,-0.9047283
+stability,UGA,Uganda,2014,-0.9817397
+stability,UGA,Uganda,2015,-0.8121836
+stability,UGA,Uganda,2016,-0.8221249
+stability,UGA,Uganda,2017,-0.7089452
+stability,UGA,Uganda,2018,-0.7536211
+stability,UGA,Uganda,2019,-0.7892523
+stability,UGA,Uganda,2020,-0.8604828
+stability,UGA,Uganda,2021,-0.9531076
+stability,UGA,Uganda,2022,-1.1074702
+stability,UGA,Uganda,2023,-1.0456938
+stability,UGA,Uganda,2024,-1.0326284
+stability,UGA,Uganda,2025,-0.8669445
+stability,UKR,Ukraine,2000,-0.5155363
+stability,UKR,Ukraine,2002,-0.2509131
+stability,UKR,Ukraine,2003,-0.3661859
+stability,UKR,Ukraine,2004,-0.5540503
+stability,UKR,Ukraine,2005,-0.3918008
+stability,UKR,Ukraine,2006,-0.1826911
+stability,UKR,Ukraine,2007,0.0200509
+stability,UKR,Ukraine,2008,-0.0373035
+stability,UKR,Ukraine,2009,-0.2237581
+stability,UKR,Ukraine,2010,-0.0695928
+stability,UKR,Ukraine,2011,-0.1713299
+stability,UKR,Ukraine,2012,-0.241084
+stability,UKR,Ukraine,2013,-0.930725
+stability,UKR,Ukraine,2014,-1.9811261
+stability,UKR,Ukraine,2015,-1.8177221
+stability,UKR,Ukraine,2016,-1.6304279
+stability,UKR,Ukraine,2017,-1.5775303
+stability,UKR,Ukraine,2018,-1.4311324
+stability,UKR,Ukraine,2019,-1.034178
+stability,UKR,Ukraine,2020,-0.9568419
+stability,UKR,Ukraine,2021,-0.9861999
+stability,UKR,Ukraine,2022,-1.0534838
+stability,UKR,Ukraine,2023,-0.5764835
+stability,UKR,Ukraine,2024,-0.3542538
+stability,UKR,Ukraine,2025,-0.3337994
+stability,USA,United States,2000,1.0319579
+stability,USA,United States,2002,0.3490488
+stability,USA,United States,2003,0.2485374
+stability,USA,United States,2004,0.0770322
+stability,USA,United States,2005,0.1910556
+stability,USA,United States,2006,0.4135104
+stability,USA,United States,2007,0.4556059
+stability,USA,United States,2008,0.6165528
+stability,USA,United States,2009,0.6297476
+stability,USA,United States,2010,0.6111073
+stability,USA,United States,2011,0.6160776
+stability,USA,United States,2012,0.6146099
+stability,USA,United States,2013,0.5713369
+stability,USA,United States,2014,0.6596148
+stability,USA,United States,2015,0.655662
+stability,USA,United States,2016,0.3377341
+stability,USA,United States,2017,0.1322814
+stability,USA,United States,2018,0.2995229
+stability,USA,United States,2019,0.0687274
+stability,USA,United States,2020,-0.1281347
+stability,USA,United States,2021,-0.1135053
+stability,USA,United States,2022,-0.1533111
+stability,USA,United States,2023,-0.1453812
+stability,USA,United States,2024,-0.1134229
+stability,USA,United States,2025,-0.3020818
 trade_open,ARE,United Arab Emirates,2001,89.8645875613427
 trade_open,ARE,United Arab Emirates,2002,93.0717523974279
 trade_open,ARE,United Arab Emirates,2003,102.300072318295

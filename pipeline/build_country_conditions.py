@@ -59,20 +59,22 @@ REGIONS = [
 #              later codes are fallbacks for indicators the World Bank has renamed)
 #   source:    World Bank API source id (2 = World Development Indicators,
 #              3 = Worldwide Governance Indicators)
+#   search:    optional; if none of the codes work, look the indicator up by this name
+#              (the World Bank renamed the governance codes in its 2025 update)
 #   direction: "up" if higher is generally better, "down" if lower is better,
 #              None if neither (used only for wording on the dashboard, never for scoring)
 THEMES = [
     {"id": "governance", "name": "Governance and rule of law", "indicators": [
-        {"id": "rule_of_law",  "codes": ["RL.EST"], "source": 3, "short": "Rule of law",
+        {"id": "rule_of_law",  "codes": ["GOV_WGI_RL.EST", "GOV_WGI_RL_EST", "RL.EST"], "source": 3, "search": "Rule of Law", "short": "Rule of law",
          "unit": "score", "decimals": 2, "direction": "up",
          "note": "Estimate from about -2.5 (weak) to 2.5 (strong)."},
-        {"id": "regulatory",   "codes": ["RQ.EST"], "source": 3, "short": "Regulatory quality",
+        {"id": "regulatory",   "codes": ["GOV_WGI_RQ.EST", "GOV_WGI_RQ_EST", "RQ.EST"], "source": 3, "search": "Regulatory Quality", "short": "Regulatory quality",
          "unit": "score", "decimals": 2, "direction": "up",
          "note": "Estimate from about -2.5 (weak) to 2.5 (strong)."},
-        {"id": "corruption",   "codes": ["CC.EST"], "source": 3, "short": "Control of corruption",
+        {"id": "corruption",   "codes": ["GOV_WGI_CC.EST", "GOV_WGI_CC_EST", "CC.EST"], "source": 3, "search": "Control of Corruption", "short": "Control of corruption",
          "unit": "score", "decimals": 2, "direction": "up",
          "note": "Estimate from about -2.5 (weak) to 2.5 (strong)."},
-        {"id": "stability",    "codes": ["PV.EST"], "source": 3, "short": "Political stability",
+        {"id": "stability",    "codes": ["GOV_WGI_PV.EST", "GOV_WGI_PV_EST", "PV.EST"], "source": 3, "search": "Political Stability", "short": "Political stability",
          "unit": "score", "decimals": 2, "direction": "up",
          "note": "Political stability and absence of violence; about -2.5 to 2.5."},
     ]},
@@ -149,10 +151,12 @@ def get_json(url: str, params: dict, tries: int = 4) -> list:
     return []
 
 
-def fetch_indicator(code: str, source: int, countries: list[str]) -> pd.DataFrame:
+def fetch_indicator(code: str, source: int | None, countries: list[str]) -> pd.DataFrame:
     """All countries' annual values for one indicator, as a tidy DataFrame."""
     url = f"{API}/country/{';'.join(countries)}/indicator/{code}"
-    params = {"format": "json", "date": f"{START_YEAR}:{END_YEAR}", "per_page": 20000, "source": source}
+    params = {"format": "json", "date": f"{START_YEAR}:{END_YEAR}", "per_page": 20000}
+    if source is not None:
+        params["source"] = source
     payload = get_json(url, params)
     if len(payload) < 2 or not payload[1]:
         return pd.DataFrame(columns=["iso3", "year", "value"])
@@ -163,9 +167,23 @@ def fetch_indicator(code: str, source: int, countries: list[str]) -> pd.DataFram
     return df.dropna(subset=["value"])
 
 
-def fetch_indicator_name(code: str, source: int) -> tuple[str, str]:
+def search_indicator(source: int, name: str) -> list[str]:
+    """Find indicator codes in a source whose name contains `name` and is an estimate."""
+    payload = get_json(f"{API}/sources/{source}/indicators", {"format": "json", "per_page": 5000})
+    try:
+        hits = [i["id"] for i in payload[1]
+                if name.lower() in i.get("name", "").lower() and "estimate" in i.get("name", "").lower()]
+    except (IndexError, TypeError, KeyError):
+        return []
+    return hits
+
+
+def fetch_indicator_name(code: str, source: int | None) -> tuple[str, str]:
     """Official indicator name and source organization, for citations."""
-    payload = get_json(f"{API}/indicator/{code}", {"format": "json", "source": source})
+    params = {"format": "json"}
+    if source is not None:
+        params["source"] = source
+    payload = get_json(f"{API}/indicator/{code}", params)
     try:
         meta = payload[1][0]
         return meta.get("name", code), (meta.get("sourceOrganization") or "").strip()
@@ -196,16 +214,28 @@ def main() -> None:
     for theme in THEMES:
         for ind in theme["indicators"]:
             df, used = pd.DataFrame(), None
-            for code in ind["codes"]:
-                df = fetch_indicator(code, ind["source"], countries)
+            # Try each listed code with its source, then without a source filter
+            attempts = [(code, src) for src in (ind["source"], None) for code in ind["codes"]]
+            for code, src in attempts:
+                df = fetch_indicator(code, src, countries)
                 if not df.empty:
                     used = code
                     break
+            # Last resort: look the code up by name in the source's indicator list
+            if used is None and ind.get("search"):
+                for code in search_indicator(ind["source"], ind["search"]):
+                    df = fetch_indicator(code, ind["source"], countries)
+                    if not df.empty:
+                        used = code
+                        print(f"  (found {ind['short']} by name as {code})")
+                        break
             if used is None:
                 print(f"  ! no data for {ind['short']} ({', '.join(ind['codes'])}); skipped", file=sys.stderr)
                 continue
 
             official_name, organization = fetch_indicator_name(used, ind["source"])
+            if official_name == used:   # name lookup can fail for renamed codes; try without source
+                official_name, organization = fetch_indicator_name(used, None)
             df["indicator"] = ind["id"]
             frames.append(df)
             indicators[ind["id"]] = {
