@@ -358,7 +358,7 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
     <div class="section" style="margin-top:48px">
       <span class="kicker">Country conditions · <span class="num" id="db-years">2000 to latest</span></span>
       <h1>Country Conditions</h1>
-      <p class="lede">Governance, trade, people, health and the environment across 27 countries, from World Bank data.</p>
+      <p class="lede">Governance, trade, innovation, people, health and the environment across 27 countries, from World Bank data.</p>
       <p class="db-banner" id="db-banner" hidden>Sample data for layout preview. These values are simulated, not real. Run the pipeline to load World Bank data.</p>
       <div class="db-bar">
         <div class="seg" role="group" aria-label="View" id="db-mode"><button type="button" data-mode="profile" aria-pressed="true">Country profile</button><button type="button" data-mode="compare" aria-pressed="false">Compare countries</button></div>
@@ -473,7 +473,7 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
   </section>
   <section>
     <h3>Indicators</h3>
-    <p>Sixteen annual indicators in five themes: governance and rule of law, trade and investment, people and inequality, health, and environment and climate. Governance scores come from the Worldwide Governance Indicators; everything else from the World Development Indicators.</p>
+    <p>Twenty-four annual indicators in six themes: governance and rule of law, trade and investment, innovation and intellectual property, people and inequality, health, and environment and climate. Governance scores come from the Worldwide Governance Indicators; everything else from the World Development Indicators, including patent and trademark filings reported by WIPO.</p>
   </section>
 </template>
 
@@ -669,9 +669,14 @@ const ordinal=n=>n+(["th","st","nd","rd"][(n%100-20)%10]||["th","st","nd","rd"][
 const lc=s=>/^[A-Z][a-z]/.test(s)?s[0].toLowerCase()+s.slice(1):s;
 const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 function fmtV(ind,v){const d=DB.indicators[ind].decimals;if(Math.abs(v)<Math.pow(10,-d)/2)v=0;return v.toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d}).replace("-","−")}
-function fmtD(ind,d){const I=DB.indicators[ind],u=I.unit.startsWith("%")?" pts":(I.unit==="score"||I.unit==="index"?"":" "+I.unit);
+function fmtD(ind,d){const I=DB.indicators[ind];if(I.unit==="US$ billions")return (d>0?"+":d<0?"−":"")+"$"+Math.abs(d).toLocaleString("en-US",{minimumFractionDigits:I.decimals,maximumFractionDigits:I.decimals})+"B";const u=I.unit.startsWith("%")?" pts":(I.unit==="score"||I.unit==="index"?"":" "+I.unit);
   return (d>0?"+":d<0?"−":"")+Math.abs(d).toLocaleString("en-US",{minimumFractionDigits:I.decimals,maximumFractionDigits:I.decimals})+u}
 
+/* counts and dollar values change by percent; scores and shares change by points */
+const isPct=ind=>["applications","US$ billions"].includes(DB.indicators[ind].unit);
+const chgVal=(ind,v,b)=>isPct(ind)?(b>0?(v-b)/b:null):v-b;
+function fmtChg(ind,v,b){const c=chgVal(ind,v,b);if(c==null)return null;
+  return isPct(ind)?(c>0?"+":c<0?"−":"")+Math.abs(c*100).toLocaleString("en-US",{maximumFractionDigits:0})+"%":fmtD(ind,c)}
 function loadDB(){
   return fetch("data/country_conditions.json",{cache:"no-cache"})
     .then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()})
@@ -694,7 +699,7 @@ function rowsFor(ind){
     rows.push({iso,name:DB.countries[iso].name,region:DB.countries[iso].region,v:lp[1],y:lp[0],b:bp?bp[1]:null,by:bp?bp[0]:null});
   });
   rows.sort((a,b)=>b.v-a.v);
-  const movers=rows.filter(r=>r.b!=null).sort((a,b)=>Math.abs(b.v-b.b)-Math.abs(a.v-a.b));
+  const movers=rows.filter(r=>r.b!=null&&chgVal(ind,r.v,r.b)!=null).sort((a,b)=>Math.abs(chgVal(ind,b.v,b.b))-Math.abs(chgVal(ind,a.v,a.b)));
   const res={rows,stale,y0,y1,mover:movers[0]||null};CACHE.set("rows|"+ind,res);return res;
 }
 function regionMedian(ind,region){
@@ -710,7 +715,7 @@ function niceTicks(lo,hi,n=5){let step=Math.pow(10,Math.floor(Math.log10((hi-lo)
   const t=[];for(let v=Math.ceil(lo/step)*step;v<=hi+1e-9;v+=step)t.push(+v.toFixed(10));return{t,step}}
 function insight(ind,res){
   const I=DB.indicators[ind],m=res.mover;if(!m)return `${I.short}, ${res.y1}`;
-  const d=m.v-m.b;return `Since ${m.by}, the biggest ${d>0?"rise":"fall"} in ${lc(I.short)} was in ${m.name} (${fmtD(ind,d)})`;
+  const d=m.v-m.b;return `Since ${m.by}, the biggest ${isPct(ind)?"percentage ":""}${d>0?"rise":"fall"} in ${lc(I.short)} was in ${m.name} (${fmtChg(ind,m.v,m.b)})`;
 }
 
 /* dumbbell chart: open circle = value about ten years earlier, filled circle = latest */
@@ -721,7 +726,7 @@ function drawDumbbell(svg,ind,opt){
   if(lo>0&&lo<(hi-lo)*.35)lo=0;const pad=(hi-lo)*.05||1;lo-=lo===0?0:pad;hi+=pad;
   const sx=v=>L+(v-lo)/(hi-lo)*(R-L),H=top+rows.length*rh+6,{t,step}=niceTicks(lo,hi,compact?4:5);
   const dec=Math.max(0,-Math.floor(Math.log10(step)+1e-9));
-  let h=t.map(v=>`<line x1="${sx(v)}" x2="${sx(v)}" y1="${top-6}" y2="${H}" stroke="var(--rule)"/><text x="${sx(v)}" y="${top-12}" text-anchor="middle" font-size="${compact?10.5:11.5}" style="fill:var(--ink-2)">${v.toFixed(dec).replace("-","−")}</text>`).join("");
+  let h=t.map(v=>`<line x1="${sx(v)}" x2="${sx(v)}" y1="${top-6}" y2="${H}" stroke="var(--rule)"/><text x="${sx(v)}" y="${top-12}" text-anchor="middle" font-size="${compact?10.5:11.5}" style="fill:var(--ink-2)">${v.toLocaleString("en-US",{minimumFractionDigits:dec,maximumFractionDigits:dec}).replace("-","−")}</text>`).join("");
   if(lo<0&&hi>0)h+=`<line x1="${sx(0)}" x2="${sx(0)}" y1="${top-6}" y2="${H}" stroke="var(--ink-3)" stroke-width="1.2"/>`;
   rows.forEach((r,i)=>{const y=top+i*rh+rh/2,hl=r.iso===opt.hl,col=hl?"--accent":"--ink-3",fs=compact?10.5:12.5;
     h+=`<g class="db-row${hl?" hl":""}" data-iso="${r.iso}"${compact?"":` tabindex="0" role="button" aria-label="${esc(r.name)}: ${fmtV(ind,r.v)} in ${r.y}. Open profile"`}>`+
@@ -760,7 +765,7 @@ function dbCard(ind,iso,region){
   if(r){val=`<b class="num">${fmtV(ind,r.v)}</b><span class="num">${r.y}</span>`;
     if(r.b!=null){const d=r.v-r.b,flat=Math.abs(d)<Math.pow(10,-I.decimals)/2;
       const word=flat||!I.direction?"":((d>0)===(I.direction==="up")?" · improving":" · worsening");
-      chg=flat?`No change since ${r.by}`:`${d>0?"▲":"▼"} ${fmtD(ind,d)} since ${r.by}${word}`}
+      const ct=fmtChg(ind,r.v,r.b);chg=flat?`No change since ${r.by}`:(ct?`${d>0?"▲":"▼"} ${ct} since ${r.by}${word}`:"")}
     const pos=res.rows.indexOf(r)+1,mr=regionMedian(ind,region).find(p=>p[0]===r.y);
     rank=`${ordinal(pos)} highest of ${res.rows.length}`+(mr?` · region median ${fmtV(ind,mr[1])}`:"");
   }else if(s.length){const l=s[s.length-1];val=`<b class="num">${fmtV(ind,l[1])}</b><span class="num">${l[0]}</span>`;rank="No recent data; not ranked"}
@@ -832,8 +837,8 @@ document.addEventListener("change",e=>{
 
 /* ---------- projects ---------- */
 const WORKS=[
-  {t:"Country Conditions Dashboard",y:2026,type:"Dashboard",k:"countrydash",stat:"27 countries · 16 indicators",client:"Self-initiated",tools:"Python, pandas, World Bank API, GitHub Actions",body:"dash-tpl",
-   q:"How are governance, trade, health, inequality and the environment changing across 27 countries, and where does each country stand against its region?",
+  {t:"Country Conditions Dashboard",y:2026,type:"Dashboard",k:"countrydash",stat:"27 countries · 24 indicators",client:"Self-initiated",tools:"Python, pandas, World Bank API, GitHub Actions",body:"dash-tpl",
+   q:"How are governance, trade, innovation, health, inequality and the environment changing across 27 countries, and where does each country stand against its region?",
    data:"Annual World Bank data (World Development Indicators and Worldwide Governance Indicators), 2000 to the latest year, pulled by a Python pipeline that rebuilds the data file every month.",
    design:"Two views, each answering one question. A country profile shows each indicator's latest value, its ten-year change and its trend against the regional median. A comparison view ranks all 27 countries on one indicator and shows how far each has moved in ten years.",
    result:"Live on this site and refreshed automatically. Countries were chosen by a stated rule, explained below."},
