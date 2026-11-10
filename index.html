@@ -4,18 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <!-- When your custom domain is live, replace https://ksekyere.github.io/ below (3 places) with it -->
-<title>Kofi Forkuo-Sekyere | Research for Documentary, Film and Long-Form Work</title>
-<meta name="description" content="Kofi Forkuo-Sekyere is a quantitative social researcher who brings data, images and sound to documentary, film and long-form work. Projects include the Single Mom Index.">
+<title>Kofi Forkuo-Sekyere | Economic and Policy Research</title>
+<meta name="description" content="Kofi Forkuo-Sekyere is a quantitative social researcher trained in economics and public policy, researching the economic, legal and social conditions behind decisions. Includes a live Country Conditions Dashboard covering 27 countries. Projects include the Single Mom Index.">
 <meta name="author" content="Kofi Forkuo-Sekyere">
 <link rel="canonical" href="https://ksekyere.github.io/">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Kofi Forkuo-Sekyere | Research for Long-Form Work">
-<meta property="og:description" content="Issue-driven work that makes people see, hear and feel what's at stake, through data, maps, images and sound.">
+<meta property="og:title" content="Kofi Forkuo-Sekyere | Economic and Policy Research">
+<meta property="og:description" content="Research on the economic, legal and social conditions behind decisions, with a live dashboard of country conditions across 27 countries.">
 <meta property="og:url" content="https://ksekyere.github.io/">
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Person","name":"Kofi Forkuo-Sekyere","jobTitle":"Researcher","url":"https://ksekyere.github.io/",
- "knowsAbout":["Documentary research","Survey research","Data visualization","Information design","Video editing","R","Python"],
+{"@context":"https://schema.org","@type":"Person","name":"Kofi Forkuo-Sekyere","jobTitle":"Economic and Policy Researcher","url":"https://ksekyere.github.io/",
+ "knowsAbout":["Economic research","Public policy","Country risk","Governance indicators","Survey research","Data visualization","Python","R"],
  "sameAs":["https://www.linkedin.com/in/kofi-f-91442a83/","https://github.com/ksekyere","https://www.youtube.com/channel/UCS4eXmllznbCO89xyyt_BHg"]}
 </script>
 <style>[hidden]{display:none!important}img{max-width:100%}body{margin:0}</style>
@@ -156,6 +156,47 @@ h2{font-size:clamp(26px,3vw,36px);font-weight:750;line-height:1.08;letter-spacin
 .rp-stats b{font-family:var(--display);font-size:clamp(24px,2.6vw,30px);font-weight:800;letter-spacing:-.02em;color:var(--accent);line-height:1.05}
 .rp-stats span{font-size:15px;line-height:1.4;color:var(--ink-2)}
 .rp-table td.num{font-variant-numeric:tabular-nums}
+/* country conditions dashboard */
+.hero-chart{display:block;width:100%;height:auto}
+.db-banner{font-family:var(--mono);font-size:12.5px;line-height:1.5;color:var(--ink);background:var(--sheet);border:1.5px dashed var(--accent);padding:9px 12px;margin:0}
+.db-bar{display:flex;flex-wrap:wrap;align-items:end;gap:14px 22px}
+.db-field{display:flex;flex-direction:column;gap:6px;font-family:var(--display);font-weight:650;font-size:14px;min-width:0}
+.db-field select{font:inherit;font-family:var(--body);font-weight:400;font-size:17px;color:var(--ink);background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:9px 12px;min-width:220px;max-width:100%}
+.db-field select:focus{border-color:var(--accent);outline:none}
+#db-body{display:flex;flex-direction:column;gap:30px;margin-top:8px}
+.db-msg{font-family:var(--mono);font-size:14px;color:var(--ink-2)}
+.db-head{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px 24px;border-top:2px solid var(--ink);padding-top:14px}
+.db-head h2{margin-top:6px}
+.db-insight{font-size:clamp(22px,2.6vw,32px)!important;max-width:28ch}
+.db-hint{font-size:16px;color:var(--ink-2);margin-top:-18px;max-width:70ch}
+.db-legend{display:flex;flex-wrap:wrap;gap:8px 18px;font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.db-legend span{display:inline-flex;align-items:center;gap:8px}
+.db-legend .ln{display:inline-block;width:22px;height:0;border-top:2.5px solid var(--accent)}
+.db-legend .ln.med{border-top:2px dashed var(--ink-3)}
+.db-theme{display:flex;flex-direction:column;gap:12px}
+.db-theme h3{font-family:var(--display);font-size:19px;font-weight:750;letter-spacing:-.01em}
+.db-cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px}
+.db-card{font:inherit;color:inherit;text-align:left;cursor:pointer;background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:14px 16px 12px;display:flex;flex-direction:column;gap:4px;min-width:0}
+.db-card:hover{border-color:var(--ink)}
+.db-card .nm{font-family:var(--display);font-weight:700;font-size:15px;line-height:1.25}
+.db-card .unit{font-family:var(--mono);font-size:11.5px;color:var(--ink-2)}
+.db-card .val{display:flex;align-items:baseline;gap:8px;margin-top:6px}
+.db-card .val b{font-family:var(--display);font-size:30px;font-weight:800;letter-spacing:-.02em;line-height:1}
+.db-card .val span{font-family:var(--mono);font-size:12px;color:var(--ink-2)}
+.db-card .chg{font-family:var(--mono);font-size:12px;color:var(--ink-2);min-height:1.4em}
+.db-card svg{display:block;width:100%;height:auto;margin-block:4px}
+.db-card svg text{font-family:var(--mono)}
+.db-card .rank{font-family:var(--mono);font-size:11.5px;color:var(--ink-2);border-top:1px solid var(--rule);padding-top:8px}
+.db-chart{background:var(--sheet);border:1px solid var(--rule);padding:16px 14px;overflow-x:auto;max-width:900px}
+.db-chart svg{display:block;width:100%;min-width:560px;height:auto}
+.db-chart svg text,.hero-chart text{font-family:var(--display)}
+.db-row .hit{fill:transparent}
+#db-svg .db-row{cursor:pointer;outline:none}
+#db-svg .db-row:hover .hit,#db-svg .db-row:focus .hit{fill:var(--paper)}
+.db-cap,.db-foot{font-family:var(--mono);font-size:12px;line-height:1.55;color:var(--ink-2);max-width:900px}
+.db-cap{margin-top:-18px}
+.db-foot{margin-top:28px;border-top:1px solid var(--rule);padding-top:14px}
+.fig figcaption #hero-cap{display:block}
 /* long-form report inside a case study */
 .report{border-top:2px solid var(--ink);padding-top:28px;display:flex;flex-direction:column;gap:36px;max-width:780px}
 .rp-head{display:flex;flex-direction:column;gap:8px}
@@ -258,9 +299,10 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
 <body>
 <header>
   <div class="wrap bar">
-    <a class="logo" href="#home">Kofi Forkuo-Sekyere <small>Research · Data · Design</small></a>
+    <a class="logo" href="#home">Kofi Forkuo-Sekyere <small>Economic and policy research</small></a>
     <nav aria-label="Main">
       <a href="#home">Home</a>
+      <a href="#dashboard">Dashboard</a>
       <a href="#work">Work</a>
       <a href="#about">About</a>
       <a href="#contact">Contact</a>
@@ -274,27 +316,22 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
   <section class="view" id="v-home">
     <div class="hero">
       <div class="hero-copy">
-        <span class="kicker">Research for documentary, film and long-form work</span>
-        <h1>Research for work <em>meant to last.</em></h1>
-        <p class="lede">I start with an issue that shapes people's lives and dig until I find what makes people feel it: the data, the images, the sound. My background is in quantitative social research, and I'm building toward documentary, film and other long-form work that outlasts a news cycle.</p>
-        <div class="cta"><a class="btn solid" href="#work">See the work</a><a class="btn" href="#contact">Get in touch</a></div>
+        <span class="kicker">Economic and policy research</span>
+        <h1>Know the conditions <em>before you commit.</em></h1>
+        <p class="lede">I research the economic, legal and social conditions behind a decision: a market to enter, a country to invest in, a case or a policy to argue. I work from primary data and official sources, and I build tools that keep the picture current.</p>
+        <div class="cta"><a class="btn solid" href="#dashboard">Open the dashboard</a><a class="btn" href="#work">See the work</a></div>
       </div>
       <figure class="hero-fig" style="margin:0">
         <div class="fig">
           <div class="fig-top">
-            <span class="kicker">Featured project · Single Mom Index</span>
-            <div class="seg" role="group" aria-label="Measure shown on map" id="smi-seg"></div>
+            <span class="kicker">Country conditions · <span class="num" id="hero-src">World Bank</span></span>
+            <div class="seg" role="group" aria-label="Indicator shown" id="hero-seg"></div>
           </div>
-          <h3 id="fig-title">In some states, infant care costs a single mother more than half her income</h3>
-          <div class="smi">
-            <svg id="smi-map" viewBox="0 0 552 404" role="img" aria-labelledby="fig-title"></svg>
-            <div class="smi-side">
-              <div class="smi-legend" id="smi-legend"></div>
-              <div class="smi-detail" id="smi-detail" aria-live="polite"></div>
-            </div>
-          </div>
-          <figcaption><span>Full-time infant center care as a share of median income for single-mother families with children under 18. Tap a state.</span><span class="num">2022 · DOL childcare prices, Census ACS 2018–2022</span></figcaption>
-          <div class="cta"><button class="btn solid" type="button" data-open="0">Read the case study</button></div>
+          <h3 id="hero-title">Loading country data…</h3>
+          <p class="db-banner" id="hero-sample" hidden>Sample data for layout preview. These values are simulated, not real.</p>
+          <svg id="hero-chart" class="hero-chart" viewBox="0 0 560 400" role="img" aria-labelledby="hero-title"></svg>
+          <figcaption><span id="hero-cap"></span></figcaption>
+          <div class="cta"><a class="btn solid" href="#dashboard">Open the dashboard</a></div>
         </div>
       </figure>
     </div>
@@ -302,16 +339,34 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
     <div class="section" style="margin-top:24px">
       <div class="section-head"><h2>How I work</h2></div>
       <div class="method">
-        <div class="step"><span class="kicker">Issue</span><b>Start with what's at stake</b><p>Who is affected, and what should someone feel or understand after watching, reading or listening?</p></div>
-        <div class="step"><span class="kicker">Research</span><b>Get it right</b><p>Data, documents, archives, images and sound, each checked against its source before anything is made.</p></div>
-        <div class="step"><span class="kicker">Make</span><b>Choose the medium</b><p>A map, a report, a film or a score, whichever makes the issue land. One clear idea per piece.</p></div>
-        <div class="step"><span class="kicker">Test</span><b>Watch someone experience it</b><p>Show it to real viewers and listeners, then revise until the point lands without explanation.</p></div>
+        <div class="step"><span class="kicker">Question</span><b>Start with the decision</b><p>What are you deciding, and what evidence would change your mind?</p></div>
+        <div class="step"><span class="kicker">Sources</span><b>Go to the primary record</b><p>Official statistics, filings, statutes and court records, each checked against its source.</p></div>
+        <div class="step"><span class="kicker">Analysis</span><b>Show the uncertainty</b><p>Trends, comparisons and margins of error, so you know how much weight a number can bear.</p></div>
+        <div class="step"><span class="kicker">Delivery</span><b>Keep it current</b><p>A brief, a dashboard or a data file you can act on and update, not a slide that goes stale.</p></div>
+</div>
       </div>
     </div>
 
     <div class="section">
       <div class="section-head"><h2>Selected projects</h2><a class="more" href="#work">All work</a></div>
       <div class="grid" id="featured"></div>
+    </div>
+  </section>
+
+  <!-- DASHBOARD -->
+  <section class="view" id="v-dashboard" hidden>
+    <div class="section" style="margin-top:48px">
+      <span class="kicker">Country conditions · <span class="num" id="db-years">2000 to latest</span></span>
+      <h1>Country Conditions</h1>
+      <p class="lede">Governance, trade, people, health and the environment across 27 countries, from World Bank data.</p>
+      <p class="db-banner" id="db-banner" hidden>Sample data for layout preview. These values are simulated, not real. Run the pipeline to load World Bank data.</p>
+      <div class="db-bar">
+        <div class="seg" role="group" aria-label="View" id="db-mode"><button type="button" data-mode="profile" aria-pressed="true">Country profile</button><button type="button" data-mode="compare" aria-pressed="false">Compare countries</button></div>
+        <label class="db-field"><span id="db-country-l">Country</span><select id="db-country"></select></label>
+        <label class="db-field" id="db-ind-f" hidden><span>Indicator</span><select id="db-ind"></select></label>
+      </div>
+      <div id="db-body" aria-live="polite"><p class="db-msg">Loading country data…</p></div>
+      <p class="db-foot" id="db-foot"></p>
     </div>
   </section>
 
@@ -332,7 +387,7 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
   <section class="view" id="v-about" hidden>
     <div class="section" style="margin-top:48px">
       <span class="kicker">About</span>
-      <h1>From findings to <em>something people feel.</em></h1>
+      <h1>Economics, policy <em>and the evidence between them.</em></h1>
       <div class="two">
         <div class="toolkit">
           <span class="kicker">Toolkit</span>
@@ -343,9 +398,9 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
           <div class="tk-group"><b>Education</b><p class="tk-ed">Quantitative economics (Business Administration) and public policy (Master of Public Policy)</p></div>
         </div>
         <div class="prose">
-          <p class="lede">I'm Kofi Forkuo-Sekyere, a quantitative social researcher drawn to the research behind documentary, film and other long-form work.</p>
-          <p>A finding only matters if it reaches people, and what reaches them is often an image, a voice or a sound, not just a number.</p>
-          <p>I'm most drawn to work meant to last longer than a campaign: documentaries, films, series and long-form projects about family economics, justice and the policies that shape people's lives, at home and abroad. I'm always glad to hear from people making that kind of work.</p>
+          <p class="lede">I'm Kofi Forkuo-Sekyere, a quantitative social researcher trained in economics and public policy.</p>
+          <p>I research the conditions behind decisions: how a country's institutions, trade, health and environment are changing, what the law and the data actually say, and where the risks and openings are. My work is built for people who need that clarity, including founders, investors, attorneys, researchers and economists.</p>
+          <p>A finding only matters if it reaches people, and what reaches them is often an image, a voice or a sound, not just a number. That's why I also make video and sound pieces, for work meant to outlast a news cycle.</p>
           <div class="cta"><a class="btn solid" href="#work">See the work</a><a class="btn" href="#contact">Get in touch</a></div>
         </div>
       </div>
@@ -356,10 +411,10 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
   <section class="view" id="v-contact" hidden>
     <div class="section" style="margin-top:48px">
       <span class="kicker">Contact</span>
-      <h1>Have an issue <em>people need to see and hear?</em></h1>
+      <h1>Have a decision <em>that needs evidence?</em></h1>
       <div class="two">
         <div class="prose">
-          <p class="lede">A project, a collaboration, or a question worth digging into? Pick a topic and your email app opens with the subject ready.</p>
+          <p class="lede">Market and country research, background for a case or policy, data work, or a collaboration. Pick a topic and your email app opens with the subject ready.</p>
           <div class="copyline"><span class="addr" id="addr">workwithkofi@icloud.com</span><button class="btn" id="copy" type="button">Copy</button></div>
           <p class="links"><a class="more" href="https://www.linkedin.com/in/kofi-f-91442a83/" rel="me">LinkedIn</a><a class="more" href="https://github.com/ksekyere" rel="me">GitHub</a><a class="more" href="https://www.youtube.com/channel/UCS4eXmllznbCO89xyyt_BHg" rel="me">YouTube</a></p>
         </div>
@@ -367,6 +422,7 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
           <span class="kicker">What's it about? Pick one to start an email</span>
           <div id="mailopts"></div>
           <span class="note">Each link opens your email app with the subject filled in. If nothing opens, copy the address and paste the subject shown.</span>
+          <span class="note">I provide research and analysis, not legal, tax or investment advice.</span>
         </div>
       </div>
     </div>
@@ -378,6 +434,48 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
   </footer>
 </main>
 
+
+<template id="smi-map-tpl">
+      <figure style="margin:0">
+        <div class="fig">
+          <div class="fig-top">
+            <span class="kicker">Explore the map</span>
+            <div class="seg" role="group" aria-label="Measure shown on map" id="smi-seg"></div>
+          </div>
+          <h3 id="fig-title">In some states, infant care costs a single mother more than half her income</h3>
+          <div class="smi">
+            <svg id="smi-map" viewBox="0 0 552 404" role="img" aria-labelledby="fig-title"></svg>
+            <div class="smi-side">
+              <div class="smi-legend" id="smi-legend"></div>
+              <div class="smi-detail" id="smi-detail" aria-live="polite"></div>
+            </div>
+          </div>
+          <figcaption><span>Full-time infant center care as a share of median income for single-mother families with children under 18. Tap a state.</span><span class="num">2022 · DOL childcare prices, Census ACS 2018–2022</span></figcaption>
+        </div>
+      </figure>
+</template>
+
+<template id="dash-tpl">
+  <div class="rp-head"><span class="kicker">Live</span><h2>Open the dashboard</h2></div>
+  <section><p>Pick a country to see its profile, or compare all 27 countries on one indicator.</p><div class="cta"><a class="btn solid" href="#dashboard">Open the dashboard</a></div></section>
+  <section>
+    <h3>How the countries were chosen</h3>
+    <p>Each focus region contributes its largest economies by GDP, which matter most to businesses and investors and have the most complete data. Countries with large data gaps, such as Venezuela, Sudan, Iran and Russia after 2022, were left out. The United States, United Kingdom and Germany are included for comparison.</p>
+    <div class="rp-table"><table><thead><tr><th>Region</th><th>Countries</th></tr></thead><tbody>
+      <tr><td>East Africa</td><td>Kenya, Ethiopia, Tanzania, Uganda</td></tr>
+      <tr><td>West Africa</td><td>Nigeria, Ghana, Côte d'Ivoire, Senegal</td></tr>
+      <tr><td>Eastern Europe</td><td>Poland, Romania, Ukraine, Hungary</td></tr>
+      <tr><td>Latin America</td><td>Brazil, Mexico, Argentina, Colombia</td></tr>
+      <tr><td>Central America</td><td>Guatemala, Costa Rica, Honduras, El Salvador</td></tr>
+      <tr><td>West Asia</td><td>Türkiye, Saudi Arabia, United Arab Emirates, Jordan</td></tr>
+      <tr><td>Comparison</td><td>United States, United Kingdom, Germany</td></tr>
+    </tbody></table></div>
+  </section>
+  <section>
+    <h3>Indicators</h3>
+    <p>Sixteen annual indicators in five themes: governance and rule of law, trade and investment, people and inequality, health, and environment and climate. Governance scores come from the Worldwide Governance Indicators; everything else from the World Development Indicators.</p>
+  </section>
+</template>
 
 <template id="report-smi">
   <div class="rp-head">
@@ -505,7 +603,7 @@ const valOf=(t,m=smiM)=>t.v[MEASURES[m].i];
 function breaks(m){const v=TILES.map(t=>valOf(t,m)).filter(x=>x!=null).sort((a,b)=>a-b);return[.2,.4,.6,.8].map(q=>v[Math.floor(q*(v.length-1))])}
 function qi(v,br){if(v==null)return 0;let q=1;br.forEach(b=>{if(v>b)q++});return q}
 function drawSMI(){
-  const M=MEASURES[smiM],br=breaks(smiM),svg=document.getElementById("smi-map"),S=48,G=2;let h="";
+  const M=MEASURES[smiM],br=breaks(smiM),svg=document.getElementById("smi-map"),S=48,G=2;let h="";if(!svg)return;
   TILES.forEach(t=>{const v=valOf(t),q=qi(v,br),x=t.c*(S+G)+2,y=t.r*(S+G)+2;
     const fill=q?`var(--q${q})`:"url(#nodata)";
     h+=`<g data-st="${t.a}"><rect class="tile${t.a===smiSel?" sel":""}" x="${x}" y="${y}" width="${S}" height="${S}" rx="2" style="fill:${fill}" tabindex="0" role="button" aria-label="${t.n}: ${v==null?"no data":M.fmt(v)}"/>`+
@@ -524,9 +622,8 @@ function drawSMI(){
       return `<div class="comp${i===smiM?" on":""}"><span>${m.key}</span><div class="track"><div class="fill" style="width:${mv==null?0:mv/mx*100}%"></div></div><span class="num">${mv==null?"–":m.fmt(mv)}</span></div>`}).join("")+
     `<span class="kicker num" style="text-transform:none">${t.fams?t.fams.toLocaleString("en-US")+" single-mother families":""}</span>`;
 }
-document.getElementById("smi-map").addEventListener("click",e=>{const g=e.target.closest("[data-st]");if(g){smiSel=g.dataset.st;drawSMI()}});
-document.getElementById("smi-map").addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const g=e.target.closest("[data-st]");if(g){e.preventDefault();smiSel=g.dataset.st;drawSMI();document.querySelector(`[data-st="${smiSel}"] rect`).focus()}});
-document.getElementById("smi-seg").addEventListener("click",e=>{const b=e.target.closest("[data-m]");if(b){smiM=+b.dataset.m;drawSMI()}});
+document.addEventListener("click",e=>{const g=e.target.closest("#smi-map [data-st]");if(g){smiSel=g.dataset.st;drawSMI();return}const b=e.target.closest("#smi-seg [data-m]");if(b){smiM=+b.dataset.m;drawSMI()}});
+document.addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const g=e.target.closest("#smi-map [data-st]");if(g){e.preventDefault();smiSel=g.dataset.st;drawSMI();document.querySelector(`#smi-map [data-st="${smiSel}"] rect`).focus()}});
 
 /* Charts and table for the Single Mom Index findings report, built from SMI_DATA */
 function drawSMIReport(root){
@@ -564,9 +661,183 @@ function drawSMIReport(root){
   if(tb)tb.innerHTML=rows.filter(r=>r.cc>mc&&r.pv>mp).sort((a,b)=>b.cc-a.cc)
     .map(r=>`<tr><td>${r.n}</td><td class="num">${pct(r.cc)}</td><td class="num">${pct(r.pv)}</td><td class="num">$${r.mw.toFixed(2)}</td></tr>`).join("");
 }
+/* ---------- Country Conditions dashboard: reads data/country_conditions.json (built by pipeline/build_country_conditions.py) ---------- */
+let DB=null,DB_ERR=null;
+const dbState={mode:"profile",country:"KEN",ind:"rule_of_law",hero:"rule_of_law"};
+const HERO_INDS=["rule_of_law","life_exp","renewables"];
+const ordinal=n=>n+(["th","st","nd","rd"][(n%100-20)%10]||["th","st","nd","rd"][n%100]||"th");
+const lc=s=>/^[A-Z][a-z]/.test(s)?s[0].toLowerCase()+s.slice(1):s;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function fmtV(ind,v){const d=DB.indicators[ind].decimals;if(Math.abs(v)<Math.pow(10,-d)/2)v=0;return v.toLocaleString("en-US",{minimumFractionDigits:d,maximumFractionDigits:d}).replace("-","−")}
+function fmtD(ind,d){const I=DB.indicators[ind],u=I.unit.startsWith("%")?" pts":(I.unit==="score"||I.unit==="index"?"":" "+I.unit);
+  return (d>0?"+":d<0?"−":"")+Math.abs(d).toLocaleString("en-US",{minimumFractionDigits:I.decimals,maximumFractionDigits:I.decimals})+u}
+
+function loadDB(){
+  return fetch("data/country_conditions.json",{cache:"no-cache"})
+    .then(r=>{if(!r.ok)throw new Error("HTTP "+r.status);return r.json()})
+    .then(d=>{DB=d;CACHE.clear();if(!DB.countries[dbState.country])dbState.country=Object.keys(DB.countries)[0]})
+    .catch(e=>{DB_ERR=e})
+    .finally(()=>{drawHero();drawDashboard()});
+}
+
+/* reference years: y1 = the most common latest year, y0 = ten years earlier */
+const CACHE=new Map();
+function rowsFor(ind){
+  if(CACHE.has("rows|"+ind))return CACHE.get("rows|"+ind);
+  const D=DB.data[ind]||{},lasts=Object.values(D).map(s=>s[s.length-1][0]),count={};
+  lasts.forEach(y=>count[y]=(count[y]||0)+1);
+  const y1=+Object.keys(count).sort((a,b)=>count[b]-count[a]||b-a)[0],y0=y1-10,rows=[],stale=[];
+  Object.keys(DB.countries).forEach(iso=>{
+    const s=D[iso];let lp=null,bp=null;
+    if(s){s.forEach(p=>{if(p[0]<=y1)lp=p;if(Math.abs(p[0]-y0)<=2&&(!bp||Math.abs(p[0]-y0)<Math.abs(bp[0]-y0)))bp=p})}
+    if(!lp||lp[0]<y1-3){stale.push(iso);return}
+    rows.push({iso,name:DB.countries[iso].name,region:DB.countries[iso].region,v:lp[1],y:lp[0],b:bp?bp[1]:null,by:bp?bp[0]:null});
+  });
+  rows.sort((a,b)=>b.v-a.v);
+  const movers=rows.filter(r=>r.b!=null).sort((a,b)=>Math.abs(b.v-b.b)-Math.abs(a.v-a.b));
+  const res={rows,stale,y0,y1,mover:movers[0]||null};CACHE.set("rows|"+ind,res);return res;
+}
+function regionMedian(ind,region){
+  const key="med|"+ind+"|"+region;if(CACHE.has(key))return CACHE.get(key);
+  const isos=DB.regions.find(r=>r.id===region).countries,byYear={};
+  isos.forEach(iso=>(DB.data[ind]?.[iso]||[]).forEach(([y,v])=>(byYear[y]=byYear[y]||[]).push(v)));
+  const out=Object.keys(byYear).map(Number).sort((a,b)=>a-b).filter(y=>byYear[y].length>=2).map(y=>{
+    const v=byYear[y].sort((a,b)=>a-b),m=v.length/2;return[y,v.length%2?v[Math.floor(m)]:(v[m-1]+v[m])/2]});
+  CACHE.set(key,out);return out;
+}
+function niceTicks(lo,hi,n=5){let step=Math.pow(10,Math.floor(Math.log10((hi-lo)/n)));const e=(hi-lo)/n/step;
+  if(e>=7.5)step*=10;else if(e>=3.5)step*=5;else if(e>=1.5)step*=2;
+  const t=[];for(let v=Math.ceil(lo/step)*step;v<=hi+1e-9;v+=step)t.push(+v.toFixed(10));return{t,step}}
+function insight(ind,res){
+  const I=DB.indicators[ind],m=res.mover;if(!m)return `${I.short}, ${res.y1}`;
+  const d=m.v-m.b;return `Since ${m.by}, the biggest ${d>0?"rise":"fall"} in ${lc(I.short)} was in ${m.name} (${fmtD(ind,d)})`;
+}
+
+/* dumbbell chart: open circle = value about ten years earlier, filled circle = latest */
+function drawDumbbell(svg,ind,opt){
+  const res=rowsFor(ind),{rows}=res,compact=!!opt.compact;
+  const W=compact?560:760,L=compact?134:180,R=W-(compact?52:64),top=30,rh=compact?13.4:22;
+  let lo=Infinity,hi=-Infinity;rows.forEach(r=>[r.v,r.b].forEach(v=>{if(v!=null){lo=Math.min(lo,v);hi=Math.max(hi,v)}}));
+  if(lo>0&&lo<(hi-lo)*.35)lo=0;const pad=(hi-lo)*.05||1;lo-=lo===0?0:pad;hi+=pad;
+  const sx=v=>L+(v-lo)/(hi-lo)*(R-L),H=top+rows.length*rh+6,{t,step}=niceTicks(lo,hi,compact?4:5);
+  const dec=Math.max(0,-Math.floor(Math.log10(step)+1e-9));
+  let h=t.map(v=>`<line x1="${sx(v)}" x2="${sx(v)}" y1="${top-6}" y2="${H}" stroke="var(--rule)"/><text x="${sx(v)}" y="${top-12}" text-anchor="middle" font-size="${compact?10.5:11.5}" style="fill:var(--ink-2)">${v.toFixed(dec).replace("-","−")}</text>`).join("");
+  if(lo<0&&hi>0)h+=`<line x1="${sx(0)}" x2="${sx(0)}" y1="${top-6}" y2="${H}" stroke="var(--ink-3)" stroke-width="1.2"/>`;
+  rows.forEach((r,i)=>{const y=top+i*rh+rh/2,hl=r.iso===opt.hl,col=hl?"--accent":"--ink-3",fs=compact?10.5:12.5;
+    h+=`<g class="db-row${hl?" hl":""}" data-iso="${r.iso}"${compact?"":` tabindex="0" role="button" aria-label="${esc(r.name)}: ${fmtV(ind,r.v)} in ${r.y}. Open profile"`}>`+
+      `<rect x="0" y="${y-rh/2}" width="${W}" height="${rh}" class="hit"/>`+
+      `<text x="${L-10}" y="${y+fs*.35}" text-anchor="end" font-size="${fs}" font-weight="${hl?700:400}" style="fill:var(${hl?"--ink":"--ink-2"})">${esc(r.name)}</text>`+
+      (r.b!=null?`<line x1="${sx(r.b)}" x2="${sx(r.v)}" y1="${y}" y2="${y}" style="stroke:var(${col})" stroke-width="${hl?2.5:1.5}"/><circle cx="${sx(r.b)}" cy="${y}" r="${compact?2.6:3.6}" style="fill:var(--sheet);stroke:var(${col})" stroke-width="1.5"/>`:"")+
+      `<circle cx="${sx(r.v)}" cy="${y}" r="${compact?3.2:4.6}" style="fill:var(${hl?"--accent":"--ink-2"})"/>`+
+      `<text x="${R+10}" y="${y+fs*.35}" font-size="${fs}" font-weight="${hl?700:400}" style="fill:var(${hl?"--accent":"--ink-2"})">${fmtV(ind,r.v)}${r.y<res.y1?"*":""}</text>`+
+      `<title>${esc(r.name)}: ${fmtV(ind,r.v)} (${r.y})${r.b!=null?`, ${fmtV(ind,r.b)} in ${r.by}`:""}</title></g>`});
+  svg.setAttribute("viewBox",`0 0 ${W} ${H}`);svg.innerHTML=h;return res;
+}
+function dumbbellCaption(ind,res){
+  const I=DB.indicators[ind],stale=res.stale.map(i=>DB.countries[i].name);
+  return `${esc(I.note)} Open circles show about ${res.y0}, filled circles the latest year.`+
+    (res.rows.some(r=>r.y<res.y1)?` * Latest data is from before ${res.y1}.`:"")+
+    (stale.length?` No recent data: ${esc(stale.join(", "))}.`:"");
+}
+
+/* sparkline for a profile card: country (accent) against its regional median (dashed) */
+function spark(ind,iso,region){
+  const s=DB.data[ind]?.[iso]||[],med=regionMedian(ind,region),W=240,H=66,T=6,B=50,x0=DB.meta.first_year,x1=DB.meta.last_year;
+  const all=[...s,...med].map(p=>p[1]);if(!all.length)return"";
+  let lo=Math.min(...all),hi=Math.max(...all);if(hi-lo<1e-9){lo-=1;hi+=1}
+  const sx=y=>2+(y-x0)/(x1-x0)*(W-10),sy=v=>B-(v-lo)/(hi-lo)*(B-T);
+  const path=pts=>pts.map((p,i)=>(i&&p[0]-pts[i-1][0]<=5?"L":"M")+sx(p[0]).toFixed(1)+" "+sy(p[1]).toFixed(1)).join("");
+  let h=`<path d="${path(med)}" fill="none" style="stroke:var(--ink-3)" stroke-width="1.5" stroke-dasharray="3 3"/>`;
+  if(s.length){h+=`<path d="${path(s)}" fill="none" style="stroke:var(--accent)" stroke-width="2"/>`;
+    if(s.length<=8)h+=s.map(p=>`<circle cx="${sx(p[0])}" cy="${sy(p[1])}" r="2" style="fill:var(--accent)"/>`).join("");
+    const l=s[s.length-1];h+=`<circle cx="${sx(l[0])}" cy="${sy(l[1])}" r="3.5" style="fill:var(--accent)"/>`}
+  h+=`<text x="2" y="${H-2}" font-size="10" style="fill:var(--ink-3)">${x0}</text><text x="${W-8}" y="${H-2}" font-size="10" text-anchor="end" style="fill:var(--ink-3)">${x1}</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}" aria-hidden="true">${h}</svg>`;
+}
+function dbCard(ind,iso,region){
+  const I=DB.indicators[ind],res=rowsFor(ind),r=res.rows.find(x=>x.iso===iso),s=DB.data[ind]?.[iso]||[];
+  let val,chg="",rank="";
+  if(r){val=`<b class="num">${fmtV(ind,r.v)}</b><span class="num">${r.y}</span>`;
+    if(r.b!=null){const d=r.v-r.b,flat=Math.abs(d)<Math.pow(10,-I.decimals)/2;
+      const word=flat||!I.direction?"":((d>0)===(I.direction==="up")?" · improving":" · worsening");
+      chg=flat?`No change since ${r.by}`:`${d>0?"▲":"▼"} ${fmtD(ind,d)} since ${r.by}${word}`}
+    const pos=res.rows.indexOf(r)+1,mr=regionMedian(ind,region).find(p=>p[0]===r.y);
+    rank=`${ordinal(pos)} highest of ${res.rows.length}`+(mr?` · region median ${fmtV(ind,mr[1])}`:"");
+  }else if(s.length){const l=s[s.length-1];val=`<b class="num">${fmtV(ind,l[1])}</b><span class="num">${l[0]}</span>`;rank="No recent data; not ranked"}
+  else{val=`<b>–</b>`;rank="No data"}
+  return `<button type="button" class="db-card" data-ind="${ind}" aria-label="${esc(I.short)}: compare all countries">
+    <span class="nm">${esc(I.short)}</span><span class="unit">${esc(I.unit)}</span>
+    <span class="val">${val}</span><span class="chg">${chg||"&nbsp;"}</span>${spark(ind,iso,region)}<span class="rank">${rank}</span></button>`;
+}
+
+function dbMessage(){
+  if(DB_ERR)return `<p class="db-msg">The data file couldn't be loaded. If you opened this page straight from your computer, view it on the live site instead, where it loads normally.</p>`;
+  if(!DB)return `<p class="db-msg">Loading country data…</p>`;return"";
+}
+function drawDashboard(){
+  const body=document.getElementById("db-body");if(!body)return;
+  const msg=dbMessage();if(msg){body.innerHTML=msg;return}
+  document.getElementById("db-banner").hidden=!DB.meta.sample;
+  document.getElementById("db-years").textContent=`${DB.meta.first_year}–${DB.meta.last_year}`;
+  const csel=document.getElementById("db-country"),isel=document.getElementById("db-ind");
+  if(!csel.options.length){
+    csel.innerHTML=DB.regions.map(r=>`<optgroup label="${esc(r.name)}">${r.countries.map(i=>`<option value="${i}">${esc(DB.countries[i].name)}</option>`).join("")}</optgroup>`).join("");
+    isel.innerHTML=DB.themes.map(t=>`<optgroup label="${esc(t.name)}">${t.indicators.map(i=>`<option value="${i}">${esc(DB.indicators[i].short)}</option>`).join("")}</optgroup>`).join("");
+  }
+  if(!DB.indicators[dbState.ind])dbState.ind=DB.themes[0].indicators[0];
+  csel.value=dbState.country;isel.value=dbState.ind;
+  document.querySelectorAll("#db-mode button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.mode===dbState.mode));
+  document.getElementById("db-ind-f").hidden=dbState.mode!=="compare";
+  document.getElementById("db-country-l").textContent=dbState.mode==="compare"?"Highlight":"Country";
+  const iso=dbState.country,c=DB.countries[iso],reg=DB.regions.find(r=>r.id===c.region);
+  if(dbState.mode==="profile"){
+    body.innerHTML=`<div class="db-head"><div><span class="kicker">${esc(reg.name)}</span><h2>${esc(c.name)}</h2></div>
+      <div class="db-legend"><span><i class="ln acc"></i>${esc(c.name)}</span><span><i class="ln med"></i>${esc(reg.name)} median</span></div></div>
+      <p class="db-hint">Each card shows the latest value, the change over about ten years, and the trend since ${DB.meta.first_year}. Select a card to compare all ${Object.keys(DB.countries).length} countries.</p>`+
+      DB.themes.map(t=>`<section class="db-theme"><h3>${esc(t.name)}</h3><div class="db-cards">${t.indicators.map(i=>dbCard(i,iso,c.region)).join("")}</div></section>`).join("");
+  }else{
+    const ind=dbState.ind,I=DB.indicators[ind],res=rowsFor(ind),top=res.rows[0],bot=res.rows[res.rows.length-1];
+    body.innerHTML=`<div class="db-head"><div><span class="kicker">${esc(DB.themes.find(t=>t.indicators.includes(ind)).name)} · ${esc(I.unit)}</span><h2 class="db-insight">${esc(insight(ind,res))}</h2></div></div>
+      <p class="db-hint">${esc(top.name)} is highest and ${esc(bot.name)} lowest in ${res.y1}. Select a country to see its profile.</p>
+      <div class="db-chart"><svg id="db-svg" role="img" aria-label="${esc(I.short)} by country, ${res.y0} and latest"></svg></div>
+      <p class="db-cap">${dumbbellCaption(ind,res)}</p>`;
+    drawDumbbell(document.getElementById("db-svg"),ind,{hl:iso});
+  }
+  document.getElementById("db-foot").innerHTML=`Source: ${esc(DB.meta.source)}. Data file built ${esc(DB.meta.generated)} by a <a href="https://github.com/ksekyere/ksekyere.github.io/tree/main/pipeline">Python pipeline</a> that refreshes monthly. For research and discussion; not investment, legal or tax advice.`;
+}
+function dbScrollTop(){const el=document.getElementById("db-body");if(el)window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-90})}
+function drawHero(){
+  const svg=document.getElementById("hero-chart");if(!svg)return;
+  const title=document.getElementById("hero-title"),msg=dbMessage();
+  if(msg){title.textContent=DB_ERR?"Country data unavailable":"Loading country data…";svg.innerHTML="";return}
+  document.getElementById("hero-sample").hidden=!DB.meta.sample;
+  const inds=HERO_INDS.filter(i=>DB.indicators[i]);if(!inds.includes(dbState.hero))dbState.hero=inds[0];
+  document.getElementById("hero-seg").innerHTML=inds.map(i=>`<button type="button" aria-pressed="${i===dbState.hero}" data-hi="${i}">${esc(DB.indicators[i].short)}</button>`).join("");
+  const res=rowsFor(dbState.hero),res2=drawDumbbell(svg,dbState.hero,{compact:true,hl:res.mover&&res.mover.iso});
+  title.textContent=insight(dbState.hero,res2);
+  document.getElementById("hero-cap").innerHTML=dumbbellCaption(dbState.hero,res2);
+  document.getElementById("hero-src").textContent=`${Object.keys(DB.countries).length} countries · World Bank`;
+}
+document.addEventListener("click",e=>{
+  const hb=e.target.closest("#hero-seg [data-hi]");if(hb){dbState.hero=hb.dataset.hi;drawHero();return}
+  const mb=e.target.closest("#db-mode [data-mode]");if(mb){dbState.mode=mb.dataset.mode;drawDashboard();return}
+  const cd=e.target.closest(".db-card[data-ind]");if(cd){dbState.ind=cd.dataset.ind;dbState.mode="compare";drawDashboard();dbScrollTop();return}
+  const row=e.target.closest("#db-svg .db-row");if(row){dbState.country=row.dataset.iso;dbState.mode="profile";drawDashboard();dbScrollTop()}
+});
+document.addEventListener("keydown",e=>{if(e.key!=="Enter"&&e.key!==" ")return;const row=e.target.closest("#db-svg .db-row");if(row){e.preventDefault();row.dispatchEvent(new MouseEvent("click",{bubbles:true}))}});
+document.addEventListener("change",e=>{
+  if(e.target.id==="db-country"){dbState.country=e.target.value;drawDashboard()}
+  if(e.target.id==="db-ind"){dbState.ind=e.target.value;drawDashboard()}
+});
+
 /* ---------- projects ---------- */
 const WORKS=[
-  {t:"The Single Mom Index",y:2026,type:"Data visualization",k:"smi",stat:"3,000+ counties",client:"Self-initiated",tools:"R, Python, QGIS, Illustrator, InDesign, Figma",
+  {t:"Country Conditions Dashboard",y:2026,type:"Dashboard",k:"countrydash",stat:"27 countries · 16 indicators",client:"Self-initiated",tools:"Python, pandas, World Bank API, GitHub Actions",body:"dash-tpl",
+   q:"How are governance, trade, health, inequality and the environment changing across 27 countries, and where does each country stand against its region?",
+   data:"Annual World Bank data (World Development Indicators and Worldwide Governance Indicators), 2000 to the latest year, pulled by a Python pipeline that rebuilds the data file every month.",
+   design:"Two views, each answering one question. A country profile shows each indicator's latest value, its ten-year change and its trend against the regional median. A comparison view ranks all 27 countries on one indicator and shows how far each has moved in ten years.",
+   result:"Live on this site and refreshed automatically. Countries were chosen by a stated rule, explained below."},
+  {t:"The Single Mom Index",y:2026,type:"Data visualization",k:"smi",stat:"3,000+ counties",client:"Self-initiated",body:"smi-map-tpl",tools:"R, Python, QGIS, Illustrator, InDesign, Figma",
    q:"Which states and counties make it easiest, and hardest, for single mothers to support a family?",
    data:"Public data on childcare prices (US Dept. of Labor), single-mother income and poverty (Census ACS 2018–2022), and state minimum wages, joined by county. Code and methods are on GitHub.",
    design:"A tile map so small states are as visible as large ones, one warm color ramp, and a gray hatch for missing data instead of a misleading color. County maps flag unreliable estimates rather than hiding them.",
@@ -591,6 +862,16 @@ function draw(cv,w,i){
   const c=cv.getContext("2d"),W=cv.width,H=cv.height,r=rng(i*31+7),m=W*.07;
   c.fillStyle=P.paper;c.fillRect(0,0,W,H);c.textBaseline="alphabetic";
   const title=(t,y,s)=>{c.fillStyle=P.ink;c.font=G(800,s||H*.06);c.fillText(t,m,y)};
+  if(w.k==="countrydash"){
+    c.fillStyle=P.paper;c.fillRect(0,0,W,H);
+    c.fillStyle=P.ink;c.font=G(800,H*.05);c.fillText("Country Conditions",m,m+H*.03);
+    const cols=4,rows=3,gw=(W-m*2)/cols,gh=(H-m*2-H*.1)/rows,oy=m+H*.1;
+    for(let a=0;a<cols;a++)for(let b=0;b<rows;b++){const x=m+a*gw,y=oy+b*gh,hi=a===1&&b===1;
+      c.strokeStyle=P.grey2;c.lineWidth=1;c.strokeRect(x+4,y+4,gw-8,gh-8);
+      c.setLineDash([3,3]);c.strokeStyle=P.grey;c.lineWidth=1.4;c.beginPath();let v=gh*.55;for(let j=0;j<=10;j++){v+=(r()-.5)*gh*.08;c.lineTo(x+10+j*(gw-20)/10,y+v)}c.stroke();c.setLineDash([]);
+      c.strokeStyle=hi?P.acc:P.ink;c.lineWidth=hi?3:1.8;c.beginPath();v=gh*.5;const tr=(r()-.5)*gh*.05;for(let j=0;j<=10;j++){v+=tr+(r()-.5)*gh*.06;v=Math.max(gh*.2,Math.min(gh*.8,v));c.lineTo(x+10+j*(gw-20)/10,y+v)}c.stroke()}
+    return;
+  }
   if(w.k==="smireport"){
     c.fillStyle=P.grey2;c.fillRect(0,0,W,H);
     const px=W*.2,pw=W*.6;c.fillStyle=P.paper;c.fillRect(px,m*.6,pw,H-m*.6);
@@ -691,7 +972,7 @@ function renderWork(){
   });
   if(!any){const p=document.createElement("p");p.className="empty";p.textContent="No projects match these filters. Try All.";list.append(p)}
 }
-function render(){const f=document.getElementById("featured");f.innerHTML="";[0,1,2].forEach(i=>f.append(card(WORKS[i],i)));renderWork();drawSMI()}
+function render(){const f=document.getElementById("featured");f.innerHTML="";WORKS.slice(0,4).forEach((w,i)=>f.append(card(w,i)));renderWork();drawSMI()}
 
 
 /* case study viewer */
@@ -707,7 +988,7 @@ function openLB(i){cur=(i+WORKS.length)%WORKS.length;const w=WORKS[cur];stopVid(
   document.getElementById("c-title").textContent=w.t;
   document.getElementById("c-sum").textContent=w.q;
   const rep=document.getElementById("c-report");
-  if(w.body){rep.innerHTML=document.getElementById(w.body).innerHTML;rep.hidden=false;drawSMIReport(rep)}else{rep.innerHTML="";rep.hidden=true}
+  if(w.body){rep.innerHTML=document.getElementById(w.body).innerHTML;rep.hidden=false;drawSMIReport(rep);drawSMI()}else{rep.innerHTML="";rep.hidden=true}
   document.getElementById("c-steps").innerHTML=[["Question",w.q],["Data",w.data],["Design",w.design],["Result",w.result]].map(([k,v])=>`<div><span class="kicker">${k}</span><p>${v}</p></div>`).join("");
   document.getElementById("c-meta").innerHTML=`<dt>Client</dt><dd>${w.client}</dd><dt>Type</dt><dd>${w.type}</dd><dt>Year</dt><dd class="num">${w.y}</dd><dt>Tools</dt><dd>${w.tools}</dd><dt>Scope</dt><dd class="num">${w.stat}</dd>`;
   if(lb.hidden){lastFocus=document.activeElement;lb.hidden=false;document.body.style.overflow="hidden";document.getElementById("close").focus()}
@@ -726,17 +1007,18 @@ document.getElementById("copy").onclick=async()=>{const b=document.getElementByI
 /* email links: change EMAIL once and every link updates */
 const EMAIL=document.getElementById("addr").textContent.trim();
 const MAIL=[
-  {t:"Collaboration",d:"Working together on a research, data or design project.",s:"Collaboration",b:"Hi Kofi,\n\nI'd like to talk about working together on "},
-  {t:"Project inquiry",d:"A report, chart set, map, explainer or other project with a scope and timeline.",s:"Project inquiry",b:"Hi Kofi,\n\nWe have a project we'd like help with. In short: "},
+  {t:"Country or market research",d:"Conditions in a country, region or market you're considering: institutions, trade, people, health and environment.",s:"Country or market research",b:"Hi Kofi,\n\nWe're looking at "},
+  {t:"Background research for a case or policy",d:"Data, records and published research to support a legal matter, policy brief or advocacy project.",s:"Background research",b:"Hi Kofi,\n\nWe're working on a matter involving "},
+  {t:"Data and dashboards",d:"Building a dataset, an indicator, or a dashboard that stays current.",s:"Data and dashboards",b:"Hi Kofi,\n\nWe'd like help with "},
   {t:"Research for a film or series",d:"Background research, data, images or sound for a documentary, film, series or long-form project.",s:"Research for a film or series",b:"Hi Kofi,\n\nWe're working on a project about "},
-  {t:"Just saying hi",d:"Questions, collaborations, or a good chart you want to share.",s:"Hello",b:"Hi Kofi,\n\n"}
+  {t:"Just saying hi",d:"Questions, collaborations, or something worth reading.",s:"Hello",b:"Hi Kofi,\n\n"}
 ];
 document.getElementById("mailopts").innerHTML=MAIL.map(o=>{
   const href=`mailto:${EMAIL}?subject=${encodeURIComponent(o.s)}&body=${encodeURIComponent(o.b)}`;
   return `<a class="mo" href="${href}"><b>${o.t}</b><p>${o.d}</p><span class="subj">Subject: ${o.s}</span><span class="go">Email →</span></a>`}).join("");
 
 /* routing */
-const VIEWS=["home","work","about","contact"];
+const VIEWS=["home","dashboard","work","about","contact"];
 function route(){const v=VIEWS.includes(location.hash.slice(1))?location.hash.slice(1):"home";
   VIEWS.forEach(n=>document.getElementById("v-"+n).hidden=n!==v);
   document.querySelectorAll("nav a").forEach(a=>{if(a.getAttribute("href")==="#"+v)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
@@ -744,6 +1026,7 @@ function route(){const v=VIEWS.includes(location.hash.slice(1))?location.hash.sl
 addEventListener("hashchange",route);route();
 
 render();
+loadDB();
 if(document.fonts&&document.fonts.load)document.fonts.load('800 40px "Schibsted Grotesk"').then(render).catch(()=>{});
 /* redraw the hero chart when the theme changes so its colors follow */
 try{matchMedia("(prefers-color-scheme: dark)").addEventListener("change",drawSMI)}catch(e){}
