@@ -9,6 +9,10 @@ Worldwide Governance Indicators) for 27 countries, 2000 to the latest year, and 
     data/country_conditions.json      read by the dashboard
     data/country_conditions_long.csv  the same data in tidy (long) form, for analysis
 
+It also reads hand-checked reference data for the Patent viability screen from data/sources/
+(treaty membership and US Special 301 status; see data/sources/README.md), plus an optional
+World Justice Project file if one is saved there.
+
 Run from the repository root:
 
     pip install -r pipeline/requirements.txt
@@ -35,6 +39,10 @@ import requests
 ROOT = Path(__file__).resolve().parents[1]          # repository root
 OUT_JSON = ROOT / "data" / "country_conditions.json"
 OUT_CSV = ROOT / "data" / "country_conditions_long.csv"
+
+SOURCES = ROOT / "data" / "sources"
+IP_REFERENCE = SOURCES / "ip_reference.csv"
+SPECIAL301_YEAR = 2026            # update each April with the new USTR Special 301 Report
 
 START_YEAR = 2000
 END_YEAR = date.today().year
@@ -230,6 +238,81 @@ def fetch_country_names(countries: list[str]) -> dict[str, str]:
 # Build
 # --------------------------------------------------------------------------------------
 
+# --------------------------------------------------------------------------------------
+# Reference data for the Patent viability screen
+# --------------------------------------------------------------------------------------
+
+def read_ip_reference(countries: list[str]) -> dict:
+    """Treaty membership and Special 301 status, from the hand-checked CSV."""
+    if not IP_REFERENCE.exists():
+        print(f"  ! {IP_REFERENCE.relative_to(ROOT)} not found; the viability screen will be incomplete",
+              file=sys.stderr)
+        return {}
+    ref = pd.read_csv(IP_REFERENCE, dtype=str, keep_default_na=False)   # keep "n/a" as text
+    out = {}
+    for row in ref.itertuples(index=False):
+        if row.iso3 in countries:
+            out[row.iso3] = {
+                "pct": row.pct_member.strip() == "1",
+                "paris": row.paris_member.strip() == "1",
+                "special301": row.special301.strip(),
+                "note": row.note.strip(),
+            }
+    missing = [c for c in countries if c not in out]
+    if missing:
+        print(f"  ! no reference row for: {', '.join(missing)}", file=sys.stderr)
+    print(f"  IP reference data             {len(out)} countries (Special 301: {SPECIAL301_YEAR})")
+    return out
+
+
+def read_wjp_civil_justice(countries: list[str]) -> dict:
+    """Optional: latest World Justice Project Civil Justice score (0 to 1) per country.
+
+    Looks for an .xlsx in data/sources/ with "wjp" in its name. The WJP layout has changed over
+    the years, so this searches each sheet for a header row containing a country-code column,
+    a year column and a "Civil Justice" factor column, and skips the file if it can't find them.
+    """
+    files = sorted(SOURCES.glob("*[wW][jJ][pP]*.xls*")) if SOURCES.exists() else []
+    if not files:
+        print("  World Justice Project file    not found (optional; skipped)")
+        return {}
+    path = files[-1]
+    try:
+        sheets = pd.read_excel(path, sheet_name=None, header=None)
+    except Exception as err:      # e.g. openpyxl not installed, or an unreadable file
+        print(f"  ! could not read {path.name}: {err}", file=sys.stderr)
+        return {}
+
+    for raw in sheets.values():
+        for h in range(min(15, len(raw))):
+            header = [str(v).strip() for v in raw.iloc[h].tolist()]
+            low = [v.lower() for v in header]
+            code_col = next((i for i, v in enumerate(low) if v in ("country code", "country_code", "iso3", "code")), None)
+            year_col = next((i for i, v in enumerate(low) if v in ("year", "edition")), None)
+            cj_col = next((i for i, v in enumerate(low)
+                           if "civil justice" in v and not v[:1].isdigit()), None)
+            if None in (code_col, year_col, cj_col):
+                continue
+            df = raw.iloc[h + 1:, [code_col, year_col, cj_col]]
+            df.columns = ["iso3", "year", "score"]
+            df["year"] = df["year"].astype(str).str.extract(r"(\d{4})(?!.*\d{4})")[0]
+            df["score"] = pd.to_numeric(df["score"], errors="coerce")
+            df = df.dropna(subset=["year", "score"])
+            df = df[df["iso3"].astype(str).str.upper().isin(countries)]
+            if df.empty:
+                continue
+            df["year"] = df["year"].astype(int)
+            latest = df.sort_values("year").groupby(df["iso3"].astype(str).str.upper()).tail(1)
+            out = {str(r.iso3).upper(): {"score": round(float(r.score), 3), "year": int(r.year)}
+                   for r in latest.itertuples(index=False)}
+            print(f"  World Justice Project         {len(out)} countries, Civil Justice "
+                  f"(latest {max(v['year'] for v in out.values())})")
+            return out
+    print(f"  ! couldn't find Country Code, Year and Civil Justice columns in {path.name}; skipped",
+          file=sys.stderr)
+    return {}
+
+
 def main() -> None:
     countries = [c for region in REGIONS for c in region["countries"]]
     names = fetch_country_names(countries)
@@ -301,6 +384,10 @@ def main() -> None:
         dec = indicators[ind_id]["decimals"] + 2   # keep a little extra precision for charts
         data.setdefault(ind_id, {})[iso3] = [[int(y), round(float(v), dec)] for y, v in zip(grp["year"], grp["value"])]
 
+    print()
+    ip_reference = read_ip_reference(countries)
+    wjp = read_wjp_civil_justice(countries)
+
     region_of = {c: r["id"] for r in REGIONS for c in r["countries"]}
     out = {
         "meta": {
@@ -320,6 +407,8 @@ def main() -> None:
         ],
         "indicators": indicators,
         "data": data,
+        "ip_reference": {"special301_year": SPECIAL301_YEAR, "countries": ip_reference},
+        "wjp_civil_justice": wjp,
     }
     OUT_JSON.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 

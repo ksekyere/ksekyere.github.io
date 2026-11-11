@@ -1,5 +1,24 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Kofi Forkuo-Sekyere</title>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!-- When your custom domain is live, replace https://ksekyere.github.io/ below (3 places) with it -->
+<title>Kofi Forkuo-Sekyere | Economic and Policy Research</title>
+<meta name="description" content="Kofi Forkuo-Sekyere is a quantitative social researcher trained in economics and public policy, researching the economic, legal and social conditions behind decisions. Includes a live Country Conditions Dashboard covering 27 countries. Projects include the Single Mom Index.">
+<meta name="author" content="Kofi Forkuo-Sekyere">
+<link rel="canonical" href="https://ksekyere.github.io/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kofi Forkuo-Sekyere | Economic and Policy Research">
+<meta property="og:description" content="Research on the economic, legal and social conditions behind decisions, with a live dashboard of country conditions across 27 countries.">
+<meta property="og:url" content="https://ksekyere.github.io/">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Kofi Forkuo-Sekyere","jobTitle":"Economic and Policy Researcher","url":"https://ksekyere.github.io/",
+ "knowsAbout":["Economic research","Public policy","Country risk","Governance indicators","Survey research","Data visualization","Python","R"],
+ "sameAs":["https://www.linkedin.com/in/kofi-f-91442a83/","https://github.com/ksekyere","https://www.youtube.com/channel/UCS4eXmllznbCO89xyyt_BHg"]}
+</script>
+<style>[hidden]{display:none!important}img{max-width:100%}body{margin:0}</style>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,300..600;1,8..60,300..500&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -8,6 +27,7 @@
 :root{
   --paper:#f4f5f7; --sheet:#ffffff; --ink:#111827; --ink-2:#5b6474; --ink-3:#9aa2b1; --rule:#d9dde4; --guide:rgba(17,24,39,.045);
   --accent:#d9620b; --accent-ink:#ffffff; --muted-bar:#c3c9d3;
+  --good:#1f7a55; --good-bg:#e3f2ea; --mixed:#8a5a00; --mixed-bg:#fbefd6; --weak:#b3261e; --weak-bg:#fbe4e2;
   --q1:#e6e9ee; --q2:#f7d3b6; --q3:#efa66d; --q4:#df7a2c; --q5:#a94a08; --q-ink-lo:#111827; --q-ink-hi:#ffffff;
   --display:"Schibsted Grotesk","Helvetica Neue",Arial,sans-serif;
   --body:"Source Serif 4",Georgia,"Times New Roman",serif;
@@ -15,10 +35,10 @@
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   --paper:#0f131a; --sheet:#161b24; --ink:#eef1f5; --ink-2:#a4adbb; --ink-3:#6b7586; --rule:#2a3140; --guide:rgba(238,241,245,.035);
-  --accent:#ff8a3d; --accent-ink:#1a0d03; --muted-bar:#3a4252; --q1:#252c38; --q2:#4c3527; --q3:#7f4c25; --q4:#c06520; --q5:#ff9a52; --q-ink-lo:#eef1f5; --q-ink-hi:#1a0d03; color-scheme:dark}}
+  --accent:#ff8a3d; --accent-ink:#1a0d03; --muted-bar:#3a4252; --good:#6fd4a4; --good-bg:#15332a; --mixed:#f0c06a; --mixed-bg:#3a2e14; --weak:#ff8f86; --weak-bg:#3d1c1a; --q1:#252c38; --q2:#4c3527; --q3:#7f4c25; --q4:#c06520; --q5:#ff9a52; --q-ink-lo:#eef1f5; --q-ink-hi:#1a0d03; color-scheme:dark}}
 :root[data-theme="dark"]{
   --paper:#0f131a; --sheet:#161b24; --ink:#eef1f5; --ink-2:#a4adbb; --ink-3:#6b7586; --rule:#2a3140; --guide:rgba(238,241,245,.035);
-  --accent:#ff8a3d; --accent-ink:#1a0d03; --muted-bar:#3a4252; --q1:#252c38; --q2:#4c3527; --q3:#7f4c25; --q4:#c06520; --q5:#ff9a52; --q-ink-lo:#eef1f5; --q-ink-hi:#1a0d03; color-scheme:dark}
+  --accent:#ff8a3d; --accent-ink:#1a0d03; --muted-bar:#3a4252; --good:#6fd4a4; --good-bg:#15332a; --mixed:#f0c06a; --mixed-bg:#3a2e14; --weak:#ff8f86; --weak-bg:#3d1c1a; --q1:#252c38; --q2:#4c3527; --q3:#7f4c25; --q4:#c06520; --q5:#ff9a52; --q-ink-lo:#eef1f5; --q-ink-hi:#1a0d03; color-scheme:dark}
 
 *{box-sizing:border-box}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.6;
@@ -137,6 +157,45 @@ h2{font-size:clamp(26px,3vw,36px);font-weight:750;line-height:1.08;letter-spacin
 .rp-stats b{font-family:var(--display);font-size:clamp(24px,2.6vw,30px);font-weight:800;letter-spacing:-.02em;color:var(--accent);line-height:1.05}
 .rp-stats span{font-size:15px;line-height:1.4;color:var(--ink-2)}
 .rp-table td.num{font-variant-numeric:tabular-nums}
+/* patent viability screen */
+.db-head-r{display:flex;flex-direction:column;align-items:flex-end;gap:10px}
+.sc-go{font:inherit;font-family:var(--display);font-weight:650;font-size:14px;color:var(--ink);background:var(--sheet);border:1px solid var(--rule);border-radius:2px;padding:6px 10px;display:inline-flex;align-items:center;gap:8px;cursor:pointer}
+.sc-go:hover{border-color:var(--ink)}
+.sc-chip{display:inline-flex;align-items:center;gap:6px;font-family:var(--display);font-weight:650;font-size:13px;padding:3px 9px 3px 7px;border-radius:99px;white-space:nowrap}
+.sc-chip i{display:inline-block;width:9px;height:9px;border-radius:50%;border:1.5px solid currentColor;flex:none}
+.sc-chip.lv2 i{background:currentColor}
+.sc-chip.lv1 i{background:linear-gradient(90deg,currentColor 50%,transparent 50%)}
+.sc-chip.lv0 i{background:transparent}
+.sc-chip.lv2{color:var(--good);background:var(--good-bg)}
+.sc-chip.lv1{color:var(--mixed);background:var(--mixed-bg)}
+.sc-chip.lv0{color:var(--weak);background:var(--weak-bg)}
+.sc-chip.na{color:var(--ink-2);background:var(--paper)}
+.db-legend .sc-chip{font-size:12px}
+.sc-wrap{overflow-x:auto;background:var(--sheet);border:1px solid var(--rule)}
+.sc-table{border-collapse:collapse;width:100%;min-width:860px;font-size:15px}
+.sc-table thead th{font-family:var(--mono);font-size:11.5px;font-weight:500;letter-spacing:.03em;text-transform:uppercase;color:var(--ink-2);text-align:left;padding:12px 12px 10px;border-bottom:2px solid var(--ink);vertical-align:bottom;line-height:1.35}
+.sc-table td,.sc-table tbody th{padding:10px 12px;border-bottom:1px solid var(--rule);text-align:left;vertical-align:middle}
+.sc-table .ctx{text-align:right;color:var(--ink-2)}
+.sc-table td.ctx small{display:block;font-family:var(--mono);font-size:11px;color:var(--ink-3)}
+.sc-name{font:inherit;font-family:var(--display);font-weight:700;font-size:15px;color:var(--ink);background:none;border:0;padding:0;cursor:pointer;text-align:left;display:flex;flex-direction:column}
+.sc-name span{font-family:var(--mono);font-weight:400;font-size:11px;color:var(--ink-2)}
+.sc-name::after{content:"Show reasons";font-family:var(--mono);font-weight:400;font-size:11px;color:var(--accent)}
+.sc-name[aria-expanded="true"]::after{content:"Hide reasons"}
+.sc-row:hover{background:var(--paper)}
+.sc-table tbody th,.sc-table thead th:first-child{position:sticky;left:0;z-index:1;background:var(--sheet);box-shadow:1px 0 0 var(--rule)}
+.sc-row:hover th{background:var(--paper)}
+.sc-detail td{position:static}
+.sc-detail td{background:var(--paper);padding:16px 18px 18px}
+.sc-why{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px 26px}
+.sc-why>div b{font-family:var(--display);font-size:14px;margin-right:8px}
+.sc-why ul{margin:8px 0 0;padding-left:1.1em;display:flex;flex-direction:column;gap:4px;font-size:15px;line-height:1.45;color:var(--ink-2)}
+.sc-note{grid-column:1/-1;font-size:15px;color:var(--ink-2);border-left:2px solid var(--rule);padding-left:12px}
+.sc-profile{grid-column:1/-1;justify-self:start;font:inherit;background:none;border:0;padding:0 0 2px;cursor:pointer;color:var(--ink)}
+.sc-method{display:flex;flex-direction:column;gap:12px;max-width:900px}
+.sc-method h3{font-family:var(--display);font-size:19px;font-weight:750}
+.sc-method ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:8px}
+.sc-method li,.sc-method p{font-size:16px;line-height:1.55}
+.sc-method li b{font-family:var(--display)}
 /* country conditions dashboard */
 .hero-chart{display:block;width:100%;height:auto}
 .db-banner{font-family:var(--mono);font-size:12.5px;line-height:1.5;color:var(--ink);background:var(--sheet);border:1.5px dashed var(--accent);padding:9px 12px;margin:0}
@@ -276,6 +335,8 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
 @media (prefers-reduced-motion:reduce){.fig .bar-r{transition:none}}
 </style>
 
+</head>
+<body>
 <header>
   <div class="wrap bar">
     <a class="logo" href="#home">Kofi Forkuo-Sekyere <small>Economic and policy research</small></a>
@@ -337,10 +398,10 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
     <div class="section" style="margin-top:48px">
       <span class="kicker">Country conditions · <span class="num" id="db-years">2000 to latest</span></span>
       <h1>Country Conditions</h1>
-      <p class="lede">Governance, trade, innovation, people, health and the environment across 27 countries, from World Bank data.</p>
+      <p class="lede">Governance, trade, innovation, people, health and the environment across 27 countries, from World Bank data, with a screen for whether patent-protected operations are viable.</p>
       <p class="db-banner" id="db-banner" hidden>Sample data for layout preview. These values are simulated, not real. Run the pipeline to load World Bank data.</p>
       <div class="db-bar">
-        <div class="seg" role="group" aria-label="View" id="db-mode"><button type="button" data-mode="profile" aria-pressed="true">Country profile</button><button type="button" data-mode="compare" aria-pressed="false">Compare countries</button></div>
+        <div class="seg" role="group" aria-label="View" id="db-mode"><button type="button" data-mode="profile" aria-pressed="true">Country profile</button><button type="button" data-mode="compare" aria-pressed="false">Compare countries</button><button type="button" data-mode="screen" aria-pressed="false">Patent viability</button></div>
         <label class="db-field"><span id="db-country-l">Country</span><select id="db-country"></select></label>
         <label class="db-field" id="db-ind-f" hidden><span>Indicator</span><select id="db-ind"></select></label>
       </div>
@@ -449,6 +510,10 @@ footer{margin-top:80px;border-top:1px solid var(--rule);padding-block:20px 40px;
       <tr><td>West Asia</td><td>Türkiye, Saudi Arabia, United Arab Emirates, Jordan</td></tr>
       <tr><td>Comparison</td><td>United States, United Kingdom, Germany</td></tr>
     </tbody></table></div>
+  </section>
+  <section>
+    <h3>Patent viability screen</h3>
+    <p>A third view rates each country on three necessary conditions for patent-protected operations: whether a patent can be obtained, whether it can be enforced, and whether the environment is stable enough to operate. It combines treaty membership, the US Special 301 Report and World Bank governance estimates, with every threshold published. It is a first filter for investors and lenders, not legal advice.</p>
   </section>
   <section>
     <h3>Indicators</h3>
@@ -772,21 +837,22 @@ function drawDashboard(){
   csel.value=dbState.country;isel.value=dbState.ind;
   document.querySelectorAll("#db-mode button").forEach(b=>b.setAttribute("aria-pressed",b.dataset.mode===dbState.mode));
   document.getElementById("db-ind-f").hidden=dbState.mode!=="compare";
+  document.getElementById("db-country").parentElement.hidden=dbState.mode==="screen";
   document.getElementById("db-country-l").textContent=dbState.mode==="compare"?"Highlight":"Country";
   const iso=dbState.country,c=DB.countries[iso],reg=DB.regions.find(r=>r.id===c.region);
   if(dbState.mode==="profile"){
     body.innerHTML=`<div class="db-head"><div><span class="kicker">${esc(reg.name)}</span><h2>${esc(c.name)}</h2></div>
-      <div class="db-legend"><span><i class="ln acc"></i>${esc(c.name)}</span><span><i class="ln med"></i>${esc(reg.name)} median</span></div></div>
+      <div class="db-head-r"><button type="button" class="sc-go" data-go-screen>Patent viability ${chip(screenFor(iso).overall)}</button><div class="db-legend"><span><i class="ln acc"></i>${esc(c.name)}</span><span><i class="ln med"></i>${esc(reg.name)} median</span></div></div></div>
       <p class="db-hint">Each card shows the latest value, the change over about ten years, and the trend since ${DB.meta.first_year}. Select a card to compare all ${Object.keys(DB.countries).length} countries.</p>`+
       DB.themes.map(t=>`<section class="db-theme"><h3>${esc(t.name)}</h3><div class="db-cards">${t.indicators.map(i=>dbCard(i,iso,c.region)).join("")}</div></section>`).join("");
-  }else{
+  }else if(dbState.mode==="compare"){
     const ind=dbState.ind,I=DB.indicators[ind],res=rowsFor(ind),top=res.rows[0],bot=res.rows[res.rows.length-1];
     body.innerHTML=`<div class="db-head"><div><span class="kicker">${esc(DB.themes.find(t=>t.indicators.includes(ind)).name)} · ${esc(I.unit)}</span><h2 class="db-insight">${esc(insight(ind,res))}</h2></div></div>
       <p class="db-hint">${esc(top.name)} is highest and ${esc(bot.name)} lowest in ${res.y1}. Select a country to see its profile.</p>
       <div class="db-chart"><svg id="db-svg" role="img" aria-label="${esc(I.short)} by country, ${res.y0} and latest"></svg></div>
       <p class="db-cap">${dumbbellCaption(ind,res)}</p>`;
     drawDumbbell(document.getElementById("db-svg"),ind,{hl:iso});
-  }
+  }else{drawScreen(body)}
   document.getElementById("db-foot").innerHTML=`Source: ${esc(DB.meta.source)}. Data file built ${esc(DB.meta.generated)} by a <a href="https://github.com/ksekyere/ksekyere.github.io/tree/main/pipeline">Python pipeline</a> that refreshes monthly. For research and discussion; not investment, legal or tax advice.`;
 }
 function dbScrollTop(){const el=document.getElementById("db-body");if(el)window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-90})}
@@ -814,12 +880,94 @@ document.addEventListener("change",e=>{
   if(e.target.id==="db-ind"){dbState.ind=e.target.value;drawDashboard()}
 });
 
+/* ---------- Patent viability screen: can a patent be obtained, enforced, and relied on in a stable environment? ---------- */
+const LV=["Weak","Mixed","Supportive"],LVSYM=["○","◐","●"];
+function latestOf(ind,iso){if(!DB.indicators[ind])return null;return rowsFor(ind).rows.find(r=>r.iso===iso)||null}
+function screenFor(iso){
+  const ref=DB.ip_reference?.countries?.[iso],yr=DB.ip_reference?.special301_year,out={};
+  // 1. Can a patent be obtained?
+  let o={level:null,why:[]};
+  if(ref){
+    if(!ref.paris){o.level=0;o.why.push("Not a member of the Paris Convention")}
+    else if(!ref.pct){o.level=1;o.why.push("Paris Convention member, but not in the PCT international filing system, so applicants must file directly with the national office")}
+    else{o.level=2;o.why.push("Member of the PCT and the Paris Convention")}
+  }else o.why.push("No treaty data");
+  const pn=latestOf("pat_nres",iso);
+  if(pn){if(pn.v<100){if(o.level!=null)o.level=Math.min(o.level,1);o.why.push(`Only ${fmtV("pat_nres",pn.v)} patent applications by foreigners in ${pn.y}, so the office has little foreign filing activity`)}
+    else o.why.push(`${fmtV("pat_nres",pn.v)} patent applications by foreigners in ${pn.y}`)}
+  else o.why.push("No recent data on patent applications by foreigners");
+  out.obtain=o;
+  // 2. Can it be enforced?
+  let e={level:null,why:[]};const rl=latestOf("rule_of_law",iso);
+  if(rl){e.level=rl.v>=.5?2:rl.v>=-.5?1:0;e.why.push(`Rule of law ${fmtV("rule_of_law",rl.v)} in ${rl.y} (supportive at 0.50 or above, weak below −0.50)`)}
+  else e.why.push("No recent rule of law data");
+  const s=ref?.special301||"";
+  if(e.level!=null){
+    if(s==="Priority Foreign Country"){e.level=0;e.why.push(`Named a Priority Foreign Country in the ${yr} US Special 301 Report`)}
+    else if(s==="Priority Watch List"){e.level=Math.max(0,e.level-1);e.why.push(`On the ${yr} US Special 301 Priority Watch List, which lowers the rating one level`)}
+    else if(s==="Watch List"){e.level=Math.min(e.level,1);e.why.push(`On the ${yr} US Special 301 Watch List, which caps the rating at Mixed`)}
+    else if(s!=="n/a")e.why.push(`Not on the ${yr} US Special 301 lists`);
+  }
+  const wj=DB.wjp_civil_justice?.[iso];
+  if(wj&&e.level!=null){if(wj.score<.45){e.level=Math.min(e.level,1);e.why.push(`Civil justice ${wj.score.toFixed(2)} (World Justice Project, ${wj.year}), below 0.45, which caps the rating at Mixed`)}
+    else e.why.push(`Civil justice ${wj.score.toFixed(2)} (World Justice Project, ${wj.year})`)}
+  out.enforce=e;
+  // 3. Is the environment stable enough to operate?
+  let t={level:null,why:[]};const pv=latestOf("stability",iso),rq=latestOf("regulatory",iso);
+  if(pv){t.level=pv.v>=0?2:pv.v>=-1?1:0;t.why.push(`Political stability ${fmtV("stability",pv.v)} in ${pv.y} (supportive at 0 or above, weak below −1.00)`)}
+  else t.why.push("No recent political stability data");
+  if(rq&&t.level!=null){if(rq.v<-.5){t.level=Math.min(t.level,1);t.why.push(`Regulatory quality ${fmtV("regulatory",rq.v)}, below −0.50, which caps the rating at Mixed`)}
+    else t.why.push(`Regulatory quality ${fmtV("regulatory",rq.v)}`)}
+  out.stability=t;
+  const lv=[o.level,e.level,t.level];out.overall=lv.includes(null)?null:Math.min(...lv);
+  out.note=ref?.note||"";return out;
+}
+function chip(level){return level==null?`<span class="sc-chip na">– No data</span>`:`<span class="sc-chip lv${level}"><i aria-hidden="true"></i>${LV[level]}</span>`}
+function drawScreen(body){
+  const isos=Object.keys(DB.countries),rows=isos.map(iso=>({iso,c:DB.countries[iso],s:screenFor(iso),rl:latestOf("rule_of_law",iso)}));
+  rows.sort((a,b)=>(b.s.overall??-1)-(a.s.overall??-1)||((b.rl?.v??-9)-(a.rl?.v??-9)));
+  const n=k=>rows.filter(r=>r.s.overall===k).length,yr=DB.ip_reference?.special301_year;
+  const ctx=(ind,iso)=>{const r=latestOf(ind,iso);if(!r)return"–";const c=r.b!=null?fmtChg(ind,r.v,r.b):null;return `${fmtV(ind,r.v)}${c?`<small>${c} since ${r.by}</small>`:""}`};
+  body.innerHTML=`<div class="db-head"><div><span class="kicker">Patent viability screen · ${isos.length} countries</span>
+      <h2 class="db-insight">${n(2)} of ${isos.length} countries have supportive conditions on all three questions; ${n(0)} ${n(0)===1?"has":"have"} at least one weak area</h2></div>
+      <div class="db-legend">${[2,1,0].map(chip).join("")}</div></div>
+    <p class="db-hint">A first filter for investors and lenders: can a patent be obtained, can it be enforced, and is the environment stable enough to operate? It asks whether protected operations are possible, not how profitable they would be. Select a country for the reasons behind each rating.</p>
+    <div class="sc-wrap"><table class="sc-table">
+      <thead><tr><th scope="col">Country</th><th scope="col">Overall</th><th scope="col">Can a patent be obtained?</th><th scope="col">Can it be enforced?</th><th scope="col">Stable enough to operate?</th><th scope="col" class="ctx">Patent applications by foreigners</th><th scope="col" class="ctx">GDP, US$ billions</th></tr></thead>
+      <tbody>${rows.map(r=>`<tr class="sc-row" data-iso="${r.iso}">
+          <th scope="row"><button type="button" class="sc-name" aria-expanded="false" aria-controls="sc-d-${r.iso}">${esc(r.c.name)}<span>${esc(DB.regions.find(x=>x.id===r.c.region).name)}</span></button></th>
+          <td>${chip(r.s.overall)}</td><td>${chip(r.s.obtain.level)}</td><td>${chip(r.s.enforce.level)}</td><td>${chip(r.s.stability.level)}</td>
+          <td class="ctx num">${ctx("pat_nres",r.iso)}</td><td class="ctx num">${ctx("gdp",r.iso)}</td></tr>
+        <tr class="sc-detail" id="sc-d-${r.iso}" hidden><td colspan="7"><div class="sc-why">
+          ${[["Can a patent be obtained?",r.s.obtain],["Can it be enforced?",r.s.enforce],["Stable enough to operate?",r.s.stability]].map(([q,x])=>`<div><b>${q}</b> ${chip(x.level)}<ul>${x.why.map(w=>`<li>${esc(w)}</li>`).join("")}</ul></div>`).join("")}
+          ${r.s.note?`<p class="sc-note">${esc(r.s.note)}</p>`:""}
+          <button type="button" class="more sc-profile" data-iso="${r.iso}">Open ${esc(r.c.name)}'s full profile</button></div></td></tr>`).join("")}</tbody>
+    </table></div>
+    <section class="sc-method">
+      <h3>How the screen works</h3>
+      <ul>
+        <li><b>Can a patent be obtained?</b> Supportive if the country is in both the PCT international filing system and the Paris Convention. Mixed if it is in the Paris Convention only, or if foreigners filed fewer than 100 patent applications there in the latest year. Weak if it is in neither.</li>
+        <li><b>Can it be enforced?</b> Based on the World Bank's rule of law estimate: supportive at 0.50 or above, mixed from −0.50 to 0.50, weak below −0.50. Being on the US Special 301 Watch List caps the rating at mixed; the Priority Watch List lowers it one level.${DB.wjp_civil_justice&&Object.keys(DB.wjp_civil_justice).length?" A World Justice Project civil justice score below 0.45 also caps it at mixed.":""}</li>
+        <li><b>Stable enough to operate?</b> Based on the World Bank's political stability estimate: supportive at 0 or above, mixed from −1.00 to 0, weak below −1.00. Regulatory quality below −0.50 caps it at mixed.</li>
+        <li><b>Overall</b> is the lowest of the three, since each is a necessary condition.</li>
+      </ul>
+      <h3>What it can't tell you</h3>
+      <p>Country-level conditions say whether the environment allows protected operations, not whether a specific patent is valid, broad enough or enforceable against a specific competitor. Conditions also differ by sector; pharmaceuticals, for example, face risks such as compulsory licensing that software does not. The thresholds are judgment calls, published so you can disagree with them. The Special 301 Report reflects US government and industry concerns. Use this screen to decide where legal due diligence from local counsel is worth paying for, not as a substitute for it.</p>
+      <p class="db-cap">Sources: WIPO list of PCT Contracting States and Paris Convention membership; US Trade Representative, ${yr} Special 301 Report; World Bank, Worldwide Governance Indicators and World Development Indicators${DB.wjp_civil_justice&&Object.keys(DB.wjp_civil_justice).length?"; World Justice Project Rule of Law Index":""}. Research and analysis, not legal or investment advice.</p>
+    </section>`;
+}
+document.addEventListener("click",e=>{
+  const nm=e.target.closest(".sc-name");if(nm){const d=document.getElementById(nm.getAttribute("aria-controls")),open=nm.getAttribute("aria-expanded")==="true";nm.setAttribute("aria-expanded",!open);d.hidden=open;return}
+  const pf=e.target.closest(".sc-profile");if(pf){dbState.country=pf.dataset.iso;dbState.mode="profile";drawDashboard();dbScrollTop();return}
+  const go=e.target.closest("[data-go-screen]");if(go){dbState.mode="screen";drawDashboard();dbScrollTop()}
+});
+
 /* ---------- projects ---------- */
 const WORKS=[
   {t:"Country Conditions Dashboard",y:2026,type:"Dashboard",k:"countrydash",stat:"27 countries · 24 indicators",client:"Self-initiated",tools:"Python, pandas, World Bank API, GitHub Actions",body:"dash-tpl",
    q:"How are governance, trade, innovation, health, inequality and the environment changing across 27 countries, and where does each country stand against its region?",
    data:"Annual World Bank data (World Development Indicators and Worldwide Governance Indicators), 2000 to the latest year, pulled by a Python pipeline that rebuilds the data file every month.",
-   design:"Two views, each answering one question. A country profile shows each indicator's latest value, its ten-year change and its trend against the regional median. A comparison view ranks all 27 countries on one indicator and shows how far each has moved in ten years.",
+   design:"Three views, each answering one question. A country profile shows each indicator's latest value, its ten-year change and its trend against the regional median. A comparison view ranks all 27 countries on one indicator and shows how far each has moved in ten years. A patent viability screen rates whether patent-protected operations are possible in each country, with its reasoning and thresholds shown.",
    result:"Live on this site and refreshed automatically. Countries were chosen by a stated rule, explained below."},
   {t:"The Single Mom Index",y:2026,type:"Data visualization",k:"smi",stat:"3,000+ counties",client:"Self-initiated",body:"smi-map-tpl",tools:"R, Python, QGIS, Illustrator, InDesign, Figma",
    q:"Which states and counties make it easiest, and hardest, for single mothers to support a family?",
@@ -1017,4 +1165,5 @@ try{matchMedia("(prefers-color-scheme: dark)").addEventListener("change",drawSMI
 try{new MutationObserver(drawSMI).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]})}catch(e){}
 </script>
 
-</body></html>
+</body>
+</html>
